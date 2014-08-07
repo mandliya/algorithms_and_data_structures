@@ -17,4 +17,5 @@
 
 		Function 2: reverseWords
 		Parameter : The input string
-		Purpose:    This implements the main algorithm by first identifying each individual word and then reversing                             it using 'reverse' function. In the step two it reverses entire string
+		Purpose:    This implements the main algorithm by first identifying each individual word and 
+			    then reversing it using 'reverse' function. In the step two it reverses entire string
