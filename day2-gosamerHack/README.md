@@ -20,8 +20,11 @@ Gosper hack code lines, let us start from scratch and learn bit-wise manipulatio
 
 ###Bitwise significance of -x ( negative x).
 -x is unique y such that x + y = 0. If *x* is 64 bit, then y or -x here would be 2<sup>64</sup>-x, for then x + y = 2^64, which overflows and produce 0. Therefore for instance
--2 is 18446744073709551614 on a 64-bit machine, since 2 + 18446744073709551614 == 18446744073709551616 == 2<sup>64</sup> == 0 on a 64-bit machine.
-Another thing to notice is -x is same as (~x + 1). If we negate x by flipping all bits and then add 1. example.(for simplicity let us assume integers are stored in 1 byte ( 8 bits)
+-2 is 18446744073709551614 on a 64-bit machine, since
+
+	2 + 18446744073709551614 == 18446744073709551616 == 2<sup>64</sup> == 0 
+	
+on a 64-bit machine.Another thing to notice is -x is same as (~x + 1). If we negate x by flipping all bits and then add 1. example.(for simplicity let us assume integers are stored in 1 byte ( 8 bits)
 
 	6 =  0 0 0 0 0 1 1 0 
 
