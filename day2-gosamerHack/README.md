@@ -4,8 +4,8 @@
 
 ###Approach:
 This problem could be approached in multiple ways however, I am going to go with bitwise manipulations, using this cool bit manipulation trick called Gosper hack.
-The the problem could be rephrased as we want to generate all n-bit numbers who have exactly k-bits set,and thus O(n 2^n) complexity. Before jumping to those indecipherable 
-Gosper hack code lines, let us start from scratch and learn bit-wise manipulations real quick.
+The the problem could be rephrased as we want to generate all n-bit numbers who have exactly k-bits set,and thus O(n 2^n) complexity.Basically, each bit string will represent a subset
+The possible members of a set are listed in a linear array, and a subset is represented by a word or sequence of words in which bit i is on if member i is in the subset. Before jumping to those indecipherable Gosper hack code lines, let us start from scratch and learn bit-wise manipulations real quick.
 
 
 
@@ -81,7 +81,7 @@ Clearly, **x & -x** will always give you lowest set bit in number.
 
 ###Gosper's hack
 
-To get the next higher number with the same number of 1 bits:
+To get the next higher number with the same number of 1 bits i.e is to get the next subset from our current subset value:
 
 	unsigned nexthi_same_count_ones(unsigned a) {
 		 /* works for any word length */
@@ -91,4 +91,58 @@ To get the next higher number with the same number of 1 bits:
 	}
 
 
+Let us try understanding it line by line. 
 
+	First Step: unsigned c = (a & -a);
+
+From above discussion we clearly know c in binary represent the lowest set 1 bit in a;
+ 
+	Next Step : unsigned r = a + c;
+
+It is basically doing r = a + (a & ~a).Since a & -a is the least significant one bit of a, we know that the addition will flip that bit back to 0. 
+For example, take a == 6 and 22
+	
+		 	6 == 0 0 0 0 1 1 0
+	 	 + 6 & -6 == 0 0 0 0 0 1 0
+	     -----------------------------
+	     6 + (6 & -6) == 0 0 0 1 0 0 0	
+
+	 	       22 == 0 0 0 1 0 1 1 0
+	     + (22 & -22) == 0 0 0 0 0 0 1 0
+	     -------------------------------
+         	       24 == 0 0 0 1 1 0 0 0
+	
+The single added bit ripples up through a series of 1 bits via carries. The ripple stops when the carry process reaches a 0 bit, which it flips to 1
+
+	Next step : r ^ a
+
+Now, in this step we are discarding all higher order bits. Let us try this on 22
+
+	    22 + (22 & -22) == 0 0 0 1 1 0 0 0
+
+	 ^  22              == 0 0 0 1 0 1 1 0
+	---------------------------------------	
+		r^a	    == 0 0 0 0 1 1 1 0
+
+Next step is to left shift by two
+  
+	Next step : (r ^ a)>>2
+
+Shifting by 2 might actually shift off one or two of the 1 bits
+	
+	(r^a)>>2 = 0 0 0 0 0 0 1 1
+
+Next step is divide, and we are dividing by c (a & -a) which we know is a power of 2. continuing our example of 22. Here actually this division right adjusts the 1s and make them equal to previously set bits.
+
+	((r^a)>>2)/c = 0 0 0 0 0 0 0 1
+
+Now, we will or it with r
+	((r^a)>>2)/c = 0 0 0 0 0 0 0 1
+	|          r = 0 0 0 1 1 0 0 0
+ 	------------------------------
+	NEXT Subset  = 0 0 0 1 1 0 0 1
+
+
+The CPP file executes and return a vector, each containing a number which represent a subset of size k ( ie a number with k bits set) for size n.
+
+	 
