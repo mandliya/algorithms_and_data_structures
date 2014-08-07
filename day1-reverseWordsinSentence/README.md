@@ -1,8 +1,8 @@
 *Day 1 - August 8 2014*
 
 ##Problem : Reverse words in a sentence.
-	*Example Input* : The food tastes awesome
-	*Example Output*: awesome tastes food The
+*Example Input* : The food tastes awesome
+*Example Output*: awesome tastes food The
 
 ###Algorithm:
 	Reverse the individual words, the sentence becomes    - 'ehT doof setsat emosewa'
