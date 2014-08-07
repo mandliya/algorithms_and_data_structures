@@ -9,6 +9,7 @@ Gosper hack code lines, let us start from scratch and learn bit-wise manipulatio
 
 * **Bitwise OR** : It is represented with **|**. The result of a | b has a set bit at position *i* if and only if either *a* or *b* has a set bit at position *i*.
 * **Bitwise AND**: It is represented with **&**. The result of a & b has a set bit at position *i* if and only if both *a* and *b* has set bit at position *i*
-* **Bitwise exclusive or (xor)**: The result of a ^ b has a set bit at position *i* if and only if one of  *a* or *b* has set bit at position *i* and other doesn\`t. 
-* **Bitwise left shift** The result of a << x is actually a * 2<sub>x</sub> 
+* **Bitwise exclusive or (xor)**: It is represented with **^**. The result of a ^ b has a set bit at position *i* if and only if one of  *a* or *b* has set bit at position *i* and other doesn\`t. 
+* **Bitwise right shift** It is represented with **>>**. The result of a >> x is actually a / 2<sup>x</sup>. The lower x bits are removed and 0 bits are shifted at higher order, it is usually faster to compute.
+* **Bitwise left shift**: It is representeed with **<<**.  The result of a << x is actually a * 2<sup>x</sup>. 
 
