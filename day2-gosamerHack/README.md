@@ -39,6 +39,16 @@ If we add x + ~x, the result will always have all 1s.
 	-------------------------
 	        1 1 1 1 1 1 1 1  
 
+###Gosper's hack
+
+To get the next higher number with the same number of 1 bits:
+
+	unsigned nexthi_same_count_ones(unsigned a) {
+		 /* works for any word length */
+  		unsigned c = (a & -a);
+  		unsigned r = a+c;
+		return (((r ^ a) >> 2) / c) | r);
+	}
 
 
 
