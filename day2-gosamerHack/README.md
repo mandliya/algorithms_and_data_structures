@@ -144,5 +144,18 @@ Now, we will or it with r
 
 
 The CPP file executes and return a vector, each containing a number which represent a subset of size k ( ie a number with k bits set) for size n.
+For an array = {1,2,3,4,5} it generates all possible subsets of size 3
+
+	Printing all combinations of size 3 of {1,2,3,4,5}:
+	1 2 3
+	1 2 4
+	1 3 4
+	2 3 4
+	1 2 5
+	1 3 5
+	2 3 5
+	1 4 5
+	2 4 5
+	3 4 5
 
 	 
