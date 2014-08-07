@@ -75,7 +75,7 @@ We can get lowest set bit in a number using the **x & -x** or to say  ** x & (~x
 	-------------------------
 	    1 == 0 0 0 0 0 0 0 1
 
-Clearly, ** x & -x ** will always give you lowest set bit in number.
+Clearly, **x & -x** will always give you lowest set bit in number.
 
 
 
