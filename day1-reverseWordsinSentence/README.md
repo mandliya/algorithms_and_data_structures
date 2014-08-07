@@ -27,3 +27,6 @@
 
 *Purpose:*    This implements the main algorithm by first identifying each individual word and 
 	      then reversing it using 'reverse' function. In the step two it reverses entire string
+	      
+####Special Cases:
+	Case with sentence starting with spaces or multiple spaces between the words.
