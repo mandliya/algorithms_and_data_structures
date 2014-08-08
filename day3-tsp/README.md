@@ -1,4 +1,4 @@
-**Day 3 - August,8, 2014 **
+**Day 3 - August 8 2014**
 
 ##Traveling Salesman Problem
 
