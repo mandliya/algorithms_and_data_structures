@@ -23,7 +23,7 @@ We will calculate cost(i) using dynamic programming approach. Let us define our 
 * **dist(i,s)**-The provided distance from i to s.
 * Cost of cycle - cost(i) + dist(i,s)
 * Our solution would be minimum of \{ cost(i) + dist(i,s) \} 
-* Let **C(Set,i)** be the *cost of minimum cost path visiting each vertex in **Set** exactly once, starting at s and ending at i.*
+* Let **C(Set,i)** be the *cost of minimum cost path visiting each vertex in Set exactly once, starting at s and ending at i.*
 * We start with all subsets of size 2 and calculate C(Set, i) for all subsets where S is the subset, then we calculate C(Set, i) for all subsets Set of size 3 and so on. Note that **s** must be present in every subset.
 
 	If size of Set is 2, then Set must be {s, i},
