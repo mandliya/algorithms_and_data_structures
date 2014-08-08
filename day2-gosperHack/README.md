@@ -1,3 +1,4 @@
+**Day 2 - August 7 2014**
 ##Problem:Given an array of size n, how do you find all the possible subsets of the array of size k?
 
 ###Solution reference:http://read.seas.harvard.edu/cs207/2012/ 
