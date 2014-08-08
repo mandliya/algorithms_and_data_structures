@@ -1,4 +1,4 @@
-**Day 1 - August 8 2014**
+**Day 1 - August 6 2014**
 
 ##Problem : Reverse words in a sentence.
 
