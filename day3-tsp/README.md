@@ -13,7 +13,7 @@ One naive way to approach this problem is to generate all (n-1)! permutations of
 minimum cost permutation. Our solution would be the permutation with the minimum cost.However the runtime of this approach would be ![alt text](http://www.sciweavers.org/download/Tex2Img_1407505770.jpg "omega")(n!)
 
 ###Dynamic Programming Approach
-Let **s** be our source node. For every other node **i** , we find the minimum cost path with **s** as the starting point and **i** as ending point and all vertices appearing exactly once. Let the cost of this path be cost(i).The cost of corresponding Cycle would be cost(i) + dist(i, s) where dist(i, s) is the distance from i to s. Finally, we return the minimum of all [cost(i) + dist(i, s)] values.Now, how do we calculate **cost(i)**.
+Although, Dynamic Programming is not the best way to do it, we will consider dynamic programming approach. We will solve this problem again in future with better approach.Let **s** be our source node. For every other node **i** , we find the minimum cost path with **s** as the starting point and **i** as ending point and all vertices appearing exactly once. Let the cost of this path be cost(i).The cost of corresponding Cycle would be cost(i) + dist(i, s) where dist(i, s) is the distance from i to s. Finally, we return the minimum of all [cost(i) + dist(i, s)] values.Now, how do we calculate **cost(i)**.
 
 We will calculate cost(i) using dynamic programming approach. Let us define our terms and then recursive sub-problem.
 
