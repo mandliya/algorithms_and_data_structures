@@ -22,7 +22,7 @@ Combining all subproblems, we can say, minimum cost of aligning prefix strings e
 	E(i,j) = min( {E(i-1,j)+D}, {E(i, j-1)+I}, {E(i-1,j-1) + R if i,j characters are not same} )
 
 **Base case:**
-*E(0, 0) = 0
+*E(0, 0) = 0 
 *E(i, 0) = i
 *E(0, j) = j
 
