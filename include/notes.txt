@@ -1,0 +1,4 @@
+**Why did we make functions static in namespace?
+--At namespace scope, static gives a name internal linkage, meaning that it is only accessible within the translation unit that contains the definition. Without static, it has external linkage, and is accessible in any translation unit.
+
+
