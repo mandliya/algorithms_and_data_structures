@@ -6,7 +6,7 @@ include_directories("include")
 include_directories(".")
 
 #Files
-file(GLOB SOURCES "src/*.cpp")
+file(GLOB SOURCES "./*/*.cpp")
 
 #compile flags
 set(CMAKE_CXX_FLAGS "-Wall -std=c++11")

@@ -22,6 +22,8 @@
 
 #include <iostream>
 #include <random>
+#include <sstream>
+#include <string>
 
 #define MAX(a, b) ((a > b) ? a : b)
 #define MIN(a, b) ((a < b) ? a : b)
@@ -60,6 +62,13 @@ namespace algo {
         std::mt19937 mt(rd());
         std::uniform_real_distribution<double> distribution(min, max);
         return distribution(mt);
+    }
+
+    //convert an int to string
+    std::string intToString( int num ) {
+        std::stringstream ss;
+        ss << num;
+        return ss.str();
     }
 
 } //end of namespace algo

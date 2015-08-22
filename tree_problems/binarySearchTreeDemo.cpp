@@ -16,7 +16,7 @@ int main( )
     }
 
     //print the tree
-    Tree.prettyPrintTree();
+    Tree.printTree();
     std::cout << std::endl;
 
     //lets create a copy of tree;
@@ -34,6 +34,22 @@ int main( )
             std::cout << "Tree does not contain " << i << std::endl;
         }
     }
+
+
+    //mirror of a tree
+
+    //before mirror
+    std::cout << "Mirror of Tree\n";
+    std::cout << "Before Mirror\n";
+    Tree.prettyPrint();
+
+    //mirror
+    Tree.mirror();
+
+    //after mirror
+    std::cout << "After Mirror\n";
+    Tree.prettyPrint();
+
 
 
 
