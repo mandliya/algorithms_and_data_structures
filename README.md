@@ -2,9 +2,22 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Include Directiory
-This directory contain header files implementation of various algorithms and data structures. Following header only implementation,
-this files contain all the function implementation. Source files in other directories explain the problems we are trying to solve
-and calls the class function. 
+This directory contain STL like header files implementation of various algorithms and data structures. Following header only implementation,
+these files contain all the function implementation. Source files in problem directories explain the problems we are trying to solve and calls these routines.
 
 I am continously learning, and always happy to receive feedback. If you see an issue, or incorrect implementation of concepts,
 please let me know.
+
+## Current Streak
+5 days, longest streak ( 5 days ) as of August 21, 2015.
+
+## So Far
+
+### Sorting
+    - Quick Sort
+    - Bubble Sort
+### Linked List
+    - STL like implementation
+### Tree
+    - STL like implementation
+    - Pretty Print of a tree
