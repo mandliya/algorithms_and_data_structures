@@ -2,8 +2,8 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Include Directiory
-This directory contain STL like header files implementation of various algorithms and data structures. Following header only implementation,
-these files contain all the function implementation. Source files in problem directories explain the problems we are trying to solve and calls these routines.
+Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
+these files contain all the function implementation. Source files in problem directories explain the problems we are trying to solve and call these routines.
 
 I am continously learning, and always happy to receive feedback. If you see an issue, or incorrect implementation of concepts,
 please let me know.
