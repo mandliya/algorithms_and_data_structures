@@ -9,7 +9,7 @@ I am continously learning, and always happy to receive feedback. If you see an i
 please let me know.
 
 ## Current Streak
-6 days, longest streak ( 6 days ) as of August 22, 2015.
+7 days, longest streak ( 7 days ) as of August 23, 2015.
 
 ## So Far
 
