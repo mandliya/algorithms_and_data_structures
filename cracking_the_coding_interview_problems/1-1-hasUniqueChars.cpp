@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstring>
-#include <vector>
 
 /*
  * Function hasUniqueChars1
