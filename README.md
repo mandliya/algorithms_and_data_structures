@@ -16,8 +16,11 @@ please let me know.
 ### Sorting
     - Quick Sort
     - Bubble Sort
+    - Selection Sort
+    - Merge Sort
 ### Linked List
     - STL like implementation
 ### Tree
     - STL like implementation
     - Pretty Print of a tree
+    - Mirror tree
