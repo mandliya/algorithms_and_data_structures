@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*** 
  *     _  __                ___      _                                   
  *     | |/ /___ ___ _ __   / __|__ _| |_ __                              
@@ -19,8 +18,6 @@
  */
 
 
-=======
->>>>>>> 87b578f11d36a0293ba002a510240a6b1544bf1b
 #ifndef SELECTION_SORT_H
 #define SELECTION_SORT_H
 
