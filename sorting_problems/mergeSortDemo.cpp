@@ -17,6 +17,7 @@
  *     Yeah! Ravi let's do it! 
  */
 
+//Simple merge sort demo for 10 random doubles and int
 #include <generic.h>
 #include <mergeSort.h>
 
