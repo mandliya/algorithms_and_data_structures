@@ -9,7 +9,7 @@ I am continously learning, and always happy to receive feedback. If you see an i
 please let me know.
 
 ## Current Streak
-7 days, longest streak ( 7 days ) as of August 23, 2015.
+8 days, longest streak ( 8 days ) as of August 24, 2015.
 
 ## So Far
 
@@ -24,3 +24,7 @@ please let me know.
     - STL like implementation
     - Pretty Print of a tree
     - Mirror tree
+### Cracking the coding interview
+    - Problem 1 : Determine if a string has unique chars.
+    - Problem 2 : (Edition 5) Reverse a c-string.
+    - Problem 2 : (Edition 6) Determine if two string are permutations of each other.
