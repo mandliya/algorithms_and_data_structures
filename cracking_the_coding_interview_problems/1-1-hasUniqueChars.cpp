@@ -1,9 +1,18 @@
+/*
+ * Cracking the coding interview, edition 6
+ * Problem 1.1
+ * Write an algorithm to determine whether a string has unique characters or not
+ * Can we do it without using addtional data structures?
+ */
+
+
+
 #include <iostream>
 #include <cstring>
 
 /*
  * Function hasUniqueChars1
- * Params - std::string
+ * Args - std::string
  * Output:: True if string has all characters which are unique
  *          False if string has at least one repeated char.
  * Assumption:: ASCII chars, 256 chars.
@@ -29,7 +38,7 @@ bool hasUniqueChars1( std::string str)
 
 /*
  * Function hasUniqueChars2
- * Params - std::string
+ * Args - std::string
  * Output:: True if string has all characters which are unique
  *          False if string has at least one repeated char.
  * Assumption:: string only contains (a..z), 26 chars.
