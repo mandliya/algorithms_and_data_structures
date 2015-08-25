@@ -2,7 +2,7 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-8 days, longest streak ( 8 days ) as of August 24, 2015.
+9 days, longest streak ( 9 days ) as of August 25, 2015.
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -28,3 +28,4 @@ please let me know.
     - Problem 1 : Determine if a string has unique chars.
     - Problem 2 : (Edition 5) Reverse a c-string.
     - Problem 2 : (Edition 6) Determine if two string are permutations of each other.
+    - Problem 3 : (Edition 5) Remove duplicate chars from a string
