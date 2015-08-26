@@ -2,7 +2,7 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-9 days, longest streak ( 9 days ) as of August 25, 2015.
+10 days, longest streak ( 10 days ) as of August 26, 2015.
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -24,6 +24,7 @@ please let me know.
     - STL like implementation
     - Pretty Print of a tree
     - Mirror tree
+    - Find predecessor and successor of a key in binary search tree.
 ### Cracking the coding interview
     - Problem 1 : Determine if a string has unique chars.
     - Problem 2 : (Edition 5) Reverse a c-string.
