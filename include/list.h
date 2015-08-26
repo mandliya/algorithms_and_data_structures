@@ -309,6 +309,6 @@ namespace algo {
                 _tail->prev = _head;
             }
     }; //end of class List
-}; //end of namespace algo
+} //end of namespace algo
 
 #endif

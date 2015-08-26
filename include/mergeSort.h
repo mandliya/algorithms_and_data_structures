@@ -61,6 +61,6 @@ namespace algo {
                 __merge( list, start, mid, end);
             }
         }
-}; //end of namespace algo
+} //end of namespace algo
 
 #endif

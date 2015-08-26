@@ -44,5 +44,5 @@ namespace algo {
                 }
             }
         }
-}; //end of namespace algo
+} //end of namespace algo
 #endif
