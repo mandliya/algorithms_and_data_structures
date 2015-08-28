@@ -33,3 +33,4 @@ please let me know.
     - Problem 2 : (Edition 6) Determine if two string are permutations of each other.
     - Problem 3 : (Edition 5) Remove duplicate chars from a string
     - Problem 3 : (Edition 6) Urlify string
+    - Problem 4 : (Edition 6) Pallindrome Permutation
