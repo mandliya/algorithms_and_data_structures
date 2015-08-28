@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-11 days, 
+**12 days**
 ## Longest streak
-10 days (August 17, 2015 - August 27, 2015)
+12 days (August 17, 2015 - August 28, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
