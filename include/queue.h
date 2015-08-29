@@ -66,7 +66,8 @@ namespace algo {
 
                 bool push( const T & obj )
                 {
-                    if ( _count == _capacity ) {
+                    if ( _count == _capacity )
+                    {
                         return false;
                     }
                     else {
