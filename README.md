@@ -15,22 +15,25 @@ please let me know.
 
 ## So Far
 
-### Sorting
-    - Quick Sort
-    - Bubble Sort
-    - Selection Sort
-    - Merge Sort
-### Linked List
-    - STL like implementation
-### Tree
-    - STL like implementation
-    - Pretty Print of a tree
-    - Mirror tree
-    - Find predecessor and successor of a key in binary search tree.
-### Cracking the coding interview
+#### Cracking the coding interview
     - Problem 1 : Determine if a string has unique chars.
     - Problem 2 : (Edition 5) Reverse a c-string.
     - Problem 2 : (Edition 6) Determine if two string are permutations of each other.
     - Problem 3 : (Edition 5) Remove duplicate chars from a string
     - Problem 3 : (Edition 6) Urlify string
     - Problem 4 : (Edition 6) Pallindrome Permutation
+#### Sorting
+    - Quick Sort
+    - Bubble Sort
+    - Selection Sort
+    - Merge Sort
+#### Linked List
+    - STL like implementation
+#### Tree
+    - STL like implementation
+    - Pretty Print of a tree
+    - Mirror tree
+    - Find predecessor and successor of a key in binary search tree.
+#### Stack
+    - Stock span problem 
+
