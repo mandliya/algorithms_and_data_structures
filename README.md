@@ -34,6 +34,8 @@ please let me know.
     - Pretty Print of a tree
     - Mirror tree
     - Find predecessor and successor of a key in binary search tree.
+    - Level Order Traversal ( Iterative + Recursive )
+    - Zig-Zag/Spiral Traversal
 #### Stack
     - Stock span problem 
 
