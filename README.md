@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-**15 days**
+**18 days**
 ## Longest streak
-15 days (August 17, 2015 - August 31, 2015)
+18 days (August 17, 2015 - Sept 03, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -22,6 +22,7 @@ please let me know.
     - Problem 3 : (Edition 5) Remove duplicate chars from a string
     - Problem 3 : (Edition 6) Urlify string
     - Problem 4 : (Edition 6) Pallindrome Permutation
+    - Problem 5 : (Edition 6) One edit away
 #### Sorting
     - Quick Sort
     - Bubble Sort
