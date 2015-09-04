@@ -29,14 +29,18 @@ please let me know.
     - Selection Sort
     - Merge Sort
 #### Linked List
-    - STL like implementation
+    - STL like implementation (include dir)
+    - Find the nth node of linked list from last.
+    - Add numbers where each digit of the number is represented by node of a linkedlist. Give output as a linked list.
 #### Tree
-    - STL like implementation
+    - STL like implementation (include dir)
     - Pretty Print of a tree
     - Mirror tree
     - Find predecessor and successor of a key in binary search tree.
     - Level Order Traversal ( Iterative + Recursive )
     - Zig-Zag/Spiral Traversal
 #### Stack
+    - STL like implementation (include dir)
     - Stock span problem 
-
+### Queue
+    - STL like implementation (include dir)
