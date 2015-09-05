@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-**19 days**
+**20 days**
 ## Longest streak
-19 days (August 17, 2015 - Sept 04, 2015)
+20 days (August 17, 2015 - Sept 05, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -44,3 +44,6 @@ please let me know.
     - Stock span problem 
 ### Queue
     - STL like implementation (include dir)
+### Bit Manipulation
+    - Determine if a number is a power of 2.
+    - Add two binary number represented as string.
