@@ -4,7 +4,7 @@ This repository will contain random algorithm and data structure problems I reso
 ## Current Streak
 **20 days**
 ## Longest streak
-20 days (August 17, 2015 - Sept 05, 2015)
+21 days (August 17, 2015 - Sept 06, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -39,6 +39,8 @@ please let me know.
     - Find predecessor and successor of a key in binary search tree.
     - Level Order Traversal ( Iterative + Recursive )
     - Zig-Zag/Spiral Traversal
+#### Strings
+    - Robin Karp algorithm.
 #### Stack
     - STL like implementation (include dir)
     - Stock span problem 
