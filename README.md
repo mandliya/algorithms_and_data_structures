@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-**22 days**
+**23 days**
 ## Longest streak
-22 days (August 17, 2015 - Sept 07, 2015)
+23 days (August 17, 2015 - Sept 08, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -34,6 +34,7 @@ please let me know.
     - Add numbers where each digit of the number is represented by node of a linkedlist.
       Give output as a linked list.
     - Swap nodes of a linkedlist without swapping data
+    - Given a linked list, reverse alternate nodes and append at the end
 #### Tree
     - STL like implementation (include dir)
     - Pretty Print of a tree
