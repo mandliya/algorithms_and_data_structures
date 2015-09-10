@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-**23 days**
+**25 days**
 ## Longest streak
-23 days (August 17, 2015 - Sept 08, 2015)
+25 days (August 17, 2015 - Sept 10, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -52,3 +52,6 @@ please let me know.
 ### Bit Manipulation
     - Determine if a number is a power of 2.
     - Add two binary number represented as string.
+    - Determine the next power of 2 for a given number.
+    - Using bit manipulation determine if a number is multiple of 3.
+    - Determine endianess of the machine, print a number in reverse Endianess.
