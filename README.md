@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-**25 days**
+**26 days**
 ## Longest streak
-25 days (August 17, 2015 - Sept 10, 2015)
+26  days (August 17, 2015 - Sept 11, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -55,3 +55,6 @@ please let me know.
     - Determine the next power of 2 for a given number.
     - Using bit manipulation determine if a number is multiple of 3.
     - Determine endianess of the machine, print a number in reverse Endianess.
+    - Find the parity of given number.
+    - Implement fast multiplication of a number to 7 using bit manipulation.
+    - Reverse bits of unsigned integer (two methods - Reversing bit by bit & divide and conquer)
