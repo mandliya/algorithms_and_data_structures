@@ -50,7 +50,7 @@ void reverseRecur( Node * & head ) {
   }
   Node * first = head;
   Node * rest = head->next;
-  reverseIter( rest );
+  reverseRecur( rest );
   first->next->next = first;
   first->next = nullptr;
   head = rest;
