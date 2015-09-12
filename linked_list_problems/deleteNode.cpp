@@ -1,3 +1,6 @@
+/**
+ *  Problem: Only given a pointer to node of the linked list, delete the node.
+ */
 #include <iostream>
 
 struct Node {
