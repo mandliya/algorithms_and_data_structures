@@ -2,9 +2,9 @@
 This repository will contain random algorithm and data structure problems I resolve to solve at least one a day.
 
 ## Current Streak
-**26 days**
+**27 days**
 ## Longest streak
-26  days (August 17, 2015 - Sept 11, 2015)
+27  days (August 17, 2015 - Sept 12, 2015)
 
 ## Include Directiory
 Include directory and sub directories contain STL like header file implementation of various algorithms and data structures. Following header only implementation,
@@ -35,6 +35,9 @@ please let me know.
       Give output as a linked list.
     - Swap nodes of a linkedlist without swapping data
     - Given a linked list, reverse alternate nodes and append at the end
+    - Only given a node pointer, delete the node from the linked list.
+    - Delete the entire linkedlist
+    - Print middle node of linkedlist without iterating twice.
 #### Tree
     - STL like implementation (include dir)
     - Pretty Print of a tree
