@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 40 |
-| Current Streak | 28 |
-| Longest Streak | 28 ( August 17, 2015 - September 13, 2015 ) |
+| Total Problems | 43 |
+| Current Streak | 29 |
+| Longest Streak | 29 ( August 17, 2015 - September 14, 2015 ) |
 
 </center>
 
@@ -22,7 +22,9 @@
 | Print middle node of linkedlist without iterating twice. | [printMiddleNode.cpp](linked_list_problems/printMiddleNode.cpp) | | Detecting and removing a cycle in linkedlist.| [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp)|
 | Determine if a linked list is a pallindrome. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
 | Insert data in a sorted linked list.|[insertInASortedLinkedList.cpp](linked_list_problems/insertInASortedLinkedList.cpp) |
-
+| Determine the intersection(merging) point of two given linked list.| [findIntersectionPointOfLists.cpp](linked_list_problems/findIntersectionPointOfLists.cpp)|
+| Clone a linkedlist which has next and an random pointer, Space Complexity - O(1). | [cloneListWithRandomPtr.cpp](linked_list_problems/cloneListWithRandomPtr.cpp)|
+| Given a sorted linked list with duplicates, remove duplicates in one iteration. | [removeDuplicatesFromSortedList.cpp](linked_list_problems/removeDuplicatesFromSortedList.cpp)| 
 
 ### Include 
 Include contains single header implementation of data structures and some algorithms.
