@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 43 |
-| Current Streak | 29 |
-| Longest Streak | 29 ( August 17, 2015 - September 14, 2015 ) |
+| Total Problems | 46 |
+| Current Streak | 30 |
+| Longest Streak | 30 ( August 17, 2015 - September 15, 2015 ) |
 
 </center>
 
@@ -52,7 +52,9 @@ Include contains single header implementation of data structures and some algori
 | Find the parity of given number. | [find_parity.cpp](bit_manipulation/find_parity.cpp) |
 | Implement fast multiplication of a number to 7 using bit manipulation. | [multiply_by_7.cpp](bit_manipulation/multiply_by_7.cpp) |
 | Reverse bits of unsigned integer (two methods - Reversing bit by bit & divide and conquer). | [reverseBitsOfAnInteger.cpp](bit_manipulation/reverseBitsOfAnInteger.cpp) |
-
+| Small function to determine position of right most set bit in a given integer.| [right_most_set_bit.cpp](bit_manipulation/right_most_set_bit.cpp)| 
+|Given a vector of numbers, only one number occurs odd number of times, find the number.| [find_odd_one_out.cpp](bit_manipulation/find_odd_one_out.cpp)|
+| Given two integers, determine if their sum would be interger overflow.| [integerOverflow.cpp](bit_manipulation/integerOverflow.cpp)|
 ### Cracking the coding interview problems
 | Problem | Solution |
 | :------------ | :----------: |
