@@ -1,6 +1,6 @@
 /**
  *  Given a vector of numbers, only one number occurs odd number of times, find the number
- *  Example - { 1, 1, 2, 2, 2, 3, 3, 3, 3} ==> Answer 3
+ *  Example - { 1, 1, 2, 2, 2, 2, 3, 3, 3} ==> Answer 3
  *  Approach - XOR of number with itself is 0, so even numbers will cancel out
  *  and we will be left with odd number.
  */
