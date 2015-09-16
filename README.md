@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 46 |
-| Current Streak | 30 |
-| Longest Streak | 30 ( August 17, 2015 - September 15, 2015 ) |
+| Total Problems | 48 |
+| Current Streak | 31 |
+| Longest Streak | 31 ( August 17, 2015 - September 16, 2015 ) |
 
 </center>
 
@@ -55,6 +55,8 @@ Include contains single header implementation of data structures and some algori
 | Small function to determine position of right most set bit in a given integer.| [right_most_set_bit.cpp](bit_manipulation/right_most_set_bit.cpp)| 
 |Given a vector of numbers, only one number occurs odd number of times, find the number.| [find_odd_one_out.cpp](bit_manipulation/find_odd_one_out.cpp)|
 | Given two integers, determine if their sum would be interger overflow.| [integerOverflow.cpp](bit_manipulation/integerOverflow.cpp)|
+| How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
+
 ### Cracking the coding interview problems
 | Problem | Solution |
 | :------------ | :----------: |
@@ -85,6 +87,7 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 |  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp] (math_problems/string_permutations.cpp) |
+| Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
 
 ### Stack Problems
 | Problem | Solution |
