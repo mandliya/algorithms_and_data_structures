@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 48 |
-| Current Streak | 31 |
-| Longest Streak | 31 ( August 17, 2015 - September 16, 2015 ) |
+| Total Problems | 50 |
+| Current Streak | 33 |
+| Longest Streak | 33 ( August 17, 2015 - September 18, 2015 ) |
 
 </center>
 
@@ -25,6 +25,8 @@
 | Determine the intersection(merging) point of two given linked list.| [findIntersectionPointOfLists.cpp](linked_list_problems/findIntersectionPointOfLists.cpp)|
 | Clone a linkedlist which has next and an random pointer, Space Complexity - O(1). | [cloneListWithRandomPtr.cpp](linked_list_problems/cloneListWithRandomPtr.cpp)|
 | Given a sorted linked list with duplicates, remove duplicates in one iteration. | [removeDuplicatesFromSortedList.cpp](linked_list_problems/removeDuplicatesFromSortedList.cpp)| 
+| Find the nth node of linked list from last. | [nthToLastNode.cpp] (linked_list_problems/nthToLastNode.cpp) |
+| Sort a linked list using merge sort | [merge_sort.cpp] (linked_list_problems/merge_sort.cpp) |
 
 ### Include 
 Include contains single header implementation of data structures and some algorithms.
