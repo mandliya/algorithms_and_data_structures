@@ -1,11 +1,11 @@
 /**
  *  Given a binary tree, print out all root to leaf path, one per line.
  *  Example :
- *  						1
- *  				/      \
- *  			2         3
- *  		/ \
- *  	4    5
+ *              1
+ *          /      \
+ *        2         3
+ *      / \
+ *     4   5
  *  	Possible paths in above tree:
  *  	1 2 4
  *  	1 2 5
