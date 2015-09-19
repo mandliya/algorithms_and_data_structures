@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 50 |
-| Current Streak | 33 |
-| Longest Streak | 33 ( August 17, 2015 - September 18, 2015 ) |
+| Total Problems | 52 |
+| Current Streak | 34 |
+| Longest Streak | 34 ( August 17, 2015 - September 19, 2015 ) |
 
 </center>
 
@@ -78,6 +78,8 @@ Include contains single header implementation of data structures and some algori
 |Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp)|
 |ZigZag Traversal of Tree | [zigZagTraversal.cpp](tree_problems/zigZagTraversal.cpp)|
 |Predecessor and Successor of a given node in Binary Search Tree | [predecessorSuccessor.cpp](tree_problems/predecessorSuccessor.cpp)|
+|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp)|
+|Given a binary tree, print out all of its root-to-leaf paths one per line.| [printAllRootToLeafPath.cpp](tree_problems/printAllRootToLeafPath.cpp)
 
 
 ### String Problems
