@@ -2,13 +2,13 @@
  *  Given a binary search tree, determine the lowest common ancestor of two given nodes with data
  *  key1 and key2. Assumption is key1 and key2 exists in tree
  *  Example
- *  					20
- *  			/        \
- *  			8        22
- *  	/      \
- *  4        12
- *  			/     \
- *  		 10     14
+ *            20
+ *        /        \
+ *        8        22
+ *    /      \
+ *    4        12
+ *          /     \
+ *        10     14
  *
  * In the above tree, LCA of 10 and 14 is 12
  * similarly 4 and 22 will have LCA 20
