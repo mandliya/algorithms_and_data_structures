@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 52 |
-| Current Streak | 34 |
-| Longest Streak | 34 ( August 17, 2015 - September 19, 2015 ) |
+| Total Problems | 54 |
+| Current Streak | 35 |
+| Longest Streak | 35 ( August 17, 2015 - September 20, 2015 ) |
 
 </center>
 
@@ -34,14 +34,16 @@ Include contains single header implementation of data structures and some algori
 | DS/ALG |     Implementation   |
 | :------------: | :----------: |
 | Generic Macros and Algorithms like swap, random number generation | [generic.h](include/generic.h) |
-| Stack Implementation | [stack.h](include/stack.h) |
-| Queue Implementation | [queue.h](include/queue.h) |
-| List Implementation  | [list.h] (include/list.h) |
+| Generic Stack Implementation | [stack.h](include/stack.h) |
+| Generic Queue Implementation | [queue.h](include/queue.h) |
+| Generic List Implementation  | [list.h] (include/list.h) |
 | Binary Search Tree Implementation | [binarySearchTree.h] (include/binarySearchTree.h)
 | Quick Sort Implementation | [quickSort.h] (include/quickSort.h) |
 | Merge Sort Implementation | [mergeSort.h] (include/bubbleSort.h)|
 | Selection Sort Implementation | [selectionSort.h] (include/selectionSort.h) |
 | Bubble Sort Implementation | [bubbleSort.h] (include/bubbleSort.h) |
+| Linux Kernel Double LinkedList Implementation | [double_linked_list.h](include/double_linked_list.h) |
+| Generic Graph Implementation (Adjacency List) | [graph.h](include/graph.h) |
 
 ###Bit Manipulation Problems
 | Problem | Solution |
@@ -103,3 +105,7 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 | Given a sorted vector, return first index of the occurrence of a value in vector, if number does not exist, return -1 | [first_occurrence_binary_search.cpp](sort_search_problems/first_occurrence_binary_search.cpp) |
 
+### Graph Problems
+| Problem | Solution |
+| :------------ | :----------: |
+| Depth First Traversal of a Graph | [dfsDemo.cpp](graph_problems/dfsDemo.cpp) |
