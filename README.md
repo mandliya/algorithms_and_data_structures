@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 54 |
-| Current Streak | 35 |
-| Longest Streak | 35 ( August 17, 2015 - September 20, 2015 ) |
+| Total Problems | 56 |
+| Current Streak | 36 |
+| Longest Streak | 36 ( August 17, 2015 - September 21, 2015 ) |
 
 </center>
 
@@ -60,6 +60,7 @@ Include contains single header implementation of data structures and some algori
 |Given a vector of numbers, only one number occurs odd number of times, find the number.| [find_odd_one_out.cpp](bit_manipulation/find_odd_one_out.cpp)|
 | Given two integers, determine if their sum would be interger overflow.| [integerOverflow.cpp](bit_manipulation/integerOverflow.cpp)|
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
+| Given a number x and two positions (from right side) in binary representation of x, write a function that swaps n right bits at given two positions and returns the result. It is also given that the two sets of bits do not overlap.|[swapSetOfBits.cpp](bit_manipulation/swapSetOfBits.cpp)|
 
 ### Cracking the coding interview problems
 | Problem | Solution |
@@ -109,3 +110,4 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | Depth First Traversal of a Graph | [dfsDemo.cpp](graph_problems/dfsDemo.cpp) |
+| Breadth First Traversal of a Graph | [bfsDemo.cpp](graph_problems/bfsDemo.cpp) |
