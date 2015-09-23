@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 57 |
-| Current Streak | 37 |
-| Longest Streak | 37 ( August 17, 2015 - September 22, 2015 ) |
+| Total Problems | 58 |
+| Current Streak | 38 |
+| Longest Streak | 38 ( August 17, 2015 - September 23, 2015 ) |
 
 </center>
 
@@ -61,6 +61,7 @@ Include contains single header implementation of data structures and some algori
 | Given two integers, determine if their sum would be interger overflow.| [integerOverflow.cpp](bit_manipulation/integerOverflow.cpp)|
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
 | Given a number x and two positions (from right side) in binary representation of x, write a function that swaps n right bits at given two positions and returns the result. It is also given that the two sets of bits do not overlap.|[swapSetOfBits.cpp](bit_manipulation/swapSetOfBits.cpp)|
+| Add two numbers without using any arithmetic operators | [addition_without_operators.cpp](bit_manipulation/addition_without_operators.cpp)
 
 ### Cracking the coding interview problems
 | Problem | Solution |
