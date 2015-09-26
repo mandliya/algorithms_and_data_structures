@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 59 |
-| Current Streak | 40 |
-| Longest Streak | 40 ( August 17, 2015 - September 25, 2015 ) |
+| Total Problems | 60 |
+| Current Streak | 41 |
+| Longest Streak | 41 ( August 17, 2015 - September 26, 2015 ) |
 
 </center>
 
@@ -92,6 +92,7 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | Implementation of Robin-Karp algorithm for string search | [robinKarpStringMatching.cpp](string_problmes/robinKarpStringMatching.cpp) |
+| Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutations.cpp)|
 
 ### Math Problems
 | Problem | Solution |
