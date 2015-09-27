@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 60 |
-| Current Streak | 41 |
-| Longest Streak | 41 ( August 17, 2015 - September 26, 2015 ) |
+| Total Problems | 61 |
+| Current Streak | 42 |
+| Longest Streak | 42 ( August 17, 2015 - September 27, 2015 ) |
 
 </center>
 
@@ -99,6 +99,7 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 |  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp] (math_problems/string_permutations.cpp) |
 | Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
+| Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](math_problems/matrix_spiral_print.cpp)
 
 ### Stack Problems
 | Problem | Solution |
