@@ -7,7 +7,7 @@
  *      16 17 18 19 20
  *  Sprial order print would
  *  1 2 3 4 5 10 15 20 19 18 17 16 11 6 7 8 9 14 13 12
- * /
+ */
 
 #include <iostream>
 
