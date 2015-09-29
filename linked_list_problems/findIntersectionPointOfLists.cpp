@@ -4,6 +4,7 @@
  */
 
 #include <iostream>
+#include <cmath>
 
 struct Node {
   int data;
@@ -40,7 +41,7 @@ Node * mergePoint( Node * head1, Node * head2 )
   Node * ptr1 = ( len1 > len2 ) ? head1 : head2;
   Node * ptr2 = ( len1 > len2 ) ? head2 : head1;
   int i = 0;
-  while ( i < abs(len1 - len2) && ptr1 ) {
+  while ( i < std::abs(len1 - len2) && ptr1 ) {
     ptr1 = ptr1->next;
     ++i;
   }

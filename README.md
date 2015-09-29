@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 62 |
-| Current Streak | 43 |
-| Longest Streak | 43 ( August 17, 2015 - September 28, 2015 ) |
+| Total Problems | 63 |
+| Current Streak | 44 |
+| Longest Streak | 44 ( August 17, 2015 - September 29, 2015 ) |
 
 </center>
 
@@ -94,13 +94,16 @@ Include contains single header implementation of data structures and some algori
 | Implementation of Robin-Karp algorithm for string search | [robinKarpStringMatching.cpp](string_problmes/robinKarpStringMatching.cpp) |
 | Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutation.cpp)|
 
+### Common Data Structure and logic problems
+| Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](common_ds_problems/matrix_spiral_print.cpp)
+| Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](common_ds_problems/rotate_matrix.cpp)|
+| Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_problems/array_rotation.cpp)
+
 ### Math Problems
 | Problem | Solution |
 | :------------ | :----------: |
 |  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp] (math_problems/string_permutations.cpp) |
 | Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
-| Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](math_problems/matrix_spiral_print.cpp)
-| Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](math_problems/rotate_matrix.cpp)|
 
 ### Stack Problems
 | Problem | Solution |
