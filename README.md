@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 63 |
-| Current Streak | 44 |
-| Longest Streak | 44 ( August 17, 2015 - September 29, 2015 ) |
+| Total Problems | 64 |
+| Current Streak | 45 |
+| Longest Streak | 45 ( August 17, 2015 - September 30, 2015 ) |
 
 </center>
 
@@ -27,6 +27,7 @@
 | Given a sorted linked list with duplicates, remove duplicates in one iteration. | [removeDuplicatesFromSortedList.cpp](linked_list_problems/removeDuplicatesFromSortedList.cpp)| 
 | Find the nth node of linked list from last. | [nthToLastNode.cpp] (linked_list_problems/nthToLastNode.cpp) |
 | Sort a linked list using merge sort | [merge_sort.cpp] (linked_list_problems/merge_sort.cpp) |
+| Given a singly linked list L<sub>0</sub> -> L<sub>1</sub> -> … -> L<sub>n-1</sub> -> L<sub>n</sub>. Rearrange the nodes in the list (in place) so that the new formed list is : L<sub>0</sub> -> L<sub>n</sub> -> L<sub>1</sub> -> L<sub>n-1</sub> -> L<sub>2</sub> -> L<sub>n-2<sub> ....| [rearrange_list.cpp](linked_list_problems/rearrange_list.cpp)|
 
 ### Include 
 Include contains single header implementation of data structures and some algorithms.
