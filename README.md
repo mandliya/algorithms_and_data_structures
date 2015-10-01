@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 64 |
-| Current Streak | 45 |
-| Longest Streak | 45 ( August 17, 2015 - September 30, 2015 ) |
+| Total Problems | 65 |
+| Current Streak | 46 |
+| Longest Streak | 46 ( August 17, 2015 - October 1, 2015 ) |
 
 </center>
 
@@ -105,6 +105,7 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 |  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp] (math_problems/string_permutations.cpp) |
 | Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
+| Implement pow(x,y) using divide and conquer approach. Try implementing it in O(logn)| [pow.cpp](math_problems/pow.cpp)|
 
 ### Stack Problems
 | Problem | Solution |
