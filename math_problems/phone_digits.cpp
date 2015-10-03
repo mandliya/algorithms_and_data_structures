@@ -36,16 +36,16 @@ std::unordered_map<char, std::string> table{ { '0', "" },
 
 
 void get_words( std::string input, unsigned int curr_digit,
-                std::stringstream & ss, std::vector<std::string> &  output)
+                std::string & curr_str, std::vector<std::string> &  output)
 {
-    if ( curr_digit == input.size() - 1 ) {
-        output.push_back(ss.str());
+    if ( curr_digit == input.size()) {
+        output.push_back(curr_str);
         return;
     }
     std::string curr_alphas{ table[input[curr_digit]] };
     for( unsigned int i = 0; i < curr_alphas.size(); ++i ) {
-        ss << curr_alphas[i];
-        get_words( input, curr_digit + 1, ss, output);
+        curr_str[curr_digit] = curr_alphas[i];
+        get_words( input, curr_digit + 1, curr_str, output);
         if (curr_alphas[i] == '0' || curr_alphas[i] == '1') {
             return;
         }
@@ -57,11 +57,11 @@ int main()
     std::string input;
     std::cout << "Enter a number:";
     std::cin >> input;
-    std::stringstream ss;
     std::vector<std::string> output;
-    get_words(input, 0, ss, output);
+    std::string curr_string(input.size(), ' ');
+    get_words(input, 0, curr_string, output);
     for ( auto & word : output ) {
         std::cout << word << std::endl;
-    }
+    } 
     return 0;
 }
