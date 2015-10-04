@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 67 |
-| Current Streak | 48 |
-| Longest Streak | 48 ( August 17, 2015 - October 3, 2015 ) |
+| Total Problems | 68 |
+| Current Streak | 49 |
+| Longest Streak | 49 ( August 17, 2015 - October 4, 2015 ) |
 
 </center>
 
@@ -96,6 +96,8 @@ Include contains single header implementation of data structures and some algori
 | Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutation.cpp)|
 
 ### Common Data Structure and logic problems
+| Problem | Solution |
+| :------------ | :----------: |
 | Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](common_ds_problems/matrix_spiral_print.cpp)
 | Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](common_ds_problems/rotate_matrix.cpp)|
 | Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_problems/array_rotation.cpp)
@@ -125,3 +127,4 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 | Depth First Traversal of a Graph | [dfsDemo.cpp](graph_problems/dfsDemo.cpp) |
 | Breadth First Traversal of a Graph | [bfsDemo.cpp](graph_problems/bfsDemo.cpp) |
+| calculate the shortest distance from the start position (Node S) to all of the other nodes in the graph using Dijkstra algorithm. | [dijkstra-shortest-reach.cpp](graph_problems/dijkstra-shortest-reach.cpp)|
