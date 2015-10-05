@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 68 |
-| Current Streak | 49 |
-| Longest Streak | 49 ( August 17, 2015 - October 4, 2015 ) |
+| Total Problems | 70 |
+| Current Streak | 50 |
+| Longest Streak | 50 ( August 17, 2015 - October 5, 2015 ) |
 
 </center>
 
@@ -121,6 +121,7 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | Given a sorted vector, return first index of the occurrence of a value in vector, if number does not exist, return -1 | [first_occurrence_binary_search.cpp](sort_search_problems/first_occurrence_binary_search.cpp) |
+| Given a list of unsorted integers, A={a<sub>1</sub>,a<sub>2</sub>,…,a<sub>N</sub>}, Find the pair of elements that have the smallest absolute difference between them? If there are multiple pairs, find them all.| [closest_numbers.cpp](sort_search_problems/closest_numbers.cpp)|
 
 ### Graph Problems
 | Problem | Solution |
@@ -128,3 +129,8 @@ Include contains single header implementation of data structures and some algori
 | Depth First Traversal of a Graph | [dfsDemo.cpp](graph_problems/dfsDemo.cpp) |
 | Breadth First Traversal of a Graph | [bfsDemo.cpp](graph_problems/bfsDemo.cpp) |
 | calculate the shortest distance from the start position (Node S) to all of the other nodes in the graph using Dijkstra algorithm. | [dijkstra-shortest-reach.cpp](graph_problems/dijkstra-shortest-reach.cpp)|
+
+###Greedy Problems
+| Problem | Solution |
+| :------------ | :----------: |
+| Given two integer arrays, A and B, each containing N integers. You are free to permute the order of the elements in the arrays.Is there an permutation A', B' possible of A and B, such that, A'<sub>i</sub>+B'<sub>i</sub> ≥ K for all i, where A'<sub>i<sub> denotes the i<sup>th<sup> element in the array A' and B'<sub>i</sub> denotes i<sup>th</sup> element in the array B'.| [two_arrays.cpp](greedy_problems/two_arrays.cpp)|
