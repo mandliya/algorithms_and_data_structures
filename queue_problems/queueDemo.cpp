@@ -16,7 +16,7 @@ int main()
         Q.push(rand_value);
     }
     std::cout << std::endl;
-    std::cout << "Size of Queue is :" << Q.count() << std::cout;
+    std::cout << "Size of Queue is :" << Q.count() << std::endl;
     std::cout << "\nPopping queue values :\n";
     while ( !Q.empty() ) {
         std::cout << Q.front() << " ";
