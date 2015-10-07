@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 71 |
-| Current Streak | 51 |
-| Longest Streak | 51 ( August 17, 2015 - October 6, 2015 ) |
+| Total Problems | 72 |
+| Current Streak | 52 |
+| Longest Streak | 52 ( August 17, 2015 - October 7, 2015 ) |
 
 </center>
 
@@ -45,6 +45,7 @@ Include contains single header implementation of data structures and some algori
 | Bubble Sort Implementation | [bubbleSort.h] (include/bubbleSort.h) |
 | Linux Kernel Double LinkedList Implementation | [double_linked_list.h](include/double_linked_list.h) |
 | Generic Graph Implementation (Adjacency List) | [graph.h](include/graph.h) |
+| Heap Sort Implementation | [heap_sort.h](include/heap_sort.h)|
 
 ###Bit Manipulation Problems
 | Problem | Solution |
