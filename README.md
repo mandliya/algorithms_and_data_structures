@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 72 |
-| Current Streak | 52 |
-| Longest Streak | 52 ( August 17, 2015 - October 7, 2015 ) |
+| Total Problems | 73 |
+| Current Streak | 53 |
+| Longest Streak | 53 ( August 17, 2015 - October 8, 2015 ) |
 
 </center>
 
@@ -64,6 +64,21 @@ Include contains single header implementation of data structures and some algori
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
 | Given a number x and two positions (from right side) in binary representation of x, write a function that swaps n right bits at given two positions and returns the result. It is also given that the two sets of bits do not overlap.|[swapSetOfBits.cpp](bit_manipulation/swapSetOfBits.cpp)|
 | Add two numbers without using any arithmetic operators | [addition_without_operators.cpp](bit_manipulation/addition_without_operators.cpp)
+| Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations.
+
+If N is not a power of 2, reduce the counter by the largest power of 2 less than N.
+If N is a power of 2, reduce the counter by half of N.
+The resultant value is the new N which is again used for subsequent operations.
+The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins.
+
+Given N, your task is to find the winner of the game.
+
+If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.
+
+Input Format 
+The first line contains an integer T, the number of testcases. 
+T lines follow. Each line contains N, the initial number set in the counter.
+|[counter_game.cpp](bit_manipulation/counter_game.cpp)| 
 
 ### Cracking the coding interview problems
 | Problem | Solution |
