@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 73 |
-| Current Streak | 53 |
-| Longest Streak | 53 ( August 17, 2015 - October 8, 2015 ) |
+| Total Problems | 75 |
+| Current Streak | 54 |
+| Longest Streak | 54 ( August 17, 2015 - October 9, 2015 ) |
 
 </center>
 
@@ -64,7 +64,21 @@ Include contains single header implementation of data structures and some algori
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
 | Given a number x and two positions (from right side) in binary representation of x, write a function that swaps n right bits at given two positions and returns the result. It is also given that the two sets of bits do not overlap.|[swapSetOfBits.cpp](bit_manipulation/swapSetOfBits.cpp)|
 | Add two numbers without using any arithmetic operators | [addition_without_operators.cpp](bit_manipulation/addition_without_operators.cpp)
-| Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations: <ul><li>If N is not a power of 2, reduce the counter by the largest power of 2 less than N.</li></ul><ul><li>If N is a power of 2, reduce the counter by half of N.</li></ul> The resultant value is the new N which is again used for subsequent operations.The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins. <ul><li> Given N, your task is to find the winner of the game. If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.</li></ul><ul><li>Input Format : -The first line contains an integer T, the number of testcases. T lines follow. Each line contains N, the initial number set in the counter.|[counter_game.cpp](bit_manipulation/counter_game.cpp)| 
+| Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations.
+
+If N is not a power of 2, reduce the counter by the largest power of 2 less than N.
+If N is a power of 2, reduce the counter by half of N.
+The resultant value is the new N which is again used for subsequent operations.
+The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins.
+
+Given N, your task is to find the winner of the game.
+
+If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.
+
+Input Format 
+The first line contains an integer T, the number of testcases. 
+T lines follow. Each line contains N, the initial number set in the counter.
+|[counter_game.cpp](bit_manipulation/counter_game.cpp)| 
 
 ### Cracking the coding interview problems
 | Problem | Solution |
@@ -76,6 +90,8 @@ Include contains single header implementation of data structures and some algori
 | Problem 3 : Edition 6: URLify: Replace all the spaces in a string with '%20'. Preferebly Inplace |[1-3-URLify.cpp](cracking_the_coding_interview_problems/1-3-URLify.cpp)|
 | Problem 4 : Edition 6: Given a string, write a function to check if it is a permutation of a pallindrome.|[1-4-pallindrome-permutations.cpp ](cracking_the_coding_interview_problems/1-4-pallindrome-permutations.cpp)|
 | Problem 5 : Edition 6: There are three possible edits that can be performed on a string - Insert a char, Delete a char, Replace a char. Given two strings, determine if they are one or 0 edit away.|[1-5-one-edit-away.cpp ](cracking_the_coding_interview_problems/1-5-one-edit-away.cpp)|
+| Problem 6: Implement a method to perform basic string compression. Example string **aabcccccaaa** should be compressed to **a2b1c5a3**, however if compressed string is bigger than original string, return original string| [1-6-string-compression.cpp](cracking_the_coding_interview_problems/1-6-string-compression.cpp)|
+| Problem 7: Rotate the matrix clockwise( & anticlockwise) by 90 degrees| [1-7-matrix-rotation.cpp](cracking_the_coding_interview_problems/1-7-matrix-rotation.cpp)|
 
 
 ### Tree Problems
