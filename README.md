@@ -82,7 +82,7 @@ Include contains single header implementation of data structures and some algori
 ###Dynamic Programming Problems
 | Problem | Solution |
 | :------------ | :----------: |
-| N<sup>th</th> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
+| N<sup>th</sup> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
 | Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) | 
 
 ### Tree Problems
