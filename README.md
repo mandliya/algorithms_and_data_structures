@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 75 |
-| Current Streak | 54 |
-| Longest Streak | 54 ( August 17, 2015 - October 9, 2015 ) |
+| Total Problems | 77 |
+| Current Streak | 55 |
+| Longest Streak | 55 ( August 17, 2015 - October 10, 2015 ) |
 
 </center>
 
@@ -79,6 +79,11 @@ Include contains single header implementation of data structures and some algori
 | Problem 6: Implement a method to perform basic string compression. Example string **aabcccccaaa** should be compressed to **a2b1c5a3**, however if compressed string is bigger than original string, return original string| [1-6-string-compression.cpp](cracking_the_coding_interview_problems/1-6-string-compression.cpp)|
 | Problem 7: Rotate the matrix clockwise( & anticlockwise) by 90 degrees| [1-7-matrix-rotation.cpp](cracking_the_coding_interview_problems/1-7-matrix-rotation.cpp)|
 
+#Dynamic Programming Problems
+| Problem | Solution |
+| :------------ | :----------: |
+| N<sup>th</th> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
+| Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) | 
 
 ### Tree Problems
 | Problem | Solution |
