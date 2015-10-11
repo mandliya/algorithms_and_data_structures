@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 77 |
-| Current Streak | 55 |
-| Longest Streak | 55 ( August 17, 2015 - October 12, 2015 ) |
+| Total Problems | 78 |
+| Current Streak | 56 |
+| Longest Streak | 56 ( August 17, 2015 - October 11, 2015 ) |
 
 </center>
 
@@ -103,6 +103,7 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 | Implementation of Robin-Karp algorithm for string search | [robinKarpStringMatching.cpp](string_problmes/robinKarpStringMatching.cpp) |
 | Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutation.cpp)|
+| Implementation of Z algorithm for pattern matching | [z.cpp](string_problems/z.cpp)|
 
 ### Common Data Structure and logic problems
 | Problem | Solution |
