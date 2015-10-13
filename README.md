@@ -1,8 +1,8 @@
 ## Data Structure and Algorithms Problems
 
-
-[![Screen](image.png)](image.png)
 <center>
+
+![alt tag](https://raw.githubusercontent.com/mandliya/algorithms_and_ds_playground/master/image.jpg)
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
