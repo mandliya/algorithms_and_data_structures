@@ -4,9 +4,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 78 |
-| Current Streak | 56 |
-| Longest Streak | 56 ( August 17, 2015 - October 11, 2015 ) |
+| Total Problems | 82 |
+| Current Streak | 58 |
+| Longest Streak | 58 ( August 17, 2015 - October 13, 2015 ) |
 
 </center>
 
@@ -69,15 +69,18 @@ Include contains single header implementation of data structures and some algori
 ### Cracking the coding interview problems
 | Problem | Solution |
 | :------------ | :----------: |
-| Problem 1 : Edition 6: Write an algorithm to determine whether a string has unique characters or not. Can we do it without using addtional data structures? | [1-1-hasUniqueChars.cpp](cracking_the_coding_interview_problems/1-1-hasUniqueChars.cpp)|
-| Problem 2 : Edition 5: Reverse a string when you are a pass a null terminated C string.|[1-2-edi5-reverseString.cpp ](cracking_the_coding_interview_problems/1-2-edi5-reverseString.cpp)|
-| Problem 2 : Edition 6: Given two strings, determine if one is permutation of other.|[1-2-perm-strings.cpp](cracking_the_coding_interview_problems/1-2-perm-strings.cpp)|
-| Problem 3 : Edition 5: Write an algorithm to remove duplicate chars from a string.|[1-3-edi5-removeDuplicates.cpp](cracking_the_coding_interview_problems/1-3-edi5-removeDuplicates.cpp)|
-| Problem 3 : Edition 6: URLify: Replace all the spaces in a string with '%20'. Preferebly Inplace |[1-3-URLify.cpp](cracking_the_coding_interview_problems/1-3-URLify.cpp)|
-| Problem 4 : Edition 6: Given a string, write a function to check if it is a permutation of a pallindrome.|[1-4-pallindrome-permutations.cpp ](cracking_the_coding_interview_problems/1-4-pallindrome-permutations.cpp)|
-| Problem 5 : Edition 6: There are three possible edits that can be performed on a string - Insert a char, Delete a char, Replace a char. Given two strings, determine if they are one or 0 edit away.|[1-5-one-edit-away.cpp ](cracking_the_coding_interview_problems/1-5-one-edit-away.cpp)|
-| Problem 6: Implement a method to perform basic string compression. Example string **aabcccccaaa** should be compressed to **a2b1c5a3**, however if compressed string is bigger than original string, return original string| [1-6-string-compression.cpp](cracking_the_coding_interview_problems/1-6-string-compression.cpp)|
-| Problem 7: Rotate the matrix clockwise( & anticlockwise) by 90 degrees| [1-7-matrix-rotation.cpp](cracking_the_coding_interview_problems/1-7-matrix-rotation.cpp)|
+| Problem 1-1 : Edition 6: Write an algorithm to determine whether a string has unique characters or not. Can we do it without using addtional data structures? | [1-1-hasUniqueChars.cpp](cracking_the_coding_interview_problems/1-1-hasUniqueChars.cpp)|
+| Problem 1-2 : Edition 5: Reverse a string when you are a pass a null terminated C string.|[1-2-edi5-reverseString.cpp ](cracking_the_coding_interview_problems/1-2-edi5-reverseString.cpp)|
+| Problem 1-2 : Edition 6: Given two strings, determine if one is permutation of other.|[1-2-perm-strings.cpp](cracking_the_coding_interview_problems/1-2-perm-strings.cpp)|
+| Problem 1-3 : Edition 5: Write an algorithm to remove duplicate chars from a string.|[1-3-edi5-removeDuplicates.cpp](cracking_the_coding_interview_problems/1-3-edi5-removeDuplicates.cpp)|
+| Problem 1-3 : Edition 6: URLify: Replace all the spaces in a string with '%20'. Preferebly Inplace |[1-3-URLify.cpp](cracking_the_coding_interview_problems/1-3-URLify.cpp)|
+| Problem 1-4 : Edition 6: Given a string, write a function to check if it is a permutation of a pallindrome.|[1-4-pallindrome-permutations.cpp ](cracking_the_coding_interview_problems/1-4-pallindrome-permutations.cpp)|
+| Problem 1-5 : Edition 6: There are three possible edits that can be performed on a string - Insert a char, Delete a char, Replace a char. Given two strings, determine if they are one or 0 edit away.|[1-5-one-edit-away.cpp ](cracking_the_coding_interview_problems/1-5-one-edit-away.cpp)|
+| Problem 1-6: Implement a method to perform basic string compression. Example string **aabcccccaaa** should be compressed to **a2b1c5a3**, however if compressed string is bigger than original string, return original string| [1-6-string-compression.cpp](cracking_the_coding_interview_problems/1-6-string-compression.cpp)|
+| Problem 1-7: Rotate the matrix clockwise( & anticlockwise) by 90 degrees| [1-7-matrix-rotation.cpp](cracking_the_coding_interview_problems/1-7-matrix-rotation.cpp)|
+| Problem 1-8: Write an algorithm such that if an element of MxN matrix is 0, its entire row and column is set to 0. | [1-8-zero-matrix.cpp](cracking_the_coding_interview_problems/1-8-zero-matrix.cpp)|
+| Problem 1-9: Given two strings s1 and s2, determine s2 is rotation of s1 using only one call to a function which checks whether one string is rotation of another.|[1-9-string-rotation.cpp](cracking_the_coding_interview_problems/1-9-string-rotation.cpp)|
+| Problem 2-1: Remove duplicates from an *unsorted* linked list. What if no temporary buffer is allowed.|[2-1-remove-dups.cpp](cracking_the_coding_interview_problems/2-1-remove-dups.cpp)|
 
 ###Dynamic Programming Problems
 | Problem | Solution |

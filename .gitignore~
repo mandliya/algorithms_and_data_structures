@@ -31,6 +31,3 @@
 
 #build director
 build/
-
-#vim backup
-*.cpp~
