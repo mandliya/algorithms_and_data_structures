@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 82 |
-| Current Streak | 58 |
-| Longest Streak | 58 ( August 17, 2015 - October 13, 2015 ) |
+| Total Problems | 84 |
+| Current Streak | 59 days |
+| Longest Streak | 59 ( August 17, 2015 - October 14, 2015 ) |
 
 </center>
 
@@ -83,12 +83,14 @@ Include contains single header implementation of data structures and some algori
 | Problem 1-8: Write an algorithm such that if an element of MxN matrix is 0, its entire row and column is set to 0. | [1-8-zero-matrix.cpp](cracking_the_coding_interview_problems/1-8-zero-matrix.cpp)|
 | Problem 1-9: Given two strings s1 and s2, determine s2 is rotation of s1 using only one call to a function which checks whether one string is rotation of another.|[1-9-string-rotation.cpp](cracking_the_coding_interview_problems/1-9-string-rotation.cpp)|
 | Problem 2-1: Remove duplicates from an *unsorted* linked list. What if no temporary buffer is allowed.|[2-1-remove-dups.cpp](cracking_the_coding_interview_problems/2-1-remove-dups.cpp)|
+| Problem 2-2: Determine k<sup>th</sup> node from the last of a singly linked list. (Iterative and Recursive Approaches) | [2-2-kthToLast.cpp](cracking_the_coding_interview_problems/2-2-kthToLast.cpp)|
 
 ###Dynamic Programming Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | N<sup>th</sup> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
 | Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) | 
+| Maximum Value Contigous Subsequence Problem [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem)| [max_subsequence.cpp](dynamic_programming_problems/max_subsequence.cpp)|
 
 ### Tree Problems
 | Problem | Solution |
