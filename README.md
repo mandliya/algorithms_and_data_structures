@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 84 |
-| Current Streak | 59 days |
-| Longest Streak | 59 ( August 17, 2015 - October 14, 2015 ) |
+| Total Problems | 87 |
+| Current Streak | 60 days |
+| Longest Streak | 60 ( August 17, 2015 - October 15, 2015 ) |
 
 </center>
 
@@ -84,7 +84,10 @@ Include contains single header implementation of data structures and some algori
 | Problem 1-9: Given two strings s1 and s2, determine s2 is rotation of s1 using only one call to a function which checks whether one string is rotation of another.|[1-9-string-rotation.cpp](cracking_the_coding_interview_problems/1-9-string-rotation.cpp)|
 | Problem 2-1: Remove duplicates from an *unsorted* linked list. What if no temporary buffer is allowed.|[2-1-remove-dups.cpp](cracking_the_coding_interview_problems/2-1-remove-dups.cpp)|
 | Problem 2-2: Determine k<sup>th</sup> node from the last of a singly linked list. (Iterative and Recursive Approaches) | [2-2-kthToLast.cpp](cracking_the_coding_interview_problems/2-2-kthToLast.cpp)|
-
+| Problem 2-3: Implement an algorithm to delete a node in the middle of a singly linked list | [2-3-delete-middle-node.cpp](cracking_the_coding_interview_problems/2-3-delete-middle-node.cpp)|
+| Problem 2-4: Partition a linked list around a value x, all the nodes smaller than x come before all the nodes greater than equal to x | [2-4-partition.cpp](cracking_the_coding_interview_problems/2-4-partition.cpp)|
+| Problem 2-5: You have two numberse represented by a linked list where each node contains a single digit. The digits are stored in reversed order, such that 1's digits are at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list.Example: <ul><li> Input: ( 7 --> 1 --> 6 ) + ( 5 --> 9 --> 2 ) that is 617 + 295 </li></ul>
+<ul><li> Output: ( 2 --> 1 --> 9 ) i.e. 912. </li><ul> <ul><li> FOLLOW UP : Suppose the lists are stored in forward order, Repeat the above problem.</ul></li><ul><li> Input: ( 6 --> 1 --> 7 ) + ( 2 --> 9 --> 5 ) i.e. 617 + 295  </li> </ul><ul><li> Output: ( 9 --> 1 --> 2 ) i.e. 912 </li></ul><ul><li>Implement it  recursively and iteratively.</li></ul> | [2-5-add-lists.cpp](cracking_the_coding_interview_problems/2-5-add-lists.cpp) |
 ###Dynamic Programming Problems
 | Problem | Solution |
 | :------------ | :----------: |

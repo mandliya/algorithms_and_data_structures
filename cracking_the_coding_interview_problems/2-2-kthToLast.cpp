@@ -53,7 +53,7 @@ void deleteList( Node * & head ) {
 }
 
 /**
- * printList - Print the list
+ * printList - Helper routine to print the list
  * @param head - Current head of the list.
  */
 void printList( Node * head ) {
