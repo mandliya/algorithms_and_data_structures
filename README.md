@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 87 |
-| Current Streak | 60 days |
-| Longest Streak | 60 ( August 17, 2015 - October 15, 2015 ) |
+| Total Problems | 90 |
+| Current Streak | 61 days |
+| Longest Streak | 61 ( August 17, 2015 - October 16, 2015 ) |
 
 </center>
 
@@ -88,12 +88,17 @@ Include contains single header implementation of data structures and some algori
 | Problem 2-3: Implement an algorithm to delete a node in the middle of a singly linked list | [2-3-delete-middle-node.cpp](cracking_the_coding_interview_problems/2-3-delete-middle-node.cpp)|
 | Problem 2-4: Partition a linked list around a value x, all the nodes smaller than x come before all the nodes greater than equal to x | [2-4-partition.cpp](cracking_the_coding_interview_problems/2-4-partition.cpp)|
 | Problem 2-5: You have two numberse represented by a linked list where each node contains a single digit. The digits are stored in reversed order, such that 1's digits are at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list.Example:<ul><li>Input: ( 7 --> 1 --> 6 ) + ( 5 --> 9 --> 2 ) that is 617 + 295</li></ul><ul><li>Output: ( 2 --> 1 --> 9 ) i.e. 912.</li></ul><ul><li> FOLLOW UP : Suppose the lists are stored in forward order, Repeat the above problem.</ul></li><ul><li>Input: ( 6 --> 1 --> 7 ) + ( 2 --> 9 --> 5 ) i.e. 617 + 295</li></ul><ul><li> Output: ( 9 --> 1 --> 2 ) i.e. 912.</li></ul><ul><li>Implement it  recursively and iteratively.</li></ul> | [2-5-add-lists.cpp](cracking_the_coding_interview_problems/2-5-add-lists.cpp) |
+| Problem 2-6: Determine if linked list is palindrome( 2 iterative and one recursive approach | [2-6-palindrome.cpp](cracking_the_coding_interview_problems/2-6-palindrome.cpp) |
+| Problem 2-7: Determine if two singly linked list intersect, if yes, return the intersecting node|  The intersection is defined based on reference not on values| [2-7-intersection.cpp](cracking_the_coding_interview_problems/2-7-intersection.cpp)|
+| Problem 2-8: Detect if the linked list have a loop, Find the start node of the loop and remove the loop| [2-8-loop-detection.cpp](cracking_the_coding_interview_problems/2-8-loop-detection.cpp)
+
 ###Dynamic Programming Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | N<sup>th</sup> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
-| Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) | 
+| Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) |
 | Maximum Value Contigous Subsequence Problem [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem)| [max_subsequence.cpp](dynamic_programming_problems/max_subsequence.cpp)|
+| Catalan number - Count the number of possible Binary Search Trees with n keys | [catalan_number.cpp](dynamic_programming_problems/catalan_number.cpp)|
 
 ### Tree Problems
 | Problem | Solution |
