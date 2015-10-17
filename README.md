@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 90 |
-| Current Streak | 61 days |
-| Longest Streak | 61 ( August 17, 2015 - October 16, 2015 ) |
+| Total Problems | 91 |
+| Current Streak | 62 days |
+| Longest Streak | 62 ( August 17, 2015 - October 17, 2015 ) |
 
 </center>
 
@@ -126,6 +126,7 @@ Include contains single header implementation of data structures and some algori
 | Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](common_ds_problems/matrix_spiral_print.cpp)
 | Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](common_ds_problems/rotate_matrix.cpp)|
 | Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_problems/array_rotation.cpp)
+| Given an array of repeating/non-repeating intergeres, determine the first non-repeating int in this array | [first_non_repeating_int.cpp](common_ds_problems/first_non_repeating_int.cpp)|
 
 ### Math Problems
 | Problem | Solution |
