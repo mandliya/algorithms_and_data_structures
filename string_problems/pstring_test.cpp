@@ -1,6 +1,6 @@
-
-// Test cases for my own string library.
-// check include/pstring.[h,cpp] and include/pUnitTest.[h,cpp]
+// unit-tests.cpp by Bill Weinman <http://bw.org/>
+// Test bed for BWLIb
+// Copyright (c) 2014-2015 The BearHeart Group LLC
 
 #include <cstdio>
 #include "pUnitTest.h"
