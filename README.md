@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 91 |
-| Current Streak | 62 days |
-| Longest Streak | 62 ( August 17, 2015 - October 17, 2015 ) |
+| Total Problems | 92 |
+| Current Streak | 63 days |
+| Longest Streak | 63 ( August 17, 2015 - October 18, 2015 ) |
 
 </center>
 
@@ -49,6 +49,7 @@ Include contains single header implementation of data structures and some algori
 | Linux Kernel Double LinkedList Implementation | [double_linked_list.h](include/double_linked_list.h) |
 | Generic Graph Implementation (Adjacency List) | [graph.h](include/graph.h) |
 | Heap Sort Implementation | [heap_sort.h](include/heap_sort.h)|
+| My own string library implementation | [pstring.h](include/pstring.h) [pstring.cpp](include/pstring.cpp)|
 
 ###Bit Manipulation Problems
 | Problem | Solution |
@@ -119,6 +120,7 @@ Include contains single header implementation of data structures and some algori
 | Implementation of Robin-Karp algorithm for string search | [robinKarpStringMatching.cpp](string_problmes/robinKarpStringMatching.cpp) |
 | Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutation.cpp)|
 | Implementation of Z algorithm for pattern matching | [z.cpp](string_problems/z.cpp)|
+| Test cases for self created string library | [pstring_test.cpp](string_problems/pstring_test.cpp)|
 
 ### Common Data Structure and logic problems
 | Problem | Solution |
