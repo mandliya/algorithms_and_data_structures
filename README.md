@@ -169,4 +169,4 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | Given a sorted integer array without duplicates, return the summary of its ranges. For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].| [summary_ranges.cpp](leet_code_problems/summary_ranges.cpp)|
- 
+| Given a 2D matrix, with following properties <ul><li>Integers in each row are sorted in ascending from left to right.</li></ul><ul><li>Integers in each column are sorted in ascending from top to bottom.</ul></li>|[search2DII.cpp](leet_code_problems/search2DII.cpp)|
