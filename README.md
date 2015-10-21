@@ -8,7 +8,7 @@
 | :------------: | :----------: |
 | Total Problems | 94 |
 | Current Streak | 66 days |
-| Longest Streak | 66 ( August 17, 2015 - October 20, 2015 ) |
+| Longest Streak | 66 ( August 17, 2015 - October 21, 2015 ) |
 
 </center>
 
