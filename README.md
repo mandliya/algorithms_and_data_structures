@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 94 |
-| Current Streak | 66 days |
-| Longest Streak | 66 ( August 17, 2015 - October 21, 2015 ) |
+| Total Problems | 95 |
+| Current Streak | 67 days |
+| Longest Streak | 67 ( August 17, 2015 - October 22, 2015 ) |
 
 </center>
 
@@ -171,3 +171,4 @@ Include contains single header implementation of data structures and some algori
 | Given a sorted integer array without duplicates, return the summary of its ranges. For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].| [summary_ranges.cpp](leet_code_problems/summary_ranges.cpp)|
 | Given a 2D matrix, with following properties <ul><li>Integers in each row are sorted in ascending from left to right.</li></ul><ul><li>Integers in each column are sorted in ascending from top to bottom.</ul></li>|[search2DII.cpp](leet_code_problems/search2DII.cpp)|
 | Given an unsorted integer array, find the first missing positive integer.Example: [1,2,0] should return 3 and [3,4,-1,1] should return 2. Expected time complexity O(n) and solution should use constant space| [firstMissingPositiveNum.cpp](leet_code_problems/firstMissingPositiveNum.cpp)|
+|Given an unsorted array of integers, find the length of the longest consecutive elements sequence. For example: Given [100, 4, 200, 1, 3, 2]. The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4. Algorithm should run in O(n) complexity.| [longestConsecutiveSeq.cpp](leet_code_problems/longestConsecutiveSeq.cpp)|
