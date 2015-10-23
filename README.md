@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 95 |
-| Current Streak | 67 days |
-| Longest Streak | 67 ( August 17, 2015 - October 22, 2015 ) |
+| Total Problems | 96 |
+| Current Streak | 68 days |
+| Longest Streak | 68 ( August 17, 2015 - October 23, 2015 ) |
 
 </center>
 
@@ -172,3 +172,4 @@ Include contains single header implementation of data structures and some algori
 | Given a 2D matrix, with following properties <ul><li>Integers in each row are sorted in ascending from left to right.</li></ul><ul><li>Integers in each column are sorted in ascending from top to bottom.</ul></li>|[search2DII.cpp](leet_code_problems/search2DII.cpp)|
 | Given an unsorted integer array, find the first missing positive integer.Example: [1,2,0] should return 3 and [3,4,-1,1] should return 2. Expected time complexity O(n) and solution should use constant space| [firstMissingPositiveNum.cpp](leet_code_problems/firstMissingPositiveNum.cpp)|
 |Given an unsorted array of integers, find the length of the longest consecutive elements sequence. For example: Given [100, 4, 200, 1, 3, 2]. The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4. Algorithm should run in O(n) complexity.| [longestConsecutiveSeq.cpp](leet_code_problems/longestConsecutiveSeq.cpp)|
+|Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.You may assume that nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2. The number of elements initialized in nums1 and nums2 are m and n respectively.| [mergeArrays.cpp](leet_code_problems/mergeArrays.cpp)
