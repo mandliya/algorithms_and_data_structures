@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 96 |
-| Current Streak | 68 days |
-| Longest Streak | 68 ( August 17, 2015 - October 23, 2015 ) |
+| Total Problems | 98 |
+| Current Streak | 69 days |
+| Longest Streak | 69 ( August 17, 2015 - October 24, 2015 ) |
 
 </center>
 
@@ -173,3 +173,5 @@ Include contains single header implementation of data structures and some algori
 | Given an unsorted integer array, find the first missing positive integer.Example: [1,2,0] should return 3 and [3,4,-1,1] should return 2. Expected time complexity O(n) and solution should use constant space| [firstMissingPositiveNum.cpp](leet_code_problems/firstMissingPositiveNum.cpp)|
 |Given an unsorted array of integers, find the length of the longest consecutive elements sequence. For example: Given [100, 4, 200, 1, 3, 2]. The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4. Algorithm should run in O(n) complexity.| [longestConsecutiveSeq.cpp](leet_code_problems/longestConsecutiveSeq.cpp)|
 |Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.You may assume that nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2. The number of elements initialized in nums1 and nums2 are m and n respectively.| [mergeArrays.cpp](leet_code_problems/mergeArrays.cpp)
+|Given an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index. For example: <ul><li>A = [2,3,1,1,4], return true.</li></ul><ul><li>A = [3,2,1,0,4], return false.</li></ul>| [jumpGame.cpp](leet_code_problems/jumpGame.cpp)|
+|Given a positive integer, return its corresponding column title as appear in an Excel sheet. For example 1 -> A, 2 -> B,...26 -> Z, 27 -> AA, 28 -> AB, ...705 -> AAC | [excelColSheetTitle.cpp](leet_code_problems/excelColSheetTitle.cpp)|
