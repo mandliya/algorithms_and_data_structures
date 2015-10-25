@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 98 |
-| Current Streak | 69 days |
-| Longest Streak | 69 ( August 17, 2015 - October 24, 2015 ) |
+| Total Problems | 101 |
+| Current Streak | 70 days |
+| Longest Streak | 70 ( August 17, 2015 - October 25, 2015 ) |
 
 </center>
 
@@ -175,3 +175,6 @@ Include contains single header implementation of data structures and some algori
 |Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.You may assume that nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2. The number of elements initialized in nums1 and nums2 are m and n respectively.| [mergeArrays.cpp](leet_code_problems/mergeArrays.cpp)
 |Given an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index. For example: <ul><li>A = [2,3,1,1,4], return true.</li></ul><ul><li>A = [3,2,1,0,4], return false.</li></ul>| [jumpGame.cpp](leet_code_problems/jumpGame.cpp)|
 |Given a positive integer, return its corresponding column title as appear in an Excel sheet. For example 1 -> A, 2 -> B,...26 -> Z, 27 -> AA, 28 -> AB, ...705 -> AAC | [excelColSheetTitle.cpp](leet_code_problems/excelColSheetTitle.cpp)|
+|Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements. For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].| [moveZeroes.cpp](leet_code_problems/moveZeroes.cpp)|
+|Given an array of integers, find if the array contains any duplicates. Function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.| [containsDuplicate.cpp](leet_code_problems/containsDuplicate.cpp)|
+| Given a list, rotate the list to the right by k places, where k is non-negative. For example: <ul><li>Given 1->2->3->4->5->NULL and k = 2, return 4->5->1->2->3->NULL</li></ul>| [rotateList.cpp](leet_code_problems/rotateList.cpp)|
