@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 101 |
-| Current Streak | 70 days |
-| Longest Streak | 70 ( August 17, 2015 - October 25, 2015 ) |
+| Total Problems | 103 |
+| Current Streak | 71 days |
+| Longest Streak | 71 ( August 17, 2015 - October 26, 2015 ) |
 
 </center>
 
@@ -150,6 +150,8 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 | Given a sorted vector, return first index of the occurrence of a value in vector, if number does not exist, return -1 | [first_occurrence_binary_search.cpp](sort_search_problems/first_occurrence_binary_search.cpp) |
 | Given a list of unsorted integers, A={a<sub>1</sub>,a<sub>2</sub>,…,a<sub>N</sub>}, Find the pair of elements that have the smallest absolute difference between them? If there are multiple pairs, find them all.| [closest_numbers.cpp](sort_search_problems/closest_numbers.cpp)|
+| Given a sorted array, determine index of fixed point in this array. If array does not have a fixed point return -1. An array has a fixed point when index of the element is same as index i.e. i == arr[i], Expected time complexity O(logn)| [fixedPoint.cpp](sort_search_problems/fixedPoint.cpp)|
+| Find the maximum element in an array which is first increasing and then decreasing. Input: arr[] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}, output : 500. Array may be strictly increasing or decreasing as well. ExpectedTime complexity is O(logn).| [findMaximum.cpp](sort_search_problems/findMaximum.cpp)|
 
 ### Graph Problems
 | Problem | Solution |
