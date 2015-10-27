@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 103 |
-| Current Streak | 71 days |
-| Longest Streak | 71 ( August 17, 2015 - October 26, 2015 ) |
+| Total Problems | 105 |
+| Current Streak | 72 days |
+| Longest Streak | 72 ( August 17, 2015 - October 27, 2015 ) |
 
 </center>
 
@@ -180,3 +180,5 @@ Include contains single header implementation of data structures and some algori
 |Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements. For example, given nums = [0, 1, 0, 3, 12], after calling your function, nums should be [1, 3, 12, 0, 0].| [moveZeroes.cpp](leet_code_problems/moveZeroes.cpp)|
 |Given an array of integers, find if the array contains any duplicates. Function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.| [containsDuplicate.cpp](leet_code_problems/containsDuplicate.cpp)|
 | Given a list, rotate the list to the right by k places, where k is non-negative. For example: <ul><li>Given 1->2->3->4->5->NULL and k = 2, return 4->5->1->2->3->NULL</li></ul>| [rotateList.cpp](leet_code_problems/rotateList.cpp)|
+| Given two words word1 and word2, find the minimum number of steps required to convert word1 to word2. (each operation is counted as 1 step.). You have the following 3 operations permitted on a word:<ul><li>Insert a character</li></ul><ul><li>Delete a character.</li></ul><ul><li>Replace a character</li></ul>.|[editDistance.cpp](leet_code_problems/editDistance.cpp)|
+|Given a binary tree, Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL. Initially, all next pointers are set to NULL.You may only use constant extra space.You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).| [connectNextPointers.cpp](leet_code_problems/connectNextPointers.cpp)|
