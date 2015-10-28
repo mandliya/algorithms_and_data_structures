@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 105 |
-| Current Streak | 72 days |
-| Longest Streak | 72 ( August 17, 2015 - October 27, 2015 ) |
+| Total Problems | 107 |
+| Current Streak | 73 days |
+| Longest Streak | 73 ( August 17, 2015 - October 28, 2015 ) |
 
 </center>
 
@@ -112,6 +112,8 @@ Include contains single header implementation of data structures and some algori
 |Given a binary tree, print out all of its root-to-leaf paths one per line.| [printAllRootToLeafPath.cpp](tree_problems/printAllRootToLeafPath.cpp)
 |Determine if a tree is sum tree. A SumTree is a Binary Tree where the value of a node is equal to sum of the nodes present in its left subtree and right subtree. An empty tree is SumTree and sum of an empty tree can be considered as 0. A leaf node is also considered as SumTree.| [sumTree.cpp](tree_problems/sumTree.cpp)|
 |Convert a tree to sumTree, such that each node is sum of left and right subtree of the original tree.| [convert_to_sum_tree.cpp](tree_problems/convert_to_sum_tree.cpp)|
+| Convert a sorted array to balanced binary search tree.| [sortedArrayToBST.cpp](tree_problems/sortedArrayToBST.cpp)|
+| Given a binary tree, generate sum of each vertical column.|[verticalSum.cpp](tree_problems/verticalSum.cpp)|
 
 
 ### String Problems
