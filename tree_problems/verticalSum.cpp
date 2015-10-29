@@ -1,10 +1,10 @@
 /**
  * Given a binary Tree
- * 			1
- * 		/		\
- * 	   2		 3
- * 	 /	\		/ \
- *  4	5 	   6   7
+ * 		    1
+ * 		 /     \
+ * 	       2	 3
+ * 	     /	 \	/ \
+ *  	    4	  5    6   7
  *
  *  Find vertical sums of the tree.
  *  Align the nodes in vertical line.
