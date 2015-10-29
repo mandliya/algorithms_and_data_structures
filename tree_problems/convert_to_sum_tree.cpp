@@ -3,7 +3,7 @@
  * Given : A tree with positive and negative data values.
  * Convert this to a tree where each node contains the sum of the left and right sub trees in the original tree.
  * The values of leaf nodes are changed to 0.
- *         		10                             20
+ *            10                             20
  *         /      \                       /       \
  *       -2        6          ---->     4         12
  *      /   \      /  \               /   \      /  \
