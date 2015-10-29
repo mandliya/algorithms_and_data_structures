@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 107 |
-| Current Streak | 73 days |
-| Longest Streak | 73 ( August 17, 2015 - October 28, 2015 ) |
+| Total Problems | 109 |
+| Current Streak | 74 days |
+| Longest Streak | 74 ( August 17, 2015 - October 29, 2015 ) |
 
 </center>
 
@@ -114,6 +114,8 @@ Include contains single header implementation of data structures and some algori
 |Convert a tree to sumTree, such that each node is sum of left and right subtree of the original tree.| [convert_to_sum_tree.cpp](tree_problems/convert_to_sum_tree.cpp)|
 | Convert a sorted array to balanced binary search tree.| [sortedArrayToBST.cpp](tree_problems/sortedArrayToBST.cpp)|
 | Given a binary tree, generate sum of each vertical column.|[verticalSum.cpp](tree_problems/verticalSum.cpp)|
+| Given a binary tree and key, node with key exists in tree. Find all the ancestors of the node with key, ancestor here are the nodes which are in straight path from node to root.| [node_ancestors_in_root_path.cpp](tree_problems/node_ancestors_in_root_path.cpp)|
+| Given a binary tree and key, return the level of the node with key. Root is at level 1, and if node with key does not exists in tree, return 0| [level_of_node.cpp](tree_problems/level_of_node.cpp)|
 
 
 ### String Problems
