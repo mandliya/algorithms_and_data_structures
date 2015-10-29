@@ -4,11 +4,11 @@
  * An empty tree is SumTree and sum of an empty tree can be considered as 0.
  * A leaf node is also considered as SumTree.
  *
- *					26
- *				/   \
- *		  10     3
- *		 /    \     \
- *	  4      6      3
+ *         26
+ *        /   \
+ *      10     3
+ *    /    \     \
+ *   4      6      3
  */
 #include <iostream>
 
@@ -63,11 +63,11 @@ void inorder(Node * root)
 int main()
 {
 /**
-  *					26
-  *				/   \
-  *		  10     3
-  *		 /    \     \
-  *	  4      6      3
+  *         26
+  *        /   \
+  *      10     3
+  *    /    \     \
+  *   4      6      3
   */
   Node * root = new Node(26);
   root->left = new Node(10);
