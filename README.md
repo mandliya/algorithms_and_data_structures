@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 109 |
-| Current Streak | 74 days |
-| Longest Streak | 74 ( August 17, 2015 - October 29, 2015 ) |
+| Total Problems | 110 |
+| Current Streak | 75 days |
+| Longest Streak | 75 ( August 17, 2015 - October 30, 2015 ) |
 
 </center>
 
@@ -133,6 +133,7 @@ Include contains single header implementation of data structures and some algori
 | Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](common_ds_problems/rotate_matrix.cpp)|
 | Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_problems/array_rotation.cpp)
 | Given an array of repeating/non-repeating intergeres, determine the first non-repeating int in this array | [first_non_repeating_int.cpp](common_ds_problems/first_non_repeating_int.cpp)|
+| In Quantumland, there are n cities numbered from 1 to n. Here, c<sub>i</sub> denotes the i<sup>th</sup> city. There are n−1 roads in Quantumland. Here, c<sub>i</sub> and c<sub>i+1</sub> have a bidirectional road between them for each i < n.There is a rumor that Flatland is going to attack Quantumland, and the queen wants to keep her land safe. The road between c<sub>i</sub> and c<sub>i+1</sub> is safe if there is a guard in c<sub>i</sub> or c<sub>i+1</sub>. The queen has already placed a few guards in some of the cities, but she is not sure if they are enough to keep the roads safe. She wants to know the minimum number of new guards she needs to hire. | [save_quantamland.cpp](common_ds_problems/save_quantumland.cpp)|
 
 ### Math Problems
 | Problem | Solution |
