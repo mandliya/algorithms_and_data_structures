@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 110 |
-| Current Streak | 75 days |
-| Longest Streak | 75 ( August 17, 2015 - October 30, 2015 ) |
+| Total Problems | 111 |
+| Current Streak | 76 days |
+| Longest Streak | 76 ( August 17, 2015 - October 31, 2015 ) |
 
 </center>
 
@@ -165,6 +165,7 @@ Include contains single header implementation of data structures and some algori
 | Breadth First Traversal of a Graph | [bfsDemo.cpp](graph_problems/bfsDemo.cpp) |
 | calculate the shortest distance from the start position (Node S) to all of the other nodes in the graph using Dijkstra algorithm. | [dijkstra-shortest-reach.cpp](graph_problems/dijkstra-shortest-reach.cpp)|
 | Calculate total weight of Minimum Spanning Tree of a given graph ( sum of weights of edges which forms MST) using Prim's algorithm | [primsMST.cpp](graph_problems/primsMST.cpp)|
+| Print Minimum Spanning Tree( MST ) of a given graph using Kruskal's algorithm.| [kruskalMST.cpp](graph_problems/kruskalMST.cpp)|
 
 ###Greedy Problems
 | Problem | Solution |
