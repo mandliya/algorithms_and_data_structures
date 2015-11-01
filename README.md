@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 111 |
-| Current Streak | 76 days |
-| Longest Streak | 76 ( August 17, 2015 - October 31, 2015 ) |
+| Total Problems | 113 |
+| Current Streak | 77 days |
+| Longest Streak | 77 ( August 17, 2015 - November 01, 2015 ) |
 
 </center>
 
@@ -188,3 +188,5 @@ Include contains single header implementation of data structures and some algori
 | Given a list, rotate the list to the right by k places, where k is non-negative. For example: <ul><li>Given 1->2->3->4->5->NULL and k = 2, return 4->5->1->2->3->NULL</li></ul>| [rotateList.cpp](leet_code_problems/rotateList.cpp)|
 | Given two words word1 and word2, find the minimum number of steps required to convert word1 to word2. (each operation is counted as 1 step.). You have the following 3 operations permitted on a word:<ul><li>Insert a character</li></ul><ul><li>Delete a character.</li></ul><ul><li>Replace a character</li></ul>.|[editDistance.cpp](leet_code_problems/editDistance.cpp)|
 |Given a binary tree, Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL. Initially, all next pointers are set to NULL.You may only use constant extra space.You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).| [connectNextPointers.cpp](leet_code_problems/connectNextPointers.cpp)|
+|Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. For example, given n = 3, a solution set is *"((()))", "(()())", "(())()", "()(())", "()()()"*| [generate_parenthesis.cpp](leet_code_problems/generate_parenthesis.cpp)|
+|Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.For example, Given nums = [0, 1, 3] return 2.| [missing_number.cpp](leet_code_problems/missing_number.cpp)|
