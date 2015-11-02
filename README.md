@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 113 |
-| Current Streak | 77 days |
-| Longest Streak | 77 ( August 17, 2015 - November 01, 2015 ) |
+| Total Problems | 114 |
+| Current Streak | 78 days |
+| Longest Streak | 78 ( August 17, 2015 - November 02, 2015 ) |
 
 </center>
 
@@ -190,3 +190,4 @@ Include contains single header implementation of data structures and some algori
 |Given a binary tree, Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL. Initially, all next pointers are set to NULL.You may only use constant extra space.You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).| [connectNextPointers.cpp](leet_code_problems/connectNextPointers.cpp)|
 |Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. For example, given n = 3, a solution set is *"((()))", "(()())", "(())()", "()(())", "()()()"*| [generate_parenthesis.cpp](leet_code_problems/generate_parenthesis.cpp)|
 |Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.For example, Given nums = [0, 1, 3] return 2.| [missing_number.cpp](leet_code_problems/missing_number.cpp)|
+|Suppose a sorted array is rotated at some pivot unknown to you beforehand. (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2). Find the minimum element. You may assume no duplicate exists in the array.| [find_min_rotated.cpp](leet_code_problems/find_min_rotated.cpp)|
