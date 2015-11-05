@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 117 |
-| Current Streak | 80 days |
-| Longest Streak | 80 ( August 17, 2015 - November 04, 2015 ) |
+| Total Problems | 119 |
+| Current Streak | 81 days |
+| Longest Streak | 81 ( August 17, 2015 - November 05, 2015 ) |
 
 </center>
 
@@ -194,5 +194,10 @@ Include contains single header implementation of data structures and some algori
 |Suppose a sorted array is rotated at some pivot unknown to you beforehand. (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2). Find the minimum element. You may assume no duplicate exists in the array.| [find_min_rotated.cpp](leet_code_problems/find_min_rotated.cpp)|
 |Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.| [threeSumClosest.cpp](leet_code_problems/threeSumClosest.cpp)|
 |Given n non-negative integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>, where each represents a point at coordinate (i, a<sub>i</sub>). n vertical lines are drawn such that the two endpoints of line i is at (i, a<sub>i</sub>) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water. Note: You may not slant the container.| [maxArea.cpp](leet_code_problems/maxArea.cpp)|
+| Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number. An example is the root-to-leaf path 1->2->3 which represents the number 123. Find the total sum of all root-to-leaf numbers. Example in solution comments | [sumRootToLeafNumbers.cpp](leet_code_problems/sumRootToLeafNumbers.cpp)|
+| Say you have an array for which the ith element is the price of a given stock on day i. If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.| [maxProfitStock.cpp](leet_code_problems/maxProfitStock.cpp)|
+
+
+
 
 
