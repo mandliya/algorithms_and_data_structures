@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 119 |
-| Current Streak | 81 days |
-| Longest Streak | 81 ( August 17, 2015 - November 05, 2015 ) |
+| Total Problems | 120 |
+| Current Streak | 82 days |
+| Longest Streak | 82 ( August 17, 2015 - November 06, 2015 ) |
 
 </center>
 
@@ -158,7 +158,7 @@ Include contains single header implementation of data structures and some algori
 | Given a sorted array, determine index of fixed point in this array. If array does not have a fixed point return -1. An array has a fixed point when index of the element is same as index i.e. i == arr[i], Expected time complexity O(logn)| [fixedPoint.cpp](sort_search_problems/fixedPoint.cpp)|
 | Find the maximum element in an array which is first increasing and then decreasing. Input: arr[] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}, output : 500. Array may be strictly increasing or decreasing as well. ExpectedTime complexity is O(logn).| [findMaximum.cpp](sort_search_problems/findMaximum.cpp)|
 | Given an array of positive and/or negative integers, find a pair in the array whose sum is closest to 0.| [findClosestPairToZero.cpp](sort_search_problems/findClosestPairToZero.cpp)|
-
+| Numeros, the Artist, had two lists A and B, such that B was a permutation of A. Numeros was very proud of these lists. Unfortunately, while transporting them from one exhibition to another, some numbers were left out of A. Can you find the missing numbers? Notes: <ul><li>If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.</li></ul><ul><li>You have to print all the missing numbers in ascending order.</li></ul><ul><li>Print each missing number once, even if it is missing multiple times.</li></ul><ul><li>The difference between maximum and minimum number in B is less than or equal to 100.</li></ul>. <ul><li> There will be four lines of input: n - the size of the first list, This is followed by n space-separated integers that make up the first list. m - the size of the second list. This is followed by m space-separated integers that make up the second list. Output the missing numbers in ascending order.| [missingNumbers.cpp](leet_code_problems/missingNumbers.cpp)|
 ### Graph Problems
 | Problem | Solution |
 | :------------ | :----------: |
