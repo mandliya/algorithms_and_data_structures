@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 120 |
-| Current Streak | 82 days |
-| Longest Streak | 82 ( August 17, 2015 - November 06, 2015 ) |
+| Total Problems | 121 |
+| Current Streak | 83 days |
+| Longest Streak | 83 ( August 17, 2015 - November 07, 2015 ) |
 
 </center>
 
@@ -196,7 +196,7 @@ Include contains single header implementation of data structures and some algori
 |Given n non-negative integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>, where each represents a point at coordinate (i, a<sub>i</sub>). n vertical lines are drawn such that the two endpoints of line i is at (i, a<sub>i</sub>) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water. Note: You may not slant the container.| [maxArea.cpp](leet_code_problems/maxArea.cpp)|
 | Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number. An example is the root-to-leaf path 1->2->3 which represents the number 123. Find the total sum of all root-to-leaf numbers. Example in solution comments | [sumRootToLeafNumbers.cpp](leet_code_problems/sumRootToLeafNumbers.cpp)|
 | Say you have an array for which the ith element is the price of a given stock on day i. If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.| [maxProfitStock.cpp](leet_code_problems/maxProfitStock.cpp)|
-
+| Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path. Note: You can only move either down or right at any point in time.| [minPath.cpp](leet_code_problems/minPath.cpp)|
 
 
 
