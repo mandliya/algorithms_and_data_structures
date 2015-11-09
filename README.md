@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 122 |
-| Current Streak | 84 days |
-| Longest Streak | 84 ( August 17, 2015 - November 08, 2015 ) |
+| Total Problems | 123 |
+| Current Streak | 85 days |
+| Longest Streak | 85 ( August 17, 2015 - November 09, 2015 ) |
 
 </center>
 
@@ -198,6 +198,7 @@ Include contains single header implementation of data structures and some algori
 | Say you have an array for which the ith element is the price of a given stock on day i. If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.| [maxProfitStock.cpp](leet_code_problems/maxProfitStock.cpp)|
 | Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path. Note: You can only move either down or right at any point in time.| [minPath.cpp](leet_code_problems/minPath.cpp)|
 | Count the number of prime numbers less than a non-negative number, n.| [countPrimes.cpp](leet_code_problems/countPrimes.cpp)|
+| Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers. Ensure that numbers within the set are sorted in ascending order. Example : for k = 3, n = 9 result would be [[1,2,6], [1,3,5], [2,3,4]], similarly for k = 3, n = 7, result would be [[1,2,4]]. | [combinationSum3.cpp](leet_code_problems/combinationSum3.cpp) |
 
 
 
