@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 125 |
-| Current Streak | 86 days |
-| Longest Streak | 86 ( August 17, 2015 - November 10, 2015 ) |
+| Total Problems | 126 |
+| Current Streak | 87 days |
+| Longest Streak | 87 ( August 17, 2015 - November 11, 2015 ) |
 
 </center>
 
@@ -160,6 +160,7 @@ Include contains single header implementation of data structures and some algori
 | Given an array of positive and/or negative integers, find a pair in the array whose sum is closest to 0.| [findClosestPairToZero.cpp](sort_search_problems/findClosestPairToZero.cpp)|
 | Numeros, the Artist, had two lists A and B, such that B was a permutation of A. Numeros was very proud of these lists. Unfortunately, while transporting them from one exhibition to another, some numbers were left out of A. Can you find the missing numbers? Notes: <ul><li>If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.</li></ul><ul><li>You have to print all the missing numbers in ascending order.</li></ul><ul><li>Print each missing number once, even if it is missing multiple times.</li></ul><ul><li>The difference between maximum and minimum number in B is less than or equal to 100.</li></ul>. <ul><li> There will be four lines of input: n - the size of the first list, This is followed by n space-separated integers that make up the first list. m - the size of the second list. This is followed by m space-separated integers that make up the second list. Output the missing numbers in ascending order.| [missingNumbers.cpp](leet_code_problems/missingNumbers.cpp)|
 | Find the closest pair from two sorted arrays. Given two sorted arrays and a number x, find the pair whose sum is closest to x and the pair has an element from each array. We are given two arrays ar1[0…m-1] and ar2[0..n-1] and a number x, we need to find the pair ar1[i] + ar2[j] such that absolute value of (ar1[i] + ar2[j] – x) is minimum.| [closestPairSorted.cpp](sort_search_problems/closestPairSorted.cpp)|
+| Given an array A of n elements, find three indices i, j and k such that A[i]^2 + A[j]^2 = A[K]^2. O(n2) time complexity and O(1) space complexity | [squareSum.cpp](sort_search_problems/squareSum.cpp)|
 ### Graph Problems
 | Problem | Solution |
 | :------------ | :----------: |
@@ -200,8 +201,7 @@ Include contains single header implementation of data structures and some algori
 | Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path. Note: You can only move either down or right at any point in time.| [minPath.cpp](leet_code_problems/minPath.cpp)|
 | Count the number of prime numbers less than a non-negative number, n.| [countPrimes.cpp](leet_code_problems/countPrimes.cpp)|
 | Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers. Ensure that numbers within the set are sorted in ascending order. Example : for k = 3, n = 9 result would be [[1,2,6], [1,3,5], [2,3,4]], similarly for k = 3, n = 7, result would be [[1,2,4]]. | [combinationSum3.cpp](leet_code_problems/combinationSum3.cpp) |
-| Given a non-negative integer num, repeatedly add all its digits until the result has only one digit. For example: Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it. Follow up:
-Could you do it without any loop/recursion in O(1) runtime?| [addDigits.cpp](leet_code_problems/addDigits.cpp)|
+| Given a non-negative integer num, repeatedly add all its digits until the result has only one digit. For example: Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it. Follow up: Could you do it without any loop/recursion in O(1) runtime?| [addDigits.cpp](leet_code_problems/addDigits.cpp)|
 
 
 
