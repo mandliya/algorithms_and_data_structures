@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 126 |
-| Current Streak | 87 days |
-| Longest Streak | 87 ( August 17, 2015 - November 11, 2015 ) |
+| Total Problems | 127 |
+| Current Streak | 88 days |
+| Longest Streak | 88 ( August 17, 2015 - November 12, 2015 ) |
 
 </center>
 
@@ -161,6 +161,7 @@ Include contains single header implementation of data structures and some algori
 | Numeros, the Artist, had two lists A and B, such that B was a permutation of A. Numeros was very proud of these lists. Unfortunately, while transporting them from one exhibition to another, some numbers were left out of A. Can you find the missing numbers? Notes: <ul><li>If a number occurs multiple times in the lists, you must ensure that the frequency of that number in both lists is the same. If that is not the case, then it is also a missing number.</li></ul><ul><li>You have to print all the missing numbers in ascending order.</li></ul><ul><li>Print each missing number once, even if it is missing multiple times.</li></ul><ul><li>The difference between maximum and minimum number in B is less than or equal to 100.</li></ul>. <ul><li> There will be four lines of input: n - the size of the first list, This is followed by n space-separated integers that make up the first list. m - the size of the second list. This is followed by m space-separated integers that make up the second list. Output the missing numbers in ascending order.| [missingNumbers.cpp](leet_code_problems/missingNumbers.cpp)|
 | Find the closest pair from two sorted arrays. Given two sorted arrays and a number x, find the pair whose sum is closest to x and the pair has an element from each array. We are given two arrays ar1[0…m-1] and ar2[0..n-1] and a number x, we need to find the pair ar1[i] + ar2[j] such that absolute value of (ar1[i] + ar2[j] – x) is minimum.| [closestPairSorted.cpp](sort_search_problems/closestPairSorted.cpp)|
 | Given an array A of n elements, find three indices i, j and k such that A[i]^2 + A[j]^2 = A[K]^2. O(n2) time complexity and O(1) space complexity | [squareSum.cpp](sort_search_problems/squareSum.cpp)|
+| Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted. |[minLengthUnsortedArray.cpp](sort_search_problems/minLengthUnsortedArray.cpp)|
 ### Graph Problems
 | Problem | Solution |
 | :------------ | :----------: |
