@@ -162,7 +162,7 @@ Include contains single header implementation of data structures and some algori
 | Find the closest pair from two sorted arrays. Given two sorted arrays and a number x, find the pair whose sum is closest to x and the pair has an element from each array. We are given two arrays ar1[0…m-1] and ar2[0..n-1] and a number x, we need to find the pair ar1[i] + ar2[j] such that absolute value of (ar1[i] + ar2[j] – x) is minimum.| [closestPairSorted.cpp](sort_search_problems/closestPairSorted.cpp)|
 | Given an array A of n elements, find three indices i, j and k such that A[i]^2 + A[j]^2 = A[K]^2. O(n2) time complexity and O(1) space complexity | [squareSum.cpp](sort_search_problems/squareSum.cpp)|
 | Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted. |[minLengthUnsortedArray.cpp](sort_search_problems/minLengthUnsortedArray.cpp)|
-| Find the missing number in Arithmetic Progression | [missingNumber.cpp](sort_search_problems/missingNumber.cpp) |
+| Find the missing number in Arithmetic Progression | [missingNumber2.cpp](sort_search_problems/missingNumber2.cpp) |
 ### Graph Problems
 | Problem | Solution |
 | :------------ | :----------: |
