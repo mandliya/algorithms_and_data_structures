@@ -6,9 +6,9 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 128 |
-| Current Streak | 89 days |
-| Longest Streak | 89 ( August 17, 2015 - November 13, 2015 ) |
+| Total Problems | 129 |
+| Current Streak | 90 days |
+| Longest Streak | 90 ( August 17, 2015 - November 14, 2015 ) |
 
 </center>
 
@@ -154,6 +154,7 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | Given a sorted vector, return first index of the occurrence of a value in vector, if number does not exist, return -1 | [first_occurrence_binary_search.cpp](sort_search_problems/first_occurrence_binary_search.cpp) |
+| Find the first repeating element in an array of integers. Given an array of integers, find the first repeating element in it. We need to find the element that occurs more than once and whose index of first occurrence is smallest.| [firstRepeatingElement.cpp](sort_search_problems/firstRepeatingElement.cpp)|
 | Given a list of unsorted integers, A={a<sub>1</sub>,a<sub>2</sub>,…,a<sub>N</sub>}, Find the pair of elements that have the smallest absolute difference between them? If there are multiple pairs, find them all.| [closest_numbers.cpp](sort_search_problems/closest_numbers.cpp)|
 | Given a sorted array, determine index of fixed point in this array. If array does not have a fixed point return -1. An array has a fixed point when index of the element is same as index i.e. i == arr[i], Expected time complexity O(logn)| [fixedPoint.cpp](sort_search_problems/fixedPoint.cpp)|
 | Find the maximum element in an array which is first increasing and then decreasing. Input: arr[] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}, output : 500. Array may be strictly increasing or decreasing as well. ExpectedTime complexity is O(logn).| [findMaximum.cpp](sort_search_problems/findMaximum.cpp)|
