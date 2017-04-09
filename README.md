@@ -20,7 +20,7 @@
 | Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp)|
 | Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp)|
 | Given a linked list, reverse alternate nodes and append at the end. | [reverseAlternateNodes.cpp](linked_list_problems/reverseAlternateNodes.cpp) |
-| Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
+ | Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
 | Delete the entire linkedlist. | [deleteLinkedlist.cpp](linked_list_problems/deleteLinkedlist.cpp)|
 | Print middle node of linkedlist without iterating twice. | [printMiddleNode.cpp](linked_list_problems/printMiddleNode.cpp) | | Detecting and removing a cycle in linkedlist.| [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp)|
 | Determine if a linked list is a pallindrome. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
@@ -40,18 +40,19 @@ Include contains single header implementation of data structures and some algori
 | Generic Macros and Algorithms like swap, random number generation | [generic.h](include/generic.h) |
 | Generic Stack Implementation | [stack.h](include/stack.h) |
 | Generic Queue Implementation | [queue.h](include/queue.h) |
-| Generic List Implementation  | [list.h] (include/list.h)  |
-| Binary Search Tree Implementation | [binarySearchTree.h] (include/binarySearchTree.h)
-| Quick Sort Implementation | [quickSort.h] (include/quickSort.h) |
-| Merge Sort Implementation | [mergeSort.h] (include/bubbleSort.h)|
-| Selection Sort Implementation | [selectionSort.h] (include/selectionSort.h) |
-| Bubble Sort Implementation | [bubbleSort.h] (include/bubbleSort.h) |
+| Generic List Implementation  | [list.h](include/list.h)  |
+| Binary Search Tree Implementation | [binarySearchTree.h](include/binarySearchTree.h) |
+| Quick Sort Implementation | [quickSort.h](include/quickSort.h) |
+| Merge Sort Implementation | [mergeSort.h](include/bubbleSort.h)|
+| Selection Sort Implementation | [selectionSort.h](include/selectionSort.h) |
+| Bubble Sort Implementation | [bubbleSort.h](include/bubbleSort.h) |
 | Linux Kernel Double LinkedList Implementation | [double_linked_list.h](include/double_linked_list.h) |
 | Generic Graph Implementation (Adjacency List) | [graph.h](include/graph.h) |
 | Heap Sort Implementation | [heap_sort.h](include/heap_sort.h)|
 | My own string library implementation | [pstring.h](include/pstring.h) [pstring.cpp](include/pstring.cpp)|
 
-###Bit Manipulation Problems
+### Bit Manipulation Problems
+
 | Problem | Solution |
 | :------------ | :----------: |
 | Determine if a number is a power of 2. | [power_of_2.cpp](bit_manipulation/power_of_2.cpp) |
@@ -67,8 +68,14 @@ Include contains single header implementation of data structures and some algori
 | Given two integers, determine if their sum would be interger overflow.| [integerOverflow.cpp](bit_manipulation/integerOverflow.cpp)|
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
 | Given a number x and two positions (from right side) in binary representation of x, write a function that swaps n right bits at given two positions and returns the result. It is also given that the two sets of bits do not overlap.|[swapSetOfBits.cpp](bit_manipulation/swapSetOfBits.cpp)|
-| Add two numbers without using any arithmetic operators | [addition_without_operators.cpp](bit_manipulation/addition_without_operators.cpp)
-| Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations: <ul><li>If N is not a power of 2, reduce the counter by the largest power of 2 less than N.</li></ul><ul><li>If N is a power of 2, reduce the counter by half of N.</li></ul> The resultant value is the new N which is again used for subsequent operations.The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins. <ul><li> Given N, your task is to find the winner of the game. If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.</li></ul><ul><li>Input Format : -The first line contains an integer T, the number of testcases. T lines follow. Each line contains N, the initial number set in the counter.|[counter_game.cpp](bit_manipulation/counter_game.cpp)| 
+| Add two numbers without using any arithmetic operators | [addition_without_operators.cpp](bit_manipulation/addition_without_operators.cpp)|
+
+Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations: <ul><li>If N is not a power of 2, reduce the counter by the largest power of 2 less than N.</li></ul><ul><li>If N is a power of 2, reduce the counter by half of N.</li></ul> The resultant value is the new N which is again used for subsequent operations.The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins. <ul><li> Given N, your task is to find the winner of the game. If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.</li></ul><ul><li>Input Format : -The first line contains an integer T, the number of testcases. T lines follow. Each line contains N, the initial number set in the counter.
+
+
+
+Solution: [counter_game.cpp](bit_manipulation/counter_game.cpp)
+
 
 ### Cracking the coding interview problems
 | Problem | Solution |
@@ -93,7 +100,7 @@ Include contains single header implementation of data structures and some algori
 | Problem 2-7: Determine if two singly linked list intersect, if yes, return the intersecting node. The intersection is defined based on reference not on values|[2-7-intersection.cpp](cracking_the_coding_interview_problems/2-7-intersection.cpp)|
 | Problem 2-8: Detect if the linked list have a loop, Find the start node of the loop and remove the loop| [2-8-loop-detection.cpp](cracking_the_coding_interview_problems/2-8-loop-detection.cpp)
 
-###Dynamic Programming Problems
+### Dynamic Programming Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | N<sup>th</sup> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
@@ -134,12 +141,12 @@ Include contains single header implementation of data structures and some algori
 | Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_algo_problems/array_rotation.cpp)
 | Given an array of repeating/non-repeating intergeres, determine the first non-repeating int in this array | [first_non_repeating_int.cpp](common_ds_algo_problems/first_non_repeating_int.cpp)|
 | In Quantumland, there are n cities numbered from 1 to n. Here, c<sub>i</sub> denotes the i<sup>th</sup> city. There are n−1 roads in Quantumland. Here, c<sub>i</sub> and c<sub>i+1</sub> have a bidirectional road between them for each i < n.There is a rumor that Flatland is going to attack Quantumland, and the queen wants to keep her land safe. The road between c<sub>i</sub> and c<sub>i+1</sub> is safe if there is a guard in c<sub>i</sub> or c<sub>i+1</sub>. The queen has already placed a few guards in some of the cities, but she is not sure if they are enough to keep the roads safe. She wants to know the minimum number of new guards she needs to hire. See comments in solution for input/output details. | [save_quantamland.cpp](common_ds_algo_problems/save_quantumland.cpp)|
-| You are given an integer N. Find the digits in this number that exactly divide N (division that leaves 0 as remainder) and display their count. For N=24, there are 2 digits (2 & 4). Both of these digits exactly divide 24. So our answer is 2. See more details in header comment of the solution file. | [findDigits.cpp](common_ds_algo_problems/findDigits.cpp]|
+| You are given an integer N. Find the digits in this number that exactly divide N (division that leaves 0 as remainder) and display their count. For N=24, there are 2 digits (2 & 4). Both of these digits exactly divide 24. So our answer is 2. See more details in header comment of the solution file. | [findDigits.cpp](common_ds_algo_problems/findDigits.cpp)|
 
 ### Math Problems
 | Problem | Solution |
 | :------------ | :----------: |
-|  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp] (math_problems/string_permutations.cpp) |
+|  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp](math_problems/string_permutations.cpp) |
 | Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
 | Implement pow(x,y) using divide and conquer approach. Try implementing it in O(logn)| [pow.cpp](math_problems/pow.cpp)|
 | Calculate factorial of large number, say 100 (it will have 158 digits) |[factorial_of_large_num.cpp](math_problems/factorial_of_large_num.cpp)|
@@ -174,7 +181,7 @@ Include contains single header implementation of data structures and some algori
 | Calculate total weight of Minimum Spanning Tree of a given graph ( sum of weights of edges which forms MST) using Prim's algorithm | [primsMST.cpp](graph_problems/primsMST.cpp)|
 | Print Minimum Spanning Tree( MST ) of a given graph using Kruskal's algorithm.| [kruskalMST.cpp](graph_problems/kruskalMST.cpp)|
 
-###Greedy Problems
+### Greedy Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | Given two integer arrays, A and B, each containing N integers. You are free to permute the order of the elements in the arrays. Is there an permutation A', B' possible of A and B, such that, A'<sub>i</sub>+B'<sub>i</sub> ≥ K for all i, where A'<sub>i</sub> denotes the i<sup>th</sup> element in the array A' and B'<sub>i</sub> denotes i<sup>th</sup> element in the array B'.| [two_arrays.cpp](greedy_problems/two_arrays.cpp)|
