@@ -69,12 +69,7 @@ Include contains single header implementation of data structures and some algori
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
 | Given a number x and two positions (from right side) in binary representation of x, write a function that swaps n right bits at given two positions and returns the result. It is also given that the two sets of bits do not overlap.|[swapSetOfBits.cpp](bit_manipulation/swapSetOfBits.cpp)|
 | Add two numbers without using any arithmetic operators | [addition_without_operators.cpp](bit_manipulation/addition_without_operators.cpp)|
-
-Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations: <ul><li>If N is not a power of 2, reduce the counter by the largest power of 2 less than N.</li></ul><ul><li>If N is a power of 2, reduce the counter by half of N.</li></ul> The resultant value is the new N which is again used for subsequent operations.The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins. <ul><li> Given N, your task is to find the winner of the game. If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.</li></ul><ul><li>Input Format : -The first line contains an integer T, the number of testcases. T lines follow. Each line contains N, the initial number set in the counter.
-
-
-
-Solution: [counter_game.cpp](bit_manipulation/counter_game.cpp)
+|Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations: <ul><li>If N is not a power of 2, reduce the counter by the largest power of 2 less than N.</li></ul><ul><li>If N is a power of 2, reduce the counter by half of N.</li></ul> The resultant value is the new N which is again used for subsequent operations.The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins. <ul><li> Given N, your task is to find the winner of the game. If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.</li></ul><ul><li>Input Format : -The first line contains an integer T, the number of testcases. T lines follow. Each line contains N, the initial number set in the counter.</ul></li> |[counter_game.cpp](bit_manipulation/counter_game.cpp)|
 
 
 ### Cracking the coding interview problems
@@ -187,7 +182,7 @@ Solution: [counter_game.cpp](bit_manipulation/counter_game.cpp)
 | Given two integer arrays, A and B, each containing N integers. You are free to permute the order of the elements in the arrays. Is there an permutation A', B' possible of A and B, such that, A'<sub>i</sub>+B'<sub>i</sub> ≥ K for all i, where A'<sub>i</sub> denotes the i<sup>th</sup> element in the array A' and B'<sub>i</sub> denotes i<sup>th</sup> element in the array B'.| [two_arrays.cpp](greedy_problems/two_arrays.cpp)|
 |John is taking orders. The i<sup>th</sup> order is placed by the i<sup>th</sup> customer at t<sub>i</sub> time and it takes d<sub>i</sub> time to procees. What is the order in which the customers will get their orders? (see more details in solutions's comments)|[orders_order.cpp](greedy_problems/orders_order.cpp)|
 
-###Leet code Problems
+### Leet code Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | Given a sorted integer array without duplicates, return the summary of its ranges. For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].| [summary_ranges.cpp](leet_code_problems/summary_ranges.cpp)|
