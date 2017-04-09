@@ -15,9 +15,9 @@
 ### LinkedList Problems
 | Problem | Solution |
 | :------------ | :----------: |
-| Find the nth node of linked list from last. | [nthToLastNode.cpp] (linked_list_problems/nthToLastNode.cpp) |
-| Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp] (linked_list_problems/add_two_numbers_lists.cpp) |
-| Swap nodes of a linkedlist without swapping data. | [swapNodesWithoutSwappingData.cpp] (linked_list_problems/swapNodesWithoutSwappingData.cpp) |
+| Find the nth node of linked list from last. |[nthToLastNode.cpp](linked_list_problems/nthToLastNode.cpp) |
+| Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp](linked_list_problems/add_two_numbers_lists.cpp) |
+| Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp)|
 | Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp)|
 | Given a linked list, reverse alternate nodes and append at the end. | [reverseAlternateNodes.cpp](linked_list_problems/reverseAlternateNodes.cpp) |
 | Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
@@ -28,9 +28,9 @@
 | Determine the intersection(merging) point of two given linked list.| [findIntersectionPointOfLists.cpp](linked_list_problems/findIntersectionPointOfLists.cpp)|
 | Clone a linkedlist which has next and an random pointer, Space Complexity - O(1). | [cloneListWithRandomPtr.cpp](linked_list_problems/cloneListWithRandomPtr.cpp)|
 | Given a sorted linked list with duplicates, remove duplicates in one iteration. | [removeDuplicatesFromSortedList.cpp](linked_list_problems/removeDuplicatesFromSortedList.cpp)| 
-| Using Floyd's cycle finding algorithm, detect if a linkedlist contain cycle, if it does contain cycle, remove the loop | [floyedCycleDetection.cpp] (linked_list_problems/floyedCycleDetection.cpp) |
-| Sort a linked list using merge sort | [merge_sort.cpp] (linked_list_problems/merge_sort.cpp) |
-| Given a singly linked list L<sub>0</sub> -> L<sub>1</sub> -> … -> L<sub>n-1</sub> -> L<sub>n</sub>. Rearrange the nodes in the list (in place) so that the new formed list is : L<sub>0</sub> -> L<sub>n</sub> -> L<sub>1</sub> -> L<sub>n-1</sub> -> L<sub>2</sub> -> L<sub>n-2<sub> ....| [rearrange_list.cpp](linked_list_problems/rearrange_list.cpp)|
+| Using Floyd's cycle finding algorithm, detect if a linkedlist contain cycle, if it does contain cycle, remove the loop | [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp) |
+| Sort a linked list using merge sort | [merge_sort.cpp](linked_list_problems/merge_sort.cpp) |
+| Given a singly linked list L<sub>0</sub> -> L<sub>1</sub> -> … -> L<sub>n-1</sub> -> L<sub>n</sub>. Rearrange the nodes in the list (in place) so that the new formed list is : L<sub>0</sub> -> L<sub>n</sub> -> L<sub>1</sub> -> L<sub>n-1</sub> -> L<sub>2</sub> -> L<sub>n-2<sub> .... |[rearrange_list.cpp](linked_list_problems/rearrange_list.cpp ) | 
 
 ### Include
 Include contains single header implementation of data structures and some algorithms.
@@ -40,7 +40,7 @@ Include contains single header implementation of data structures and some algori
 | Generic Macros and Algorithms like swap, random number generation | [generic.h](include/generic.h) |
 | Generic Stack Implementation | [stack.h](include/stack.h) |
 | Generic Queue Implementation | [queue.h](include/queue.h) |
-| Generic List Implementation  | [list.h] (include/list.h) |
+| Generic List Implementation  | [list.h] (include/list.h)  |
 | Binary Search Tree Implementation | [binarySearchTree.h] (include/binarySearchTree.h)
 | Quick Sort Implementation | [quickSort.h] (include/quickSort.h) |
 | Merge Sort Implementation | [mergeSort.h] (include/bubbleSort.h)|
