@@ -1,6 +1,9 @@
 /*
  * Encrypts a plain text to decrypts an encrypted text back to plain using Caeser Cipher.
- * Example:
+ * It is a type of substitution cipher in which each letter in the plaintext is replaced by a
+ * letter some fixed number of positions down the alphabet. For example, with a left shift of 3,
+ * D would be replaced by A, E would become B, and so on.
+ * The method is named after Julius Caesar, who used it in his private correspondence
  * Enter plain text:the brown fox jumped over the lazy dog
  * Enter shift length:24
  * Encrypted text:rfc zpmul dmv hskncb mtcp rfc jyxw bme
