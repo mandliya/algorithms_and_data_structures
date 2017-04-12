@@ -119,7 +119,7 @@ Include contains single header implementation of data structures and some algori
 | Given a binary tree, generate sum of each vertical column.|[verticalSum.cpp](tree_problems/verticalSum.cpp)|
 | Given a binary tree and key, node with key exists in tree. Find all the ancestors of the node with key, ancestor here are the nodes which are in straight path from node to root.| [node_ancestors_in_root_path.cpp](tree_problems/node_ancestors_in_root_path.cpp)|
 | Given a binary tree and key, return the level of the node with key. Root is at level 1, and if node with key does not exists in tree, return 0| [level_of_node.cpp](tree_problems/level_of_node.cpp)|
-
+| Given a binary tree, find all the paths from root to nodes, whose sum is k. | [k_sum_paths.cpp](tree_problems/k_sum_paths.cpp)|
 
 ### String Problems
 | Problem | Solution |
