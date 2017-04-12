@@ -1,4 +1,4 @@
-## Data Structure and Algorithms Problems
+4## Data Structure and Algorithms Problems
 
 <center>
 
@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 133 |
-| Current Streak | 3 days |
+| Total Problems | 134 |
+| Current Streak | 4 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
