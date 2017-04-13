@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 134 |
-| Current Streak | 4 days |
+| Total Problems | 135 |
+| Current Streak | 5 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
