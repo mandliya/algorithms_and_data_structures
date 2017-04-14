@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 135 |
-| Current Streak | 5 days |
+| Total Problems | 136 |
+| Current Streak | 6 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -170,6 +170,7 @@ Include contains single header implementation of data structures and some algori
 | Given an array A of n elements, find three indices i, j and k such that A[i]^2 + A[j]^2 = A[K]^2. O(n2) time complexity and O(1) space complexity | [squareSum.cpp](sort_search_problems/squareSum.cpp)|
 | Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted. |[minLengthUnsortedArray.cpp](sort_search_problems/minLengthUnsortedArray.cpp)|
 | Find the missing number in Arithmetic Progression | [missingNumber2.cpp](sort_search_problems/missingNumber2.cpp) |
+| Find the common elements in 3 sorted arrays | [commonIn3Arrays.cpp](sort_search_problems/commonIn3Arrays.cpp) |
 ### Graph Problems
 | Problem | Solution |
 | :------------ | :----------: |
