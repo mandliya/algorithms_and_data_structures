@@ -130,8 +130,7 @@ Include contains single header implementation of data structures and some algori
 | Test cases for self created string library | [pstring_test.cpp](string_problems/pstring_test.cpp)|
 
 ### Common Data Structure and logic problems
-| Problem | Solution |
-| :------------ | :----------: |
+| Problem | Solution || :------------ | :----------: |
 | Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](common_ds_algo_problems/matrix_spiral_print.cpp)
 | Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](common_ds_algo_problems/rotate_matrix.cpp)|
 | Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_algo_problems/array_rotation.cpp)
@@ -141,8 +140,7 @@ Include contains single header implementation of data structures and some algori
 | Encrypt and then decrypts a text using Caeser Cipher. | [caeser_cipher.cpp](common_ds_algo_problems/caeser_cipher.cpp)|
 | Encrypt and then decrypts a text using Vigenère cipher. | [vigenere_cipher.cpp](common_ds_algo_problems/vigenere_cipher.cpp)|
 
-### Math Problems
-| Problem | Solution |
+### Math Problems| Problem | Solution |
 | :------------ | :----------: |
 |  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp](math_problems/string_permutations.cpp) |
 | Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
@@ -170,7 +168,8 @@ Include contains single header implementation of data structures and some algori
 | Given an array A of n elements, find three indices i, j and k such that A[i]^2 + A[j]^2 = A[K]^2. O(n2) time complexity and O(1) space complexity | [squareSum.cpp](sort_search_problems/squareSum.cpp)|
 | Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted. |[minLengthUnsortedArray.cpp](sort_search_problems/minLengthUnsortedArray.cpp)|
 | Find the missing number in Arithmetic Progression | [missingNumber2.cpp](sort_search_problems/missingNumber2.cpp) |
-| Find the common elements in 3 sorted arrays | [commonIn3Arrays.cpp](sort_search_problems/commonIn3Arrays.cpp) |
+| Find the common elements in 3 sorted vectors | [commonIn3Arrays.cpp](sort_search_problems/commonIn3Arrays.cpp) |
+
 ### Graph Problems
 | Problem | Solution |
 | :------------ | :----------: |
