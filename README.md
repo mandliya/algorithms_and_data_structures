@@ -1,4 +1,4 @@
-4## Data Structure and Algorithms Problems
+## Data Structure and Algorithms Problems
 
 <center>
 
@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 136 |
-| Current Streak | 6 days |
+| Total Problems | 137 |
+| Current Streak | 1 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -169,6 +169,7 @@ Include contains single header implementation of data structures and some algori
 | Given an unsorted array arr[0..n-1] of size n, find the minimum length subarray arr[s..e] such that sorting this subarray makes the whole array sorted. |[minLengthUnsortedArray.cpp](sort_search_problems/minLengthUnsortedArray.cpp)|
 | Find the missing number in Arithmetic Progression | [missingNumber2.cpp](sort_search_problems/missingNumber2.cpp) |
 | Find the common elements in 3 sorted vectors | [commonIn3Arrays.cpp](sort_search_problems/commonIn3Arrays.cpp) |
+| Find all the pairs with a given sum in an unsorted array/vector | [find_pairs_with_sum.cpp](sort_search_problems/find_pairs_with_sum.cpp) |
 
 ### Graph Problems
 | Problem | Solution |
