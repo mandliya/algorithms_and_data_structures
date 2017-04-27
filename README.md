@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 140 |
-| Current Streak | 4 days |
+| Total Problems | 141 |
+| Current Streak | 5 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -72,6 +72,7 @@ Include contains single header implementation of data structures and some algori
 |Louise and Richard play a game. They have a counter set to N. Louise gets the first turn and the turns alternate thereafter. In the game, they perform the following operations: <ul><li>If N is not a power of 2, reduce the counter by the largest power of 2 less than N.</li></ul><ul><li>If N is a power of 2, reduce the counter by half of N.</li></ul> The resultant value is the new N which is again used for subsequent operations.The game ends when the counter reduces to 1, i.e., N == 1, and the last person to make a valid move wins. <ul><li> Given N, your task is to find the winner of the game. If they set counter to 1, Richard wins, because its Louise' turn and she cannot make a move.</li></ul><ul><li>Input Format : -The first line contains an integer T, the number of testcases. T lines follow. Each line contains N, the initial number set in the counter.</ul></li> |[counter_game.cpp](bit_manipulation/counter_game.cpp)|
 |Determine if two integers are of opposite signs.|[check_opposite_signs.cpp](bit_manipulation/check_opposite_signs.cpp)|
 |Swap two bits at position p and q of a given integer.| [swapBits.cpp](bit_manipulation/swapBits.cpp)|
+|Check if a number is power of 4. | [check_if_power_of_4.cpp](bit_manipulation/check_if_power_of_4.cpp)|
 
 
 ### Cracking the coding interview problems
