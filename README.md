@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 141 |
-| Current Streak | 5 days |
+| Total Problems | 142 |
+| Current Streak | 6 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -124,6 +124,7 @@ Include contains single header implementation of data structures and some algori
 | Given a binary tree, find all the paths from root to nodes, whose sum is k. | [k_sum_paths.cpp](tree_problems/k_sum_paths.cpp)|
 | Given a binary tree, print its nodes level by level in reverse order. i.e. all nodes present at last level should be printed first followed by nodes of second-last level and so on.. All nodes for any level should be printed from left to right. | [reverseLevelOrderTraversal.cpp](tree_problems/reverseLevelOrderTraversal.cpp) |
 | Invert a binary tree, recursively and iteratively.| [invert_a_tree.cpp](tree_problems/invert_a_tree.cpp) |
+| Given a Binary Search Tree, find ceil and floor of a given key in it. If the given key lie in the BST, then both floor and ceil is equal to that key, else ceil is equal to next greater key (if any) in the BST and floor is equal to previous greater key (if any) in the BST | [floor_ceil_bst.cpp](tree_problems/floor_ceil_bst.cpp) |
 
 ### String Problems
 | Problem | Solution |
