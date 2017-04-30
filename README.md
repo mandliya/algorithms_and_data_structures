@@ -135,7 +135,8 @@ Include contains single header implementation of data structures and some algori
 | Test cases for self created string library | [pstring_test.cpp](string_problems/pstring_test.cpp)|
 
 ### Common Data Structure and logic problems
-| Problem | Solution || :------------ | :----------: |
+| Problem | Solution |
+| :------------ | :----------: |
 | Print the contents of matrix in a spiral order | [matrix_spiral_print.cpp](common_ds_algo_problems/matrix_spiral_print.cpp)
 | Given a M x N matrix, rotate it by R rotations anticlockwise, and show the resulting matrix. | [rotate_matrix.cpp](common_ds_algo_problems/rotate_matrix.cpp)|
 | Rotate an array by r elements ( left or right ) | [array_rotation.cpp](common_ds_algo_problems/array_rotation.cpp)
@@ -144,9 +145,10 @@ Include contains single header implementation of data structures and some algori
 | You are given an integer N. Find the digits in this number that exactly divide N (division that leaves 0 as remainder) and display their count. For N=24, there are 2 digits (2 & 4). Both of these digits exactly divide 24. So our answer is 2. See more details in header comment of the solution file. | [findDigits.cpp](common_ds_algo_problems/findDigits.cpp)|
 | Encrypt and then decrypts a text using Caeser Cipher. | [caeser_cipher.cpp](common_ds_algo_problems/caeser_cipher.cpp)|
 | Encrypt and then decrypts a text using Vigenère cipher. | [vigenere_cipher.cpp](common_ds_algo_problems/vigenere_cipher.cpp)|
-| Generate binary numbers between 1 to N efficiently. | [n_binary.cpp](common_ds_algo_problems/n_binary.cpp)|
+| Generate binary numbers between 1 to N efficiently. |[n_binary.cpp](common_ds_algo_problems/n_binary.cpp)|
 
-### Math Problems| Problem | Solution |
+### Math Problems
+| Problem | Solution |
 | :------------ | :----------: |
 |  Print all the permutations of a string. Example: Permutations of ABC are ABC, ACB, BCA, BAC, CAB, CBA | [string_permutations.cpp](math_problems/string_permutations.cpp) |
 | Euclidean algorithm to find greatest common divisor of two numbers. (Iterative and recursive)|[gcd.cpp](math_problems/gcd.cpp)|
