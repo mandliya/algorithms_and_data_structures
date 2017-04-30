@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 143 |
-| Current Streak | 7 days |
+| Total Problems | 144 |
+| Current Streak | 8 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -144,6 +144,7 @@ Include contains single header implementation of data structures and some algori
 | You are given an integer N. Find the digits in this number that exactly divide N (division that leaves 0 as remainder) and display their count. For N=24, there are 2 digits (2 & 4). Both of these digits exactly divide 24. So our answer is 2. See more details in header comment of the solution file. | [findDigits.cpp](common_ds_algo_problems/findDigits.cpp)|
 | Encrypt and then decrypts a text using Caeser Cipher. | [caeser_cipher.cpp](common_ds_algo_problems/caeser_cipher.cpp)|
 | Encrypt and then decrypts a text using Vigenère cipher. | [vigenere_cipher.cpp](common_ds_algo_problems/vigenere_cipher.cpp)|
+| Generate binary numbers between 1 to N efficiently. | [n_binary.cpp](common_ds_algo_problems/n_binary.cpp)|
 
 ### Math Problems| Problem | Solution |
 | :------------ | :----------: |
