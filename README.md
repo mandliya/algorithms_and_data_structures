@@ -178,6 +178,7 @@ Include contains single header implementation of data structures and some algori
 | Find the missing number in Arithmetic Progression | [missingNumber2.cpp](sort_search_problems/missingNumber2.cpp) |
 | Find the common elements in 3 sorted vectors | [commonIn3Arrays.cpp](sort_search_problems/commonIn3Arrays.cpp) |
 | Find all the pairs with a given sum in an unsorted array/vector | [find_pairs_with_sum.cpp](sort_search_problems/find_pairs_with_sum.cpp) |
+| Given an array, find peak element in it. A peak element is an element that is greater than its neighbors.| [peak_element.cpp](sort_search_problems/peak_element.cpp) |
 
 ### Graph Problems
 | Problem | Solution |
