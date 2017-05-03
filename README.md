@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 145 |
-| Current Streak | 9 days |
+| Total Problems | 146 |
+| Current Streak | 10 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -146,6 +146,7 @@ Include contains single header implementation of data structures and some algori
 | Encrypt and then decrypts a text using Caeser Cipher. | [caeser_cipher.cpp](common_ds_algo_problems/caeser_cipher.cpp)|
 | Encrypt and then decrypts a text using Vigenère cipher. | [vigenere_cipher.cpp](common_ds_algo_problems/vigenere_cipher.cpp)|
 | Generate binary numbers between 1 to N efficiently. |[n_binary.cpp](common_ds_algo_problems/n_binary.cpp)|
+| Implement power function | [power_function.cpp](common_ds_algo_problems/power_function.cpp)|
 
 ### Math Problems
 | Problem | Solution |
