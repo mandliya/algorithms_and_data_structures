@@ -6,8 +6,8 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 147 |
-| Current Streak | 11 days |
+| Total Problems | 148 |
+| Current Streak | 12 days |
 | Longest Streak | 91 ( August 17, 2015 - November 15, 2015 ) |
 
 </center>
@@ -181,6 +181,8 @@ Include contains single header implementation of data structures and some algori
 | Find all the pairs with a given sum in an unsorted array/vector | [find_pairs_with_sum.cpp](sort_search_problems/find_pairs_with_sum.cpp) |
 | Given an array, find peak element in it. A peak element is an element that is greater than its neighbors.| [peak_element.cpp](sort_search_problems/peak_element.cpp) |
 | Given a sorted array of distinct non-negative integers, find smallest missing element in it.| [smallest_missing.cpp](sort_search_problems/smallest_missing.cpp)|
+| Move all zeros in the vector to the end | [move_zeros.cpp](sort_search_problems/move_zeros.cpp)|
+
 
 ### Graph Problems
 | Problem | Solution |
