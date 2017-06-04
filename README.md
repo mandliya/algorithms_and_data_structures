@@ -18,7 +18,7 @@
 | Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp)|
 | Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp)|
 | Given a linked list, reverse alternate nodes and append at the end. | [reverseAlternateNodes.cpp](linked_list_problems/reverseAlternateNodes.cpp) |
- | Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
+| Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
 | Delete the entire linkedlist. | [deleteLinkedlist.cpp](linked_list_problems/deleteLinkedlist.cpp)|
 | Print middle node of linkedlist without iterating twice. | [printMiddleNode.cpp](linked_list_problems/printMiddleNode.cpp) | | Detecting and removing a cycle in linkedlist.| [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp)|
 | Determine if a linked list is a pallindrome. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
@@ -33,7 +33,7 @@
 ### Include
 Include contains single header implementation of data structures and some algorithms.
 
-| DS/ALG |     Implementation   |
+| Data Structure/Algorithm |     Implementation   |
 | :------------: | :----------: |
 | Generic Macros and Algorithms like swap, random number generation | [generic.h](include/generic.h) |
 | Generic Stack Implementation | [stack.h](include/stack.h) |
