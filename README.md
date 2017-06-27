@@ -226,7 +226,8 @@ Include contains single header implementation of data structures and some algori
 | Find all possible combinations of k numbers that add up to a number n, given that only numbers from 1 to 9 can be used and each combination should be a unique set of numbers. Ensure that numbers within the set are sorted in ascending order. Example : for k = 3, n = 9 result would be [[1,2,6], [1,3,5], [2,3,4]], similarly for k = 3, n = 7, result would be [[1,2,4]]. | [combinationSum3.cpp](leet_code_problems/combinationSum3.cpp) |
 | Given a non-negative integer num, repeatedly add all its digits until the result has only one digit. For example: Given num = 38, the process is like: 3 + 8 = 11, 1 + 1 = 2. Since 2 has only one digit, return it. Follow up: Could you do it without any loop/recursion in O(1) runtime?| [addDigits.cpp](leet_code_problems/addDigits.cpp) |
 | Given a matrix with cell values 0 or 1. Find the length of the shortest path from (a1, b1) to (a2, b2), such that path can only be constructed through cells which have value 1 and you can only travel in 4 possible directions, i.e. left, right, up and down.|[shortest_path_maze.cpp](leet_code_problems/shortest_path_maze.cpp) |
-
+| The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+Given two integers x and y, calculate the Hamming distance.| [hamming_distance.cpp](leet_code_problems/hamming_distance.cpp)|
 
 
 
