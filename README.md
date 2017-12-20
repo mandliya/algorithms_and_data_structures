@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 148 |
+| Total Problems | 160 |
 
 </center>
 
@@ -228,5 +228,6 @@ Include contains single header implementation of data structures and some algori
 | Given a matrix with cell values 0 or 1. Find the length of the shortest path from (a1, b1) to (a2, b2), such that path can only be constructed through cells which have value 1 and you can only travel in 4 possible directions, i.e. left, right, up and down.|[shortest_path_maze.cpp](leet_code_problems/shortest_path_maze.cpp) |
 | The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.| [hamming_distance.cpp](leet_code_problems/hamming_distance.cpp)|
 | Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge them into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of new tree.| [merge_trees.cpp](leet_code_problems/merge_trees.cpp)|
+| Write a function that takes a string as input and reverse only the vowels of a string.|[reverse_vowels.cpp](leet_code_problems/reverse_vowels.cpp)|
 
 
