@@ -28,4 +28,3 @@ foreach( sourcefile ${SOURCES} )
             continue()
 		endif()
 endforeach( sourcefile ${SOURCES} )
-
