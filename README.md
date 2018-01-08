@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 161 |
+| Total Problems | 162 |
 
 </center>
 
@@ -111,7 +111,7 @@ Include contains single header implementation of data structures and some algori
 |Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp)|
 |ZigZag Traversal of Tree | [zigZagTraversal.cpp](tree_problems/zigZagTraversal.cpp)|
 |Predecessor and Successor of a given node in Binary Search Tree | [predecessorSuccessor.cpp](tree_problems/predecessorSuccessor.cpp)|
-|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp)|
+|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp] (tree_problems/lowest-common-ancestor.cpp)|
 |Given a binary tree (unlike binary search tree), find the Lowest Common Ancestor (LCA).|[lowest-common-ancestor-binary-tree.cpp](tree_problems/lowest-common-ancestor-binary-tree.cpp)|
 |Given a binary tree, print out all of its root-to-leaf paths one per line.| [printAllRootToLeafPath.cpp](tree_problems/printAllRootToLeafPath.cpp)
 |Determine if a tree is sum tree. A SumTree is a Binary Tree where the value of a node is equal to sum of the nodes present in its left subtree and right subtree. An empty tree is SumTree and sum of an empty tree can be considered as 0. A leaf node is also considered as SumTree.| [sumTree.cpp](tree_problems/sumTree.cpp)|
@@ -124,6 +124,7 @@ Include contains single header implementation of data structures and some algori
 | Given a binary tree, print its nodes level by level in reverse order. i.e. all nodes present at last level should be printed first followed by nodes of second-last level and so on.. All nodes for any level should be printed from left to right. | [reverseLevelOrderTraversal.cpp](tree_problems/reverseLevelOrderTraversal.cpp) |
 | Invert a binary tree, recursively and iteratively.| [invert_a_tree.cpp](tree_problems/invert_a_tree.cpp) |
 | Given a Binary Search Tree, find ceil and floor of a given key in it. If the given key lie in the BST, then both floor and ceil is equal to that key, else ceil is equal to next greater key (if any) in the BST and floor is equal to previous greater key (if any) in the BST | [floor_ceil_bst.cpp](tree_problems/floor_ceil_bst.cpp) |
+| Find kth smallest element in a binary search tree | [kth_smallest.cpp](tree_problems/kth_smallest.cpp)|
 
 ### String Problems
 | Problem | Solution |
