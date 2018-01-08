@@ -36,7 +36,7 @@ int kthSmallest(TreeNode* root, int k)
     int count = countNodes(root->left);
     if (k <= count && root->left) {
         return kthSmallest(root->left, k);
-    } else if ( k + 1 >= count && root->right) {
+    } else if ( k > count + 1 && root->right) {
         return kthSmallest(root->right, k - count - 1);
     }
     return root->data;
