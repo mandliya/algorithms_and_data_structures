@@ -25,8 +25,18 @@
 #include <sstream>
 #include <string>
 
-#define MAX(a, b) ((a > b) ? a : b)
-#define MIN(a, b) ((a < b) ? a : b)
+
+template<typename T>
+T MAX(T a, T b)
+{
+    return ((a > b) ? a : b);
+}
+
+template<typename T>
+T MIN(T a, T b)
+{
+    return ((a < b) ? a : b);
+}
 
 namespace algo {
     // swap two elements
