@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 165 |
+| Total Problems | 166 |
 
 </center>
 
