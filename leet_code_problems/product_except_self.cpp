@@ -9,6 +9,14 @@
 #include <iostream>
 #include <vector>
 
+
+/*
+ * Idea is to maintain two product variables, one from beginning and 
+ * one from the end.
+ * Each result variable in result array
+ * would be touched twice, one from the left to right
+ * and other right to left, thus producing desired result.
+ */
 std::vector<int> product_except_self(const std::vector<int>& nums)
 {
     int product_from_beginning = 1;
