@@ -235,5 +235,6 @@ Include contains single header implementation of data structures and some algori
 | Write a function that takes a string as input and reverse only the vowels of a string.|[reverse_vowels.cpp](leet_code_problems/reverse_vowels.cpp)|
 | Given a string, sort it in decreasing order based on the frequency of characters.For example: <ul><li>Input: cccbbbbaa Output: bbbcccaa</li></ul>| [sortCharByFrequency.cpp](leet_code_problems/sortCharByFrequency.cpp)|
 |Product of Array Except Self. Given an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].| [product_except_self.cpp](leet_code_problems/product_except_self.cpp)|
+|Given a sorted array, remove duplicates in place and return the new length. It doesn't matter what is in array beyond the unique elements size. Expected O(1) space and O(n) time complexity.| [remove_duplicates.cpp](leet_code_problems/remove_duplicates.cpp) |
 
 
