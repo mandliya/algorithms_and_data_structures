@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 163 |
+| Total Problems | 164 |
 
 </center>
 
@@ -103,6 +103,8 @@ Include contains single header implementation of data structures and some algori
 | Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) |
 | Maximum Value Contigous Subsequence Problem [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem)| [max_subsequence.cpp](dynamic_programming_problems/max_subsequence.cpp)|
 | Catalan number - Count the number of possible Binary Search Trees with n keys | [catalan_number.cpp](dynamic_programming_problems/catalan_number.cpp)|
+| Calculate the number of unique paths from source origin (0, 0) to  destination (m-1, n-1) in a m x n grid. You can only move either in down or right direction.|
+[unique_paths.cpp](dynamic_programming_problems/unique_paths.cpp)|
 
 ### Tree Problems
 | Problem | Solution |
