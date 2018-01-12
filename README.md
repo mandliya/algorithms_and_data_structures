@@ -41,7 +41,7 @@ Include contains single header implementation of data structures and some algori
 | Generic List Implementation  | [list.h](include/list.h)  |
 | Binary Search Tree Implementation | [binarySearchTree.h](include/binarySearchTree.h) |
 | Quick Sort Implementation | [quickSort.h](include/quickSort.h) |
-| Merge Sort Implementation | [mergeSort.h](include/bubbleSort.h)|
+| Merge Sort Implementation | [mergeSort.h](include/mergeSort.h)|
 | Selection Sort Implementation | [selectionSort.h](include/selectionSort.h) |
 | Bubble Sort Implementation | [bubbleSort.h](include/bubbleSort.h) |
 | Linux Kernel Double LinkedList Implementation | [double_linked_list.h](include/double_linked_list.h) |
