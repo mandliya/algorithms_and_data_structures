@@ -2,7 +2,7 @@
  * Cracking the coding interview, edition 6
  * Problem 1.1
  * Write an algorithm to determine whether a string has unique characters or not
- * Can we do it without using addtional data structures?
+ * Can we do it without using additional data structures?
  */
 
 
