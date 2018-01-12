@@ -27,13 +27,6 @@
 #include <iostream>
 #include <vector>
 
-bool is_in_grid(const std::vector<std::vector<int> >& grid, int i, int j)
-{
-    int m = grid.size();
-    int n = grid[0].size();
-    return (i >= 0 && i < m && j >= 0 && j < n);
-}
-
 void depth_first_search(std::vector<std::vector<int> >& grid, int i, int j)
 {
     int m = grid.size();
