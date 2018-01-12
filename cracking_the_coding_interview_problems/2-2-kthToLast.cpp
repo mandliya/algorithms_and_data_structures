@@ -9,7 +9,7 @@
  *  1. Iterative:
  *  	 Use two pointers
  *  	 Move first pointer k places.
- *  	 Now move second pointer(from start) and first pointer (from k+1) simultanously.
+ *  	 Now move second pointer(from start) and first pointer (from k+1) simultaneously.
  *  	 When second pointer would have reached end, first pointer would be at kth node.
  *
  *  2. Recursive:

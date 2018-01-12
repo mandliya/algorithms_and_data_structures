@@ -1,7 +1,7 @@
 /**
  *  Problem : One line function to return the position of right most bit.
  *  Approach : take 2's compliment and it with number.
- *  And finally taking a log of 2  + 1 will give us the positon
+ *  And finally taking a log of 2  + 1 will give us the position
  */
 
 #include <iostream>

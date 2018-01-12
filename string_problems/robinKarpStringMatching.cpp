@@ -1,5 +1,5 @@
 /*
- * Given a string pattern(P) and large Text string (T), Write a function search( P , T) which provide all the occurances of P in T.
+ * Given a string pattern(P) and large Text string (T), Write a function search( P , T) which provide all the occurrences of P in T.
  * example : T => "AABAACAADAABAAABAA".
  *           P => "AABA"
  * Output : 0, 9, 13 ( all indices of T where pattern string P is starts to match.
@@ -10,7 +10,7 @@
  *         Lets have a hash function --> hash.
  *         Step 1 :We will calculate hash of Pattern P, lets say it is p
  *         Step 2 : Then we will calculate hash of text portion from T[0-->M-1]. lets say  t(0) 
- *         Step 3: if ( p == t(0) ) if they match, add it to list of occurances.
+ *         Step 3: if ( p == t(0) ) if they match, add it to list of occurrences.
  *         Step 4: Go back to step 2, and calculate t(1) i.e hash of T[1-->M] using t(0) in O(1).
  *
  *         The question remains, how do we calculate t(1) from t(0) in O(1), we do it using Horner's rule
