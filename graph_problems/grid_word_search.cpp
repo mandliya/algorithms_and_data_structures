@@ -23,8 +23,8 @@
  * Assumption: grid or word does not contain '$' char
  * 
  * Approach: We can use Depth First Search with backtracking to solve this.
- * We can search the grid to match the grid the first letter of search word
- * in the grid, and then apply depth first search on the grid.
+ * We can search the grid to match the first letter of search word
+ * in the grid, and then apply depth first search on the grid at that position.
  * Finding appropriate next characters in the search word at each depth while
  * searching sequentially in the four directions.
  * 
