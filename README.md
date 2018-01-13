@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 167 |
+| Total Problems | 168 |
 
 </center>
 
@@ -197,12 +197,13 @@ Include contains single header implementation of data structures and some algori
 | Calculate total weight of Minimum Spanning Tree of a given graph ( sum of weights of edges which forms MST) using Prim's algorithm | [primsMST.cpp](graph_problems/primsMST.cpp)|
 | Print Minimum Spanning Tree( MST ) of a given graph using Kruskal's algorithm.| [kruskalMST.cpp](graph_problems/kruskalMST.cpp)|
 | Create a program to generate a Huffman encoding for each character as a table.|[huffman_encoding.cpp](greedy_problems/huffman_encoding.cpp)|
+| Search a given word in a 2D board containing letters. The word can be constructed by sequentially traversing adjacent horizontal or vertical cells. In a sequence to form word, letter on same position can not be used more than once. (Check top of file for examples.)|[grid_word_search.cpp](graph_problems/grid_word_search.cpp)|
 
 ### Greedy Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | Given two integer arrays, A and B, each containing N integers. You are free to permute the order of the elements in the arrays. Is there an permutation A', B' possible of A and B, such that, A'<sub>i</sub>+B'<sub>i</sub> ≥ K for all i, where A'<sub>i</sub> denotes the i<sup>th</sup> element in the array A' and B'<sub>i</sub> denotes i<sup>th</sup> element in the array B'.| [two_arrays.cpp](greedy_problems/two_arrays.cpp)|
-|John is taking orders. The i<sup>th</sup> order is placed by the i<sup>th</sup> customer at t<sub>i</sub> time and it takes d<sub>i</sub> time to procees. What is the order in which the customers will get their orders? (see more details in solutions's comments)|[orders_order.cpp](greedy_problems/orders_order.cpp)|
+| John is taking orders. The i<sup>th</sup> order is placed by the i<sup>th</sup> customer at t<sub>i</sub> time and it takes d<sub>i</sub> time to procees. What is the order in which the customers will get their orders? (see more details in solutions's comments)|[orders_order.cpp](greedy_problems/orders_order.cpp)|
 
 
 ### Leet code Problems
