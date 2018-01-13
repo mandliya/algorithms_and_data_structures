@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 168 |
+| Total Problems | 169 |
 
 </center>
 
@@ -240,4 +240,5 @@ Include contains single header implementation of data structures and some algori
 |Product of Array Except Self. Given an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].| [product_except_self.cpp](leet_code_problems/product_except_self.cpp)|
 |Given a sorted array, remove duplicates in place and return the new length. It doesn't matter what is in array beyond the unique elements size. Expected O(1) space and O(n) time complexity.| [remove_duplicates.cpp](leet_code_problems/remove_duplicates.cpp) |
 | Count the number of islands in a grid. Given a grid representing 1 as land body, and 0 as water body, determine the number of islands (more details in problem comments)|[count_islands.cpp](leet_code_problems/count_islands.cpp)|
+| Find median from a data stream. Design a data structure that supports addNum to add a number to the stream, and findMedian to return the median of the current numbers seen so far. Also, if the count of numbers is even, return average of two middle elements, return median otherwise.|[median_stream.cpp](leet_code_problems/median_stream.cpp)
 
