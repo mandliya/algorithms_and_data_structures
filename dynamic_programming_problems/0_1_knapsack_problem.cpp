@@ -1,8 +1,8 @@
 /*
- * 0-1 Knapsack Problem: Imagine you are a thief and you want to steal things with room full of things.
+ * 0-1 Knapsack Problem: Imagine you are a thief and you want to steal things from room full of things.
  * You have a knapsack which can handle maximum capacity of weight W, and you want to fill it up such 
- * that it's worth is maximum. Being an intelligent thief, you know weights and values of each item in room.
- * How would you fill your knapsack, such that you get the maximum possible value.
+ * that it's worth is maximum. Being an intelligent thief, you know weights and values of each item in the room.
+ * How would you fill your knapsack, such that you get the maximum possible value for your knapsack of capacity W.
  * 
  * The problem essentially boils down to whether item i would be part of your loot or not.
  * This has optimal substructure:
@@ -14,7 +14,7 @@
  * Then the maximum value of the loot is determined by remaining n-1 items whose possible weight would be
  * W. (i.e excluding the ith item)
  *
- * We could get all subsets of possible items in your loot, and choose the one with maximum value.
+ * We could get all subsets of possible items in the loot, and choose the one with maximum value.
  * 
  * Since this problem will have overlapping subproblems, we could use dynamic programming to solve it.
  * So that we don't recurse to calculate the same subproblem which we have already calculated.
