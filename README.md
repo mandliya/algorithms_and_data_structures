@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 172 |
+| Total Problems | 173 |
 
 </center>
 
@@ -210,6 +210,8 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | You are given a digit string (e.g "1234", "567" etc), provide all possible letter combinations we could generate from this digit string, based on the mapping we see on the telphone/mobile dialpad. If you have typed SMS in old style phones, you would know. For e.g. "1" is mapped to "abc", 2 is mapped to "def". You can refer to the <a href="http://techotv.com/wp-content/uploads/2013/03/Lumia-620-dial-pad-screen-1.jpg" target="_blank">image.</a>. <ul><li> Example: "34" will give output: {"dg","dh","di","eg","eh","ei","fg","fh","fi"} </li></ul> Note that order does not matter in result set.|[dialpad_combinations.cpp](backtracking_problems/dialpad_combinations.cpp)|
+| Implement wildcard pattern maching with support for '?' & '*'. <ul><li>'?' Matches any single character.</li></ul><ul><li>'*' Matches any sequence of character.</li></ul>. Checkout examples in file for more details.|[wild_card_matching.cpp](backtracking_problems/wild_card_matching.cpp)|
+
 
 
 ### Leet code Problems
@@ -248,4 +250,3 @@ Include contains single header implementation of data structures and some algori
 | Count the number of islands in a grid. Given a grid representing 1 as land body, and 0 as water body, determine the number of islands (more details in problem comments)|[count_islands.cpp](leet_code_problems/count_islands.cpp)|
 | Find median from a data stream. Design a data structure that supports addNum to add a number to the stream, and findMedian to return the median of the current numbers seen so far. Also, if the count of numbers is even, return average of two middle elements, return median otherwise.|[median_stream.cpp](leet_code_problems/median_stream.cpp)
 | Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results. Note: The input string may contain letters other than the parentheses ( and ) | [remove_invalid_parenthesis.cpp](leet_code_problems/remove_invalid_parenthesis.cpp)|
-
