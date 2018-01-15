@@ -26,11 +26,13 @@ ListNode * addLists( ListNode * list1, ListNode *list2 )
     ListNode *list3 = nullptr;
     ListNode *curr = nullptr;
     int carry = 0;
+
+    // both list1 and list2 are not null
     while ( list1 && list2 ) {
         int x = list1->val + list2->val + carry;
         if ( x  > 9 ) {
-            carry = x / 10;
-            x %= 10;
+            carry = 1;
+            x -= 10;
         } else {
             carry = 0;
         }
@@ -45,11 +47,12 @@ ListNode * addLists( ListNode * list1, ListNode *list2 )
         list2 = list2->next;
     }
 
+    // list2 is null
     while(list1) {
         int x = list1->val + carry;
         if ( x  > 9 ) {
-            carry = x / 10;
-            x %= 10;
+            carry = 1;
+            x -= 10;
         } else {
             carry = 0;
         }
@@ -57,11 +60,13 @@ ListNode * addLists( ListNode * list1, ListNode *list2 )
         curr = curr->next;
         list1 = list1->next;
     }
+
+    // list1 is null
     while(list2) {
         int x = list2->val + carry;
         if ( x  > 9 ) {
-            carry = x / 10;
-            x %= 10;
+            carry = 1;
+            x -= 10;
         } else {
             carry = 0;
         }
