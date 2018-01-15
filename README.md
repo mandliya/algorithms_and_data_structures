@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 171 |
+| Total Problems | 172 |
 
 </center>
 
@@ -205,6 +205,11 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 | Given two integer arrays, A and B, each containing N integers. You are free to permute the order of the elements in the arrays. Is there an permutation A', B' possible of A and B, such that, A'<sub>i</sub>+B'<sub>i</sub> ≥ K for all i, where A'<sub>i</sub> denotes the i<sup>th</sup> element in the array A' and B'<sub>i</sub> denotes i<sup>th</sup> element in the array B'.| [two_arrays.cpp](greedy_problems/two_arrays.cpp)|
 | John is taking orders. The i<sup>th</sup> order is placed by the i<sup>th</sup> customer at t<sub>i</sub> time and it takes d<sub>i</sub> time to procees. What is the order in which the customers will get their orders? (see more details in solutions's comments)|[orders_order.cpp](greedy_problems/orders_order.cpp)|
+
+### Backtracking Problems
+| Problem | Solution |
+| :------------ | :----------: |
+| You are given a digit string (e.g "1234", "567" etc), provide all possible letter combinations we could generate from this digit string, based on the mapping we see on the telphone/mobile dialpad. If you have typed SMS in old style phones, you would know. For e.g. "1" is mapped to "abc", 2 is mapped to "def". You can refer to the <a href="http://techotv.com/wp-content/uploads/2013/03/Lumia-620-dial-pad-screen-1.jpg" target="_blank">image.</a>. <ul><li> Example: "34" will give output: {"dg","dh","di","eg","eh","ei","fg","fh","fi"} </li></ul> Note that order does not matter in result set.|[dialpad_combinations.cpp](backtracking_problems/dialpad_combinations.cpp)|
 
 
 ### Leet code Problems
