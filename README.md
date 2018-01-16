@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 174 |
+| Total Problems | 175 |
 
 </center>
 
@@ -130,6 +130,7 @@ Include contains single header implementation of data structures and some algori
 | Given a Binary Search Tree, find ceil and floor of a given key in it. If the given key lie in the BST, then both floor and ceil is equal to that key, else ceil is equal to next greater key (if any) in the BST and floor is equal to previous greater key (if any) in the BST | [floor_ceil_bst.cpp](tree_problems/floor_ceil_bst.cpp) |
 | Find kth smallest element in a binary search tree | [kth_smallest.cpp](tree_problems/kth_smallest.cpp)|
 | Validate if a given binary tree is a binary search tree. | [validate_bst.cpp](tree_problems/validate_bst.cpp) |
+| Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.| [find_target_k.cpp](tree_problems/find_target_k.cpp) |
 
 ### String Problems
 | Problem | Solution |
