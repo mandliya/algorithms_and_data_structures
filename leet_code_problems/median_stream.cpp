@@ -49,6 +49,7 @@
 #include <queue>
 #include <vector>
 #include <random>
+#include <algorithm>
 
 class MedianFinder {
 public:
