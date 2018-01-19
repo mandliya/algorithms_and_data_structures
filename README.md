@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 177 |
+| Total Problems | 178 |
 
 </center>
 
@@ -140,6 +140,7 @@ Include contains single header implementation of data structures and some algori
 | Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutation.cpp)|
 | Implementation of Z algorithm for pattern matching | [z.cpp](string_problems/z.cpp)|
 | Test cases for self created string library | [pstring_test.cpp](string_problems/pstring_test.cpp)|
+| Get the length of the last word in a string. | [length_of_last_word.cpp](string_problems/length_of_last_word.cpp)|
 
 ### Common Data Structure and logic problems
 | Problem | Solution |
