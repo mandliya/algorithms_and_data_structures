@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 180 |
+| Total Problems | 181 |
 
 </center>
 
@@ -257,3 +257,8 @@ Include contains single header implementation of data structures and some algori
 | Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results. Note: The input string may contain letters other than the parentheses ( and ) | [remove_invalid_parenthesis.cpp](leet_code_problems/remove_invalid_parenthesis.cpp)|
 | Given an array and a value, remove all instances of that value in-place and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory. The order of elements can be changed. It doesn't matter what you leave beyond the new length.| [remove_element.cpp](leet_code_problems/remove_element.cpp)|
 | Find intersection of two arrays/vectors, Given two vectors find the result of their interaction. The result should only contain unique characters and can be in any order|[intersection_of_array.cpp](leet_code_problems/intersection_of_array.cpp)|
+| Given a pattern and a string str, find if str follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str. example:
+pattern = "abba", str = "dog cat cat dog" should return true.
+pattern = "abba", str = "dog cat cat fish" should return false.
+pattern = "aaaa", str = "dog cat cat dog" should return false.
+pattern = "abba", str = "dog dog dog dog" should return false.| [word_pattern.cpp](leet_code_problems/word_pattern.cpp)|
