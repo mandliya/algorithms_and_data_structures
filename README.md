@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 182 |
+| Total Problems | 183 |
 
 </center>
 
@@ -132,6 +132,7 @@ Include contains single header implementation of data structures and some algori
 | Validate if a given binary tree is a binary search tree. | [validate_bst.cpp](tree_problems/validate_bst.cpp) |
 | Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.| [find_target_k.cpp](tree_problems/find_target_k.cpp) |
 | Given a non-empty binary search tree and a target value, find the value in the BST that is closest to the target. Also, to note that the target value is a floating point. There will be only one unique value which is closest to the target. |[closest_bst_value.cpp](tree_problems/closest_bst_value.cpp) |
+| Given a binary tree, traversing preorder, construct a string output containing node values and parenthesis. The null node needs to be represented by empty parenthesis pair "()". And you need to omit all the empty parenthesis pairs that don't affect the one-to-one mapping relationship between the string and the original binary tree. Examples in code file| [string_from_tree.cpp](tree_problems/string_from_tree.cpp)|
 
 ### String Problems
 | Problem | Solution |
