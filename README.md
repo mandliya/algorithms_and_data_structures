@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 183 |
+| Total Problems | 184 |
 
 </center>
 
@@ -264,3 +264,7 @@ pattern = "abba", str = "dog cat cat dog" should return true.
 pattern = "abba", str = "dog cat cat fish" should return false.
 pattern = "aaaa", str = "dog cat cat dog" should return false.
 pattern = "abba", str = "dog dog dog dog" should return false.| [word_pattern.cpp](leet_code_problems/word_pattern.cpp)|
+|You are provided a vector of numbers, where each number represents
+price of a stock on ith day. If you are permitted to only complete 
+one transaction per day (i.e buy one and sell one stock), design
+an algorithm to find the maximum profit.| [best_time_to_buy_sell.cpp](leet_code_problems/best_time_to_buy_sell.cpp)|
