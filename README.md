@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 184 |
+| Total Problems | 185 |
 
 </center>
 
@@ -166,6 +166,7 @@ Include contains single header implementation of data structures and some algori
 | Implement pow(x,y) using divide and conquer approach. Try implementing it in O(logn)| [pow.cpp](math_problems/pow.cpp)|
 | Calculate factorial of large number, say 100 (it will have 158 digits) |[factorial_of_large_num.cpp](math_problems/factorial_of_large_num.cpp)|
 | Generate all possible words from a number entered on a traditional mobile keypad | [phone_digits.cpp](math_problems/phone_digits.cpp)|
+| Given a string representation of a number, remove n characters from the string such that number representation is lowest possible.| [lowest_possible_number.cpp](math_problems/lowest_possible_number.cpp)|
 
 ### Stack Problems
 | Problem | Solution |
