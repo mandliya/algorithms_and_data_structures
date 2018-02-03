@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 185 |
+| Total Problems | 186 |
 
 </center>
 
@@ -269,3 +269,7 @@ pattern = "abba", str = "dog dog dog dog" should return false.| [word_pattern.cp
 price of a stock on ith day. If you are permitted to only complete 
 one transaction per day (i.e buy one and sell one stock), design
 an algorithm to find the maximum profit.| [best_time_to_buy_sell.cpp](leet_code_problems/best_time_to_buy_sell.cpp)|
+| Given a sentence, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.|
+ Example: 
+ Input:  She loves    chocolate 
+ Output: ehs sevol    etalocohc|[reverse_words.cpp](leet_code_problems/reverse_words.cpp)|
