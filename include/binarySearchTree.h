@@ -40,7 +40,7 @@ namespace algo {
             void insert( const T & obj );
             void insert( T && obj );
             void remove( const T & obj );
-            const int height() const;
+            const int __height(BinaryNode * node) const;
             void prettyPrint( ) const;
             BinaryNode * getRoot() const;
             void  mirror();
@@ -48,8 +48,8 @@ namespace algo {
         private:
             BinaryNode *root;
 
-            const T & __findMin( BinaryNode *node ) const;
-            const T & __findMax( BinaryNode *node ) const;
+            const BinaryNode * __findMin( BinaryNode *node ) const;
+            const BinaryNode * __findMax( BinaryNode *node ) const;
             bool __contains( BinaryNode *node, const T & obj ) const;
             void __insert( BinaryNode * & node, const T & obj );
             void __insert( BinaryNode * & node, T && obj );
