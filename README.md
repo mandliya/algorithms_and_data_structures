@@ -6,7 +6,7 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 186 |
+| Total Problems | 187 |
 
 </center>
 
@@ -219,6 +219,7 @@ Include contains single header implementation of data structures and some algori
 | :------------ | :----------: |
 | You are given a digit string (e.g "1234", "567" etc), provide all possible letter combinations we could generate from this digit string, based on the mapping we see on the telphone/mobile dialpad. If you have typed SMS in old style phones, you would know. For e.g. "1" is mapped to "abc", 2 is mapped to "def". You can refer to the <a href="http://techotv.com/wp-content/uploads/2013/03/Lumia-620-dial-pad-screen-1.jpg" target="_blank">image.</a>. <ul><li> Example: "34" will give output: {"dg","dh","di","eg","eh","ei","fg","fh","fi"} </li></ul> Note that order does not matter in result set.|[dialpad_combinations.cpp](backtracking_problems/dialpad_combinations.cpp)|
 | Implement wildcard pattern maching with support for '?' & '*'. <ul><li>'?' Matches any single character.</li></ul><ul><li>'*' Matches any sequence of character.</li></ul>. Checkout examples in file for more details.|[wild_card_matching.cpp](backtracking_problems/wild_card_matching.cpp)|
+| Given a 2D board and list of words from a dictionary, find all the possible words on board fromt the list. (Check example in the solution)| [word_search.cpp](backtracking_problems/word_search.cpp)|
 
 
 
