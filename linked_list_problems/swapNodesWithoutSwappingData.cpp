@@ -1,6 +1,6 @@
 /*
- * Problem : Given a linked list, and two data values, x and y. 
- * Goal:     Swap the nodes of linkedlist by swapping pointers 
+ * Problem : Given a linked list, and two data values, x and y.
+ * Goal:     Swap the nodes of linkedlist by swapping pointers
  *           (and not swapping data) such that nodes with data x will contain y and vice versa.
  *
  */
@@ -60,7 +60,7 @@ void swapSpecial(Node* & head, int x, int y) {
   if ( prevy != nullptr) {
     prevy->next = currx;
   } else {
-    head = curry;
+    head = currx;
   }
 
   //now lets swap the next pointers
