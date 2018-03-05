@@ -261,16 +261,6 @@ Include contains single header implementation of data structures and some algori
 | Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results. Note: The input string may contain letters other than the parentheses ( and ) | [remove_invalid_parenthesis.cpp](leet_code_problems/remove_invalid_parenthesis.cpp)|
 | Given an array and a value, remove all instances of that value in-place and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory. The order of elements can be changed. It doesn't matter what you leave beyond the new length.| [remove_element.cpp](leet_code_problems/remove_element.cpp)|
 | Find intersection of two arrays/vectors, Given two vectors find the result of their interaction. The result should only contain unique characters and can be in any order|[intersection_of_array.cpp](leet_code_problems/intersection_of_array.cpp)|
-| Given a pattern and a string str, find if str follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str. example:
-pattern = "abba", str = "dog cat cat dog" should return true.
-pattern = "abba", str = "dog cat cat fish" should return false.
-pattern = "aaaa", str = "dog cat cat dog" should return false.
-pattern = "abba", str = "dog dog dog dog" should return false.| [word_pattern.cpp](leet_code_problems/word_pattern.cpp)|
-|You are provided a vector of numbers, where each number represents
-price of a stock on ith day. If you are permitted to only complete 
-one transaction per day (i.e buy one and sell one stock), design
-an algorithm to find the maximum profit.| [best_time_to_buy_sell.cpp](leet_code_problems/best_time_to_buy_sell.cpp)|
-| Given a sentence, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.|
- Example: 
- Input:  She loves    chocolate 
- Output: ehs sevol    etalocohc|[reverse_words.cpp](leet_code_problems/reverse_words.cpp)|
+| Given a pattern and a string str, find if str follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str. example: <ul><li>pattern = "abba", str = "dog cat cat dog" should return true.</li><li>pattern = "abba", str = "dog cat cat fish" should return false.</li><li>pattern = "aaaa", str = "dog cat cat dog" should return false.</li><li>pattern = "abba", str = "dog dog dog dog" should return false.</li></ul>| [word_pattern.cpp](leet_code_problems/word_pattern.cpp)|
+|You are provided a vector of numbers, where each number represents price of a stock on ith day. If you are permitted to only complete one transaction per day (i.e buy one and sell one stock), design an algorithm to find the maximum profit.| [best_time_to_buy_sell.cpp](leet_code_problems/best_time_to_buy_sell.cpp)|
+| Given a sentence, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order. Example: <ul><li>Input:  She loves chocolate</li><li>Output: ehs sevol etalocohc</li></ul>|[reverse_words.cpp](leet_code_problems/reverse_words.cpp)|
