@@ -38,12 +38,12 @@ int main() {
   int j;
   for( j = 0; j < N; ++j ) {
     if (A[j] + B[j] < K) {
-      std::cout << "NO" << std::endl;
+      cout << "NO" << std::endl;
       break;
     }
   }
   if ( j == N ) {
-    std::cout << "YES" << std::endl;
+    cout << "YES" << std::endl;
   }
   return 0;
 }
