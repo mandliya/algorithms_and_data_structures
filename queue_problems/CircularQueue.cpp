@@ -2,7 +2,7 @@
 using namespace std;
 
 int size;
-class cque
+class cqueue
 {
     int a[50],front = -1, rear = -1,x;
 public:
@@ -11,7 +11,7 @@ public:
     void show();
 };
 
-void cque::insert()
+void cqueue::insert()
 {
     char ch = 'y';
     while(ch == 'y' || ch == 'Y')
@@ -40,7 +40,7 @@ void cque::insert()
     }
 }
 
-void cque::del()
+void cqueue::del()
 {
     if(front == -1)
         cout<<"\nUnderflow!";
@@ -62,7 +62,7 @@ void cque::del()
     }
 }
 
-void cque::show()
+void cqueue::show()
 {
     if(front == -1 && rear == -1)
         cout<<"\nQueue is empty !";
@@ -78,16 +78,13 @@ void cque::show()
         for( int i =0; i<=rear;i++)
             cout<<a[i]<<"\t";
     }
-   /* else
-        for(int i = front ;i <= rear;i++)
-            cout<<a[i]<<"\t";*/
 }
 
 
 int main()
 {
     int ch,a = 0;
-    cque o;
+    cqueue o;
     cout<<"\nEnter size of queue : ";
     cin>>size;
     while(1)
