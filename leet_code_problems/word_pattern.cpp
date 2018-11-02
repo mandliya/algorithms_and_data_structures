@@ -19,6 +19,7 @@
  */
 
 #include <iostream>
+#include <iterator>
 #include <vector>
 #include <sstream>
 #include <unordered_map>
@@ -28,7 +29,7 @@ bool match_pattern(const std::string& str, const std::string& pattern)
 {
     // split string to words
     std::istringstream iss(str);
-    std::vector<std::string> words(std::istream_iterator<std::string>{iss}, 
+    std::vector<std::string> words(std::istream_iterator<std::string>{iss},
                                 std::istream_iterator<std::string>());
     if (words.size() != pattern.size()) {
         return false;
