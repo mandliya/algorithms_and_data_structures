@@ -10,6 +10,7 @@
  */
 
 #include <iostream>
+#include <vector>
 #include <string>
 
 using std::string;
@@ -23,12 +24,9 @@ int minEditDistance(string word1, string word2) {
 	int len1 = word1.size();
 	int len2 = word2.size();
 	int minCost;
-	int ** table = new int*[len1+1];
-	for ( int i = 0;i <= len1; ++i ) {
-		table[i] = new int[len2+1];
-	}
-
+	vector<vector<int>> table(len1+1);
 	for (int i = 0; i <= len1; ++i) {
+		table[i] = vector<int> (len2+1);
 		for (int j = 0; j <= len2; ++j ) {
 			if ( i == 0 ) {
 				table[i][j] = j;
@@ -38,15 +36,14 @@ int minEditDistance(string word1, string word2) {
 			} else if ( word1[i-1] == word2[j-1]) {
 				table[i][j] = table[i-1][j-1];
 			} else {
-				table[i][j] = 1+ min(table[i-1][j-1], table[i][j-1], table[i-1][j]);
+				table[i][j] = 1+ min(table[i-1][j-1]   // replace
+						     , table[i][j-1],  // insert
+						     table[i-1][j]);	// remove
 			}
 		}
 	}
 	minCost = table[len1][len2];
-	for ( int i = 0; i <= len1; ++i ) {
-		delete table[i];
-	}
-	delete[] table;
+	table.clear();
 	return minCost;
 }
 
