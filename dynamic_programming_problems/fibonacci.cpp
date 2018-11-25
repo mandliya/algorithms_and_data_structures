@@ -8,22 +8,25 @@
 //bottom up
 
 int fib1(int n) {
-	std::vector<int> fib(n, 0);
+	// space optimization
+	std::vector<int> fib(3, 0);
 	if ( n == 0 || n == 1 ) {
 		return 1;
 	}
 	fib[0] = 1;
 	fib[1] = 1;
 	for ( int i = 2; i < n; ++i ) {
-		fib[i] = fib[i-1] + fib[i-2];
+		fib[2] = fib[1] + fib[0];
+		fib[0] = fib[1];
+		fib[1] = fib[2];
 	}
-	return fib[n-1];
+	return fib[1];
 }
 
 //top down
 
-std::vector<int> fib(1000, 0);
-int fib2( int n ) {
+// Ignoring Space wastage
+int fib2( int n , int * fib) {
 	if ( n == 0 ) {
 		return 0;
 	}
@@ -38,6 +41,7 @@ int fib2( int n ) {
 }
 
 //leverage the fact we are just using last 2 term
+// bottom up
 int fib3( int n ) {
 	int a = 0;
 	int b = 1;
@@ -52,7 +56,11 @@ int fib3( int n ) {
 
 int main()
 {
+	int n;
+	std::cout << "\Enter n\t:\t";
+	std::cin >> n;
+	int * fib = new int[n];
 	std::cout << "Demonstrating fibonacci term calculation:\n";
-	std::cout << fib1(9) << " " << fib2(9) << " " << fib3(9) << std::endl;
+	std::cout << fib1(b) << " " << fib2(n , fib) << " " << fib3(n) << std::endl;
 	return 0;
 }
