@@ -1,6 +1,6 @@
 #include <iostream>
-#include <queue.h>
-#include <generic.h>
+#include "../include/queue.h"
+#include "../include/generic.h"
 
 
 int main()
@@ -12,7 +12,7 @@ int main()
     for ( int i = 0; i < QUEUE_SIZE; ++i )
     {
         int rand_value = algo::random_range( 5, 50 );
-        std::cout << rand_value << " ";
+		std::cout << rand_value << " ";
         Q.push(rand_value);
     }
     std::cout << std::endl;
