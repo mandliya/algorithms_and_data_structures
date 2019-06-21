@@ -7,8 +7,8 @@
 | Current Status|     Stats     |
 | :------------: | :----------: |
 | Total Problems | 188 |
-
-Current Daily Streak: 1 (started on 06/20/2019)
+| Current Daily Streak| 1 |
+| Last updated | 06/20/2019|
 
 </center>
 
