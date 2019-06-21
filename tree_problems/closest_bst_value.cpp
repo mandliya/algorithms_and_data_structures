@@ -67,10 +67,10 @@ int main()
     std::cout << "Inorder traversal of tree: ";
     print_inorder(root);
     std::cout << std::endl;
-    std::cout << "Closest value from 8.6778 is :" << closest_bst_value(root, 3.6778)
+    std::cout << "Closest value from 3.6778 is :" << closest_bst_value(root, 3.6778)
         << std::endl;
     
-    std::cout << "(Iterative) Closest value from 8.6778 is :"
+    std::cout << "(Iterative) Closest value from 3.6778 is :"
         << closest_bst_value_iterative(root, 3.6778) << std::endl;
     return 0;
 }
