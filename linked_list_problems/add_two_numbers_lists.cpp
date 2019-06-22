@@ -103,10 +103,5 @@ int main()
     iterate(list2);
     ListNode *list3 = addLists(list1, list2);
     iterate(list3);
-
-    
-
-
     return 0;
-
 }

@@ -7,8 +7,8 @@
 | Current Status|     Stats     |
 | :------------: | :----------: |
 | Total Problems | 188 |
-| Current Daily Streak| 1 |
-| Last updated | 06/20/2019|
+| Current Daily Streak| 2 |
+| Last updated | 06/21/2019|
 
 </center>
 
@@ -17,12 +17,12 @@
 ### LinkedList Problems
 | Problem | Solution |
 | :------------ | :----------: |
-| Find the nth node of linked list from last. |[nthToLastNode.cpp](linked_list_problems/nthToLastNode.cpp) |
-| Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp](linked_list_problems/add_two_numbers_lists.cpp) |
+| Find the nth node of linked list from last. |[nthToLastNode.cpp](linked_list_problems/nthToLastNode.cpp), [nth_to_last_node.py](linked_list_problems/nth_to_last_node.py) |
+| Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp](linked_list_problems/add_two_numbers_lists.cpp), [add_two_numbers_list.py](linked_list_problems/add_two_numbers_lists.py)|
 | Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp)|
 | Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp)|
 | Given a linked list, reverse alternate nodes and append at the end. | [reverseAlternateNodes.cpp](linked_list_problems/reverseAlternateNodes.cpp) |
-| Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
+| Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp)|
 | Delete the entire linkedlist. | [deleteLinkedlist.cpp](linked_list_problems/deleteLinkedlist.cpp)|
 | Print middle node of linkedlist without iterating twice. | [printMiddleNode.cpp](linked_list_problems/printMiddleNode.cpp) | | Detecting and removing a cycle in linkedlist.| [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp)|
 | Determine if a linked list is a pallindrome. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
