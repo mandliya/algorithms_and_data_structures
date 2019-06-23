@@ -22,7 +22,7 @@
 #ifndef BUBBLE_SORT_H
 #define BUBBLE_SORT_H
 
-#include <generic.h>
+#include "generic.h"
 
 namespace algo {
     template <typename T>
