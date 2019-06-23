@@ -6,9 +6,11 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 188 |
-| Current Daily Streak| 2 |
-| Last updated | 06/21/2019|
+| Total C++ Problems | 188 |
+| Total Python Problems | 5 |
+| Current Daily Streak| 1 |
+| Last Streak | 06/20/2019 - 06/21/2019|
+| Current Streak | 06/23/2019 - |
 
 </center>
 
@@ -19,7 +21,7 @@
 | :------------ | :----------: |
 | Find the nth node of linked list from last. |[nthToLastNode.cpp](linked_list_problems/nthToLastNode.cpp), [nth_to_last_node.py](linked_list_problems/nth_to_last_node.py) |
 | Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp](linked_list_problems/add_two_numbers_lists.cpp), [add_two_numbers_list.py](linked_list_problems/add_two_numbers_lists.py)|
-| Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp)|
+| Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp), [swap_nodes_without_swapping_data.py](linked_list_problems/swap_nodes_without_swapping_data.py)|
 | Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp)|
 | Given a linked list, reverse alternate nodes and append at the end. | [reverseAlternateNodes.cpp](linked_list_problems/reverseAlternateNodes.cpp) |
 | Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp)|
