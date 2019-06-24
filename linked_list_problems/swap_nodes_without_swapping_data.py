@@ -32,6 +32,16 @@ class LinkedList:
                 print(str(itr.data) + '-->', end = ' ')
             itr = itr.next
 
+    def print_list_addr(self):
+        """Prints a list with address of the next pointer"""
+        itr = self.head
+        while itr:
+            if itr.next is None:
+                print(str(itr.data) + '(' + str(hex(id(itr))) + ')')
+            else:
+                print(str(itr.data) + '(' + str(hex(id(itr))) + ') --> ', end=' ')
+            itr = itr.next
+
     def swap_nodes_without_swapping_data(self, x, y):
         """Swap the nodes of linked without swapping pointers i.e.
         swap nodes such that nodes with data x will contain y and vice versa."""
@@ -84,9 +94,11 @@ if __name__ == "__main__":
     lst.push(2)
     lst.push(4)
 
-    print("List before:")
+    print("List before (with and without addr):")
     lst.print_list()
+    lst.print_list_addr()
 
     lst.swap_nodes_without_swapping_data(1, 4)
-    print("List after:")
+    print("List after (with and without addr):")
     lst.print_list()
+    lst.print_list_addr()
