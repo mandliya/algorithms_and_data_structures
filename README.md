@@ -7,10 +7,10 @@
 | Current Status|     Stats     |
 | :------------: | :----------: |
 | Total C++ Problems | 188 |
-| Total Python Problems | 6 |
-| Current Daily Streak| 2 |
+| Total Python Problems | 8 |
+| Current Daily Streak| 3 |
 | Last Streak | 06/20/2019 - 06/21/2019|
-| Current Streak | 06/23/2019 - 06/24/2019|
+| Current Streak | 06/23/2019 - 06/25/2019|
 
 </center>
 
@@ -115,8 +115,8 @@ Include contains single header implementation of data structures and some algori
 ### Tree Problems
 | Problem | Solution |
 | :------------ | :----------: |
-|Iterative Level order traversal of Tree using queue |[levelOrderTraversalIterative.cpp](tree_problems/levelOrderTraversalIterative.cpp)|
-|Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp)|
+|Iterative Level order traversal of Tree using queue |[levelOrderTraversalIterative.cpp](tree_problems/levelOrderTraversalIterative.cpp), [level_order_tree_traversal_iterative.py](tree_problems/level_order_tree_traversal_iterative.py)|
+|Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp), [level_order_tree_traversal_recursive.py](tree_problems/level_order_tree_traversal_recursive.py)|
 |ZigZag Traversal of Tree | [zigZagTraversal.cpp](tree_problems/zigZagTraversal.cpp)|
 |Predecessor and Successor of a given node in Binary Search Tree | [predecessorSuccessor.cpp](tree_problems/predecessorSuccessor.cpp)|
 |Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp)|
