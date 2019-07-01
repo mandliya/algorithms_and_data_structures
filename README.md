@@ -7,10 +7,10 @@
 | Current Status|     Stats     |
 | :------------: | :----------: |
 | Total C++ Problems | 188 |
-| Total Python Problems | 11 |
+| Total Python Problems | 12 |
 | Current Daily Streak| 7 |
 | Last Streak | 06/20/2019 - 06/21/2019|
-| Current Streak | 06/23/2019 - 06/29/2019|
+| Current Streak | 06/23/2019 - 06/30/2019|
 
 </center>
 
@@ -119,7 +119,7 @@ Include contains single header implementation of data structures and some algori
 |Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp), [level_order_tree_traversal_recursive.py](tree_problems/level_order_tree_traversal_recursive.py)|
 |ZigZag Traversal of Tree | [zigZagTraversal.cpp](tree_problems/zigZagTraversal.cpp), [zig_zag_traversal.py](tree_problems/zig_zag_traversal.py)|
 |Predecessor and Successor of a given node in Binary Search Tree | [predecessorSuccessor.cpp](tree_problems/predecessorSuccessor.cpp)|
-|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp)|
+|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp), [lowest_common_ancestor.py](tree_problems/lowest_common_ancestor.py)|
 |Given a binary tree (unlike binary search tree), find the Lowest Common Ancestor (LCA).|[lowest-common-ancestor-binary-tree.cpp](tree_problems/lowest-common-ancestor-binary-tree.cpp)|
 |Given a binary tree, print out all of its root-to-leaf paths one per line.| [printAllRootToLeafPath.cpp](tree_problems/printAllRootToLeafPath.cpp)
 |Determine if a tree is sum tree. A SumTree is a Binary Tree where the value of a node is equal to sum of the nodes present in its left subtree and right subtree. An empty tree is SumTree and sum of an empty tree can be considered as 0. A leaf node is also considered as SumTree.| [sumTree.cpp](tree_problems/sumTree.cpp)|
