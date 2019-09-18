@@ -1,6 +1,6 @@
 /*
  * Given a 2D board and list of words from a dictionary,
- * find all the possible words on board fromt the list.
+ * find all the possible words on board from the list.
  * Example:
  * words = ["oath","pea","eat","rain"]
  * board = 
