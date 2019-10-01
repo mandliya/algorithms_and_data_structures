@@ -16,6 +16,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+using namespace std;
 
 
 void printPairWithSum(const std::vector<int>& arr, const int sum)
