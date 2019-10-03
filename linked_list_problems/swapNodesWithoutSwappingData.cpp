@@ -60,7 +60,7 @@ void swapSpecial(Node* & head, int x, int y) {
   if ( prevy != nullptr) {
     prevy->next = currx;
   } else {
-    head = curry;
+    head = currx;
   }
 
   //now lets swap the next pointers

@@ -39,7 +39,8 @@ void printVec( const std::vector<int> & vec)
    std::vector<int> vec{ 1, 1, 1, 1, 2, 2, 3, 3, 3 };
    std::cout << "Contents of vector:\n";
    printVec(vec);
-   std::cout << "First Occurrence of 2 in the vector is at index : "
-             << firstOccurrenceBinarySearch(vec, 2) << std::endl;
+   std::cout << "First Occurrence of 1 in the vector is at index : "
+             << firstOccurrenceBinarySearch(vec, 1) << std::endl;
+
    return 0;
  }
