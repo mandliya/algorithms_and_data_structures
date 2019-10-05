@@ -24,6 +24,7 @@ namespace algo {
 
           if ( swpIdx != root ) {
             algo::swap( list[swpIdx], list[root] );
+			root=swpIdx;
           } else {
             break;
           }
@@ -53,8 +54,9 @@ namespace algo {
         while ( high > 0 ) {
           algo::swap(list[high], list[0]);
           --high;
-          __heapify(list, 0, high);
+          
         }
+		__heapify(list, 0, high);
       }
 }
 #endif
