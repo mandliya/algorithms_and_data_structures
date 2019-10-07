@@ -101,6 +101,7 @@ Include contains single header implementation of data structures and some algori
 | Problem 2-6: Determine if linked list is palindrome( 2 iterative and one recursive approach | [2-6-palindrome.cpp](cracking_the_coding_interview_problems/2-6-palindrome.cpp) |
 | Problem 2-7: Determine if two singly linked list intersect, if yes, return the intersecting node. The intersection is defined based on reference not on values|[2-7-intersection.cpp](cracking_the_coding_interview_problems/2-7-intersection.cpp)|
 | Problem 2-8: Detect if the linked list have a loop, Find the start node of the loop and remove the loop| [2-8-loop-detection.cpp](cracking_the_coding_interview_problems/2-8-loop-detection.cpp)
+| Problem 4-7: You are given a list of projects and a list of dependencies(which is a list of pairsof projects, where the second project is dependent on the first project). All of a project's dependencies must be built before the project is. Find a build order that will allow the projects to be built. If there is no valid build order , return an error.| [4-7-Build_Order.cpp](cracking_the_coding_interview_problems/4-7-Build_Order.cpp)
 
 ### Dynamic Programming Problems
 | Problem | Solution |
