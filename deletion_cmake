@@ -1,0 +1,6 @@
+___The following action to be performed in bash but due unavailability of it..the code is shown here in this section__
+$ git push== delete Cmakecache.txt
+username for 'https://github.com': riyas2327
+password for 'https://riyas2327@github.com':
+To https://github.com/riyas2327/algorithms_and_data_structures
+(it will display a message deleted  Cmakecache.txt)
