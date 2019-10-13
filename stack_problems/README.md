@@ -21,3 +21,20 @@
         *   Push the current day index on the stack.
         *   Although it looks like it more than O(n), however each day is pushed on stack once and removed once, 
                         Hence its O(n)
+3. Conversion of infix expression to postfix expression 
+4. Checking whether the parenthesis are valid (balanced) : 
+    -**Given** : an expression containing various brackets and parenthesis {} () [] 
+    -**Required** : to check that the expression in valid, that is, 
+                                        a) an open parenthesis is always closed
+                                        b) the type of opening and closing parenthesis is same
+    -**Example** : "{{{}}} [] ([])" is valid 
+                   "{(])}" is invalid 
+    -**Approach** : We traverse the expression from left to right. Two cases arise : 
+                    1. The encountered character is an opening bracket :
+                        push to the stack.
+                    2. The encountered character is a closing bracket : 
+                        pop from the stack UNTIL the matching closing bracket is encountered. 
+                        
+                    If at the end, the stack is empty : the expression is valid. 
+                    Else, invalid. 
+        
