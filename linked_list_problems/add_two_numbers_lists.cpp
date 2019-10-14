@@ -23,12 +23,12 @@ struct ListNode {
 
 ListNode * addLists( ListNode * list1, ListNode *list2 )
 {
-    ListNode *list3 = nullptr;
+    ListNode *list3 = nullptr;     
     ListNode *curr = nullptr;
     int carry = 0;
 
-    // both list1 and list2 are not null
-    while ( list1 && list2 ) {
+    
+    while ( list1 && list2 ) {                       // both list1 and list2 are not null
         int x = list1->val + list2->val + carry;
         if ( x  > 9 ) {
             carry = 1;
