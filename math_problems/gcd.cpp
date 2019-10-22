@@ -1,60 +1,18 @@
-/**
- *  Given two numbers, determine the greatest common divisior of the two numbers.
- */
-
 #include <iostream>
-
-
-int gcd1( int a, int b ) {
-    while( b > 0 ) {
-        int temp = a % b;
-        a = b;
-        b = temp;
-    }
-    return a;
-}
-
-int gcd2( int a, int b ) {
-    if ( b == 0 ) return a;
-    if ( a == 0 ) return b;
-    return gcd2(b, a % b);
-}
-
-int gcd3( int a, int b ) {
-    if ( a == 0 ) return b;
-    if ( b == 0 ) return a;
-    while ( a != b ) {
-        if ( a > b ) {
-            a = a-b;
-        } else {
-            b = b-a;
-        }
-    }
-    return a;
-}
-
-int gcd4 ( int a, int b ) {
-    if ( a == 0 ) return b;
-    if ( b == 0 ) return a;
-    if ( a == b ) return a;
-    if ( a > b ) return gcd4(b, a-b);
-    else  return gcd4(a, b-a);
-}
-
+using namespace std;
 int main()
 {
-    int a, b;
-    std::cout << "Enter number 1 : ";
-    std::cin >> a;
-    std::cout << "Enter number 2 : ";
-    std::cin >> b;
-    std::cout << "GCD of " << a << " and "
-              << b << " is " << gcd1(a,b) << std::endl;
-    std::cout << "GCD of " << a << " and "
-              << b << " is " << gcd2(a,b) << std::endl;
-    std::cout << "GCD of " << a << " and "
-              << b << " is " << gcd3(a,b) << std::endl;
-    std::cout << "GCD of " << a << " and "
-              << b << " is " << gcd4(a,b) << std::endl;
+    int n1, n2, i, gcd;
+    cout<<"Enter two integers: ";
+    cin>>n1;
+    cout<<endl;
+    cin>>n2;
+    for(i=1; i <= n1 && i <= n2; ++i)
+    {
+        // Checks if i is factor of both integers
+        if(n1%i==0 && n2%i==0)
+            gcd = i;
+    }
+    cout<<"G.C.D"  << gcd;
     return 0;
 }
