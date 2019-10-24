@@ -65,7 +65,8 @@ std::string infixToPostfix( std::string expression );
 //check if c is an operator
 bool isOperator( char c )
 {
-  if ( c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {
+  if ( c == '+' || c == '-' || c == '*' || c == '/' || c == '^') {             //This statement checks for the value of c
+                                                                                 through a conditional operator
     return true;
   }
   return false;

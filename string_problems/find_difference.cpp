@@ -14,7 +14,7 @@
 char find_difference(const std::string& s, const std::string& t)
 {
     std::string r = s + t;
-    char ch = 0;
+    char ch = 0;             //Initialize the character ch to 0
     for (char c : r) {
         ch ^= c;
     }
