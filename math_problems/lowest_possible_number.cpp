@@ -49,10 +49,12 @@ void build_lowest_number(const std::string& num, std::string& result,
     // Since we need to remove, smallest of n+1 digits should be
     // part of final string.
     int min_index = 0;
-    for (int i = 1; i <= n; ++i) {
+    int i=1;
+    while(i<=n){
         if (num[i] < num[min_index]) {
             min_index = i;
         }
+     i++;
     }
 
     result.push_back(num[min_index]);
