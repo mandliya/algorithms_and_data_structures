@@ -18,9 +18,9 @@
  */
 void swap( char *a, char *b )
 {
-    char temp = *a;
-    *a = *b;
-    *b = temp;
+   *a=*a+*b;
+   *b=*a-*b;
+   *a=*a-*b;
 }
 
 /*
