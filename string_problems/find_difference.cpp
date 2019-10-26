@@ -16,6 +16,7 @@ char find_difference(const std::string& s, const std::string& t)
     std::string r = s + t;
     char ch = 0;
     for (char c : r) {
+        // Equivalent to ch = ch ^ c
         ch ^= c;
     }
     return ch;
