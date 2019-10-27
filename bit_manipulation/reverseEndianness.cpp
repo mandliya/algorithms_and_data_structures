@@ -1,3 +1,7 @@
+/*
+ * Problem : Determine endianess of the machine, print a number in reverse Endianess.
+ */
+
 #include <iostream>
 #include <cstdio>
 
