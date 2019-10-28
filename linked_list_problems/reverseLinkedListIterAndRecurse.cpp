@@ -1,3 +1,7 @@
+/*
+  * Problem : Reverse a linked list, iteratively and recursively. 
+  *
+  */
 #include <iostream>
 
 struct Node {
