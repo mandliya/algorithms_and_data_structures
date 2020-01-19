@@ -28,7 +28,7 @@ namespace algo {
             break;
           }
           //keep going down
-          swpIdx = root;
+          root = swpIdx;
         }
       }
 
@@ -53,7 +53,7 @@ namespace algo {
         while ( high > 0 ) {
           algo::swap(list[high], list[0]);
           --high;
-          __heapify(list, 0, high);
+          __sift_down(list, 0, high);
         }
       }
 }
