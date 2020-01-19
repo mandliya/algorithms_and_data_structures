@@ -27,16 +27,17 @@
 namespace algo {
     template <typename T>
         static void bubbleSort(T list[], int start, int end)
-        {
+        {   int j = 0;
             bool swapped;
             do {
                 swapped = false;
-                for (int i = start + 1; i <= end; ++i) {
+                for (int i = start + 1; i <= end-j; ++i) {
                     if (list[i-1] > list[i]) {
                         swapped = true;
                         swap(list[i-1], list[i]);
                     }
                 }
+	    j++;	
             } while (swapped);
         }
 } //end of namespace algo
