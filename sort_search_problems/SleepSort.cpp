@@ -1,8 +1,5 @@
 //This is the most simple implementation of sleeping sort in c++//
-#include<iostream>
-#include<thread>
-#include<vector>
-#include <chrono>
+#include<bits/stdc++.h>
 using namespace std;
 
 void sleepSort(int*, int);
