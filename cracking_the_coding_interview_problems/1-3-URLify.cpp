@@ -1,7 +1,7 @@
 /*
  * Cracking the coding interview Edition 6
  * Problem 1.3 URLify --> Replace all the spaces in a string with '%20'. 
- * Assumption : We have enough space to accomodate addition chars
+ * Assumption : We have enough space to accommodate addition chars
  * Preferebly in place
  */
 
@@ -10,7 +10,7 @@
 
 /*
  * Function : urlify
- * Args     : string long enough to accomodate extra chars + true len 
+ * Args     : string long enough to accommodate extra chars + true len 
  * Return   : void (in place transformation of string)
  */
 

@@ -35,3 +35,6 @@ build/
 #vim backup
 *.cpp~
 *~
+
+#VS code
+.vscode

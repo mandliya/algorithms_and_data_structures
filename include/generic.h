@@ -25,8 +25,18 @@
 #include <sstream>
 #include <string>
 
-#define MAX(a, b) ((a > b) ? a : b)
-#define MIN(a, b) ((a < b) ? a : b)
+
+template<typename T>
+T MAX(T a, T b)
+{
+    return ((a > b) ? a : b);
+}
+
+template<typename T>
+T MIN(T a, T b)
+{
+    return ((a < b) ? a : b);
+}
 
 namespace algo {
     // swap two elements
@@ -58,10 +68,11 @@ namespace algo {
 
     //generate a random double between min and max
     static inline double random_range(const double min, const double max) {
-        std::random_device rd;
-        std::mt19937 mt(rd());
+        // std::random_device rd;
+        // std::mt19937 mt(rd());
         std::uniform_real_distribution<double> distribution(min, max);
-        return distribution(mt);
+		std::default_random_engine re;
+        return distribution(re);
     }
 
     //convert an int to string

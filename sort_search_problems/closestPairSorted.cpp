@@ -20,8 +20,8 @@
 #include <cmath>
 
 std::pair<int,int> closestPair( std::vector<int> & vec1, std::vector<int> & vec2, int x ) {
-	size_t left = 0;
-	size_t right = vec2.size() - 1;
+	int left = 0;
+	int right = vec2.size() - 1;
 	int minDiff = std::numeric_limits<int>::max();
 	int leftRes, rightRes;
 	while (left < vec1.size() && right >= 0 ) {

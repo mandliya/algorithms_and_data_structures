@@ -54,7 +54,7 @@ int shortestPath(const std::vector<std::vector<int>>& matrix,
     const Point& source,
     const Point& destination)
 {
-    // An auxillary matrix to keep track of visited points
+    // An auxiliary matrix to keep track of visited points
     // initially all cells are marked unvisited.
     //
     std::vector<std::vector<bool>> visited(

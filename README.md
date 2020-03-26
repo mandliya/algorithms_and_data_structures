@@ -6,25 +6,31 @@
 
 | Current Status|     Stats     |
 | :------------: | :----------: |
-| Total Problems | 160 |
+| Total C++ Problems | 188 |
+| Total Python Problems | 15 |
+| Current Daily Streak| 11 |
+| Last Streak | 06/20/2019 - 06/21/2019|
+| Current Streak | 06/23/2019 - 07/03/2019|
 
 </center>
+
+**Note: Some of the code here is old and was written when I was learning C++. It might be possible that code is not safe or making wrong assumptions. Please use with caution. Pull requests are always welcome.**
 
 ### LinkedList Problems
 | Problem | Solution |
 | :------------ | :----------: |
-| Find the nth node of linked list from last. |[nthToLastNode.cpp](linked_list_problems/nthToLastNode.cpp) |
-| Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp](linked_list_problems/add_two_numbers_lists.cpp) |
-| Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp)|
-| Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp)|
+| Find the nth node of linked list from last. |[nthToLastNode.cpp](linked_list_problems/nthToLastNode.cpp), [nth_to_last_node.py](linked_list_problems/nth_to_last_node.py) |
+| Add numbers where each digit of the number is represented by node of a linkedlist.  Give output as a linked list. | [add_two_numbers_lists.cpp](linked_list_problems/add_two_numbers_lists.cpp), [add_two_numbers_list.py](linked_list_problems/add_two_numbers_lists.py)|
+| Swap nodes of a linkedlist without swapping data. |[swapNodesWithoutSwappingData.cpp](linked_list_problems/swapNodesWithoutSwappingData.cpp), [swap_nodes_without_swapping_data.py](linked_list_problems/swap_nodes_without_swapping_data.py)|
+| Reverse a linked list, iteratively and recursively | [reverseLinkedListIterAndRecurse.cpp](linked_list_problems/reverseLinkedListIterAndRecurse.cpp), [reverse_linkedlist.py](linked_list_problems/reverse_linkedlist.py)|
 | Given a linked list, reverse alternate nodes and append at the end. | [reverseAlternateNodes.cpp](linked_list_problems/reverseAlternateNodes.cpp) |
-| Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp) |
+| Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp)|
 | Delete the entire linkedlist. | [deleteLinkedlist.cpp](linked_list_problems/deleteLinkedlist.cpp)|
 | Print middle node of linkedlist without iterating twice. | [printMiddleNode.cpp](linked_list_problems/printMiddleNode.cpp) | | Detecting and removing a cycle in linkedlist.| [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp)|
 | Determine if a linked list is a pallindrome. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
 | Insert data in a sorted linked list.|[insertInASortedLinkedList.cpp](linked_list_problems/insertInASortedLinkedList.cpp) |
-| Determine the intersection(merging) point of two given linked list.| [findIntersectionPointOfLists.cpp](linked_list_problems/findIntersectionPointOfLists.cpp)|
-| Clone a linkedlist which has next and an random pointer, Space Complexity - O(1). | [cloneListWithRandomPtr.cpp](linked_list_problems/cloneListWithRandomPtr.cpp)|
+| Determine the intersection(merging) point of two given linked list.| [findIntersectionPointOfLists.cpp](linked_list_problems/findIntersectionPointOfLists.cpp), [intersection_of_lists.py](linked_list_problems/intersection_of_lists.py)|
+| Clone a linkedlist which has next and an random pointer, Space Complexity - O(1). | [cloneListWithRandomPtr.cpp](linked_list_problems/cloneListWithRandomPtr.cpp), [clone_list_with_random_ptr.py](linked_list_problems/clone_list_with_random_ptr.py)|
 | Given a sorted linked list with duplicates, remove duplicates in one iteration. | [removeDuplicatesFromSortedList.cpp](linked_list_problems/removeDuplicatesFromSortedList.cpp)| 
 | Using Floyd's cycle finding algorithm, detect if a linkedlist contain cycle, if it does contain cycle, remove the loop | [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp) |
 | Sort a linked list using merge sort | [merge_sort.cpp](linked_list_problems/merge_sort.cpp) |
@@ -41,7 +47,7 @@ Include contains single header implementation of data structures and some algori
 | Generic List Implementation  | [list.h](include/list.h)  |
 | Binary Search Tree Implementation | [binarySearchTree.h](include/binarySearchTree.h) |
 | Quick Sort Implementation | [quickSort.h](include/quickSort.h) |
-| Merge Sort Implementation | [mergeSort.h](include/bubbleSort.h)|
+| Merge Sort Implementation | [mergeSort.h](include/mergeSort.h)|
 | Selection Sort Implementation | [selectionSort.h](include/selectionSort.h) |
 | Bubble Sort Implementation | [bubbleSort.h](include/bubbleSort.h) |
 | Linux Kernel Double LinkedList Implementation | [double_linked_list.h](include/double_linked_list.h) |
@@ -76,9 +82,9 @@ Include contains single header implementation of data structures and some algori
 ### Cracking the coding interview problems
 | Problem | Solution |
 | :------------ | :----------: |
-| Problem 1-1 : Edition 6: Write an algorithm to determine whether a string has unique characters or not. Can we do it without using addtional data structures? | [1-1-hasUniqueChars.cpp](cracking_the_coding_interview_problems/1-1-hasUniqueChars.cpp)|
+| Problem 1-1 : Edition 6: Write an algorithm to determine whether a string has unique characters or not. Can we do it without using additional data structures? | [1-1-hasUniqueChars.cpp](cracking_the_coding_interview_problems/1-1-hasUniqueChars.cpp), [1-1-hasUniqueChars.py](cracking_the_coding_interview_problems/1-1-hasUniqueChars.py)|
 | Problem 1-2 : Edition 5: Reverse a string when you are a pass a null terminated C string.|[1-2-edi5-reverseString.cpp ](cracking_the_coding_interview_problems/1-2-edi5-reverseString.cpp)|
-| Problem 1-2 : Edition 6: Given two strings, determine if one is permutation of other.|[1-2-perm-strings.cpp](cracking_the_coding_interview_problems/1-2-perm-strings.cpp)|
+| Problem 1-2 : Edition 6: Given two strings, determine if one is permutation of other.|[1-2-perm-strings.cpp](cracking_the_coding_interview_problems/1-2-perm-strings.cpp), [1-2-perm-strings.py](cracking_the_coding_interview_problems/1-2-perm-strings.py)|
 | Problem 1-3 : Edition 5: Write an algorithm to remove duplicate chars from a string.|[1-3-edi5-removeDuplicates.cpp](cracking_the_coding_interview_problems/1-3-edi5-removeDuplicates.cpp)|
 | Problem 1-3 : Edition 6: URLify: Replace all the spaces in a string with '%20'. Preferebly Inplace |[1-3-URLify.cpp](cracking_the_coding_interview_problems/1-3-URLify.cpp)|
 | Problem 1-4 : Edition 6: Given a string, write a function to check if it is a permutation of a pallindrome.|[1-4-pallindrome-permutations.cpp ](cracking_the_coding_interview_problems/1-4-pallindrome-permutations.cpp)|
@@ -100,21 +106,24 @@ Include contains single header implementation of data structures and some algori
 | Problem | Solution |
 | :------------ | :----------: |
 | N<sup>th</sup> Fibonacci term using different memoization techniques | [fibonacci.cpp](dynamic_programming_problems/fibonacci.cpp)|
-| Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp) |
+| Longest Common Subsequence Problem | [lcs.cpp](dynamic_programming_problems/lcs.cpp), [longest_common_subsequence.py](dynamic_programming_problems/longest_common_subsequence.py) |
 | Maximum Value Contigous Subsequence Problem [wiki](https://en.wikipedia.org/wiki/Maximum_subarray_problem)| [max_subsequence.cpp](dynamic_programming_problems/max_subsequence.cpp)|
 | Catalan number - Count the number of possible Binary Search Trees with n keys | [catalan_number.cpp](dynamic_programming_problems/catalan_number.cpp)|
+| Calculate the number of unique paths from source origin (0, 0) to  destination (m-1, n-1) in a m x n grid. You can only move either in down or right direction.|[unique_paths.cpp](dynamic_programming_problems/unique_paths.cpp)|
+| 0-1 Knapsack Problem: Imagine you are a thief and you want to steal things with room full of things. You have a knapsack which can handle maximum capacity of weight W, and you want to fill it up such that it's worth is maximum. Being an intelligent thief, you know weights and values of each item in room. How would you fill your knapsack, such that you get the maximum possible value, such that you can only fill upto capacity W.|[0_1_knapsack_problem.cpp](dynamic_programming_problems/0_1_knapsack_problem.cpp)|
 
 ### Tree Problems
 | Problem | Solution |
 | :------------ | :----------: |
-|Iterative Level order traversal of Tree using queue |[levelOrderTraversalIterative.cpp](tree_problems/levelOrderTraversalIterative.cpp)|
-|Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp)|
-|ZigZag Traversal of Tree | [zigZagTraversal.cpp](tree_problems/zigZagTraversal.cpp)|
+|Iterative Level order traversal of Tree using queue |[levelOrderTraversalIterative.cpp](tree_problems/levelOrderTraversalIterative.cpp), [level_order_tree_traversal_iterative.py](tree_problems/level_order_tree_traversal_iterative.py)|
+|Recursive Level order traveral of Tree | [levelOrderTraversalRecursive.cpp](tree_problems/levelOrderTraversalRecursive.cpp), [level_order_tree_traversal_recursive.py](tree_problems/level_order_tree_traversal_recursive.py)|
+|ZigZag Traversal of Tree | [zigZagTraversal.cpp](tree_problems/zigZagTraversal.cpp), [zig_zag_traversal.py](tree_problems/zig_zag_traversal.py)|
 |Predecessor and Successor of a given node in Binary Search Tree | [predecessorSuccessor.cpp](tree_problems/predecessorSuccessor.cpp)|
-|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp)|
+|Given values of two nodes in a Binary Search Tree, find the Lowest Common Ancestor (LCA). Assume that both the values exist in the tree.| [lowest-common-ancestor.cpp](tree_problems/lowest-common-ancestor.cpp), [lowest_common_ancestor.py](tree_problems/lowest_common_ancestor.py)|
+|Given a binary tree (unlike binary search tree), find the Lowest Common Ancestor (LCA).|[lowest-common-ancestor-binary-tree.cpp](tree_problems/lowest-common-ancestor-binary-tree.cpp)|
 |Given a binary tree, print out all of its root-to-leaf paths one per line.| [printAllRootToLeafPath.cpp](tree_problems/printAllRootToLeafPath.cpp)
 |Determine if a tree is sum tree. A SumTree is a Binary Tree where the value of a node is equal to sum of the nodes present in its left subtree and right subtree. An empty tree is SumTree and sum of an empty tree can be considered as 0. A leaf node is also considered as SumTree.| [sumTree.cpp](tree_problems/sumTree.cpp)|
-|Convert a tree to sumTree, such that each node is sum of left and right subtree of the original tree.| [convert_to_sum_tree.cpp](tree_problems/convert_to_sum_tree.cpp)|
+|Convert a tree to sumTree, such that each node is sum of left and right subtree of the original tree.| [convert_to_sum_tree.cpp](tree_problems/convert_to_sum_tree.cpp), [convert_to_sum_tree.py](tree_problems/convert_to_sum_tree.py)|
 | Convert a sorted array to balanced binary search tree.| [sortedArrayToBST.cpp](tree_problems/sortedArrayToBST.cpp)|
 | Given a binary tree, generate sum of each vertical column.|[verticalSum.cpp](tree_problems/verticalSum.cpp)|
 | Given a binary tree and key, node with key exists in tree. Find all the ancestors of the node with key, ancestor here are the nodes which are in straight path from node to root.| [node_ancestors_in_root_path.cpp](tree_problems/node_ancestors_in_root_path.cpp)|
@@ -123,6 +132,11 @@ Include contains single header implementation of data structures and some algori
 | Given a binary tree, print its nodes level by level in reverse order. i.e. all nodes present at last level should be printed first followed by nodes of second-last level and so on.. All nodes for any level should be printed from left to right. | [reverseLevelOrderTraversal.cpp](tree_problems/reverseLevelOrderTraversal.cpp) |
 | Invert a binary tree, recursively and iteratively.| [invert_a_tree.cpp](tree_problems/invert_a_tree.cpp) |
 | Given a Binary Search Tree, find ceil and floor of a given key in it. If the given key lie in the BST, then both floor and ceil is equal to that key, else ceil is equal to next greater key (if any) in the BST and floor is equal to previous greater key (if any) in the BST | [floor_ceil_bst.cpp](tree_problems/floor_ceil_bst.cpp) |
+| Find kth smallest element in a binary search tree | [kth_smallest.cpp](tree_problems/kth_smallest.cpp)|
+| Validate if a given binary tree is a binary search tree. | [validate_bst.cpp](tree_problems/validate_bst.cpp) |
+| Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.| [find_target_k.cpp](tree_problems/find_target_k.cpp) |
+| Given a non-empty binary search tree and a target value, find the value in the BST that is closest to the target. Also, to note that the target value is a floating point. There will be only one unique value which is closest to the target. |[closest_bst_value.cpp](tree_problems/closest_bst_value.cpp), [closest_bst_value.py](tree_problems/closest_bst_value.py) |
+| Given a binary tree, traversing preorder, construct a string output containing node values and parenthesis. The null node needs to be represented by empty parenthesis pair "()". And you need to omit all the empty parenthesis pairs that don't affect the one-to-one mapping relationship between the string and the original binary tree. Examples in code file| [string_from_tree.cpp](tree_problems/string_from_tree.cpp)|
 
 ### String Problems
 | Problem | Solution |
@@ -131,6 +145,8 @@ Include contains single header implementation of data structures and some algori
 | Find next permutation of a given string, ie. rearrange the given string sucht a way that is next lexicographically greater string than given string | [next_permutation.cpp](string_problems/next_permutation.cpp)|
 | Implementation of Z algorithm for pattern matching | [z.cpp](string_problems/z.cpp)|
 | Test cases for self created string library | [pstring_test.cpp](string_problems/pstring_test.cpp)|
+| Get the length of the last word in a string. | [length_of_last_word.cpp](string_problems/length_of_last_word.cpp)|
+| Find the difference between two string. String t is generated by random shuffling string s and then add one more letter at a random position. Determine the character which is different in t| [find_difference.cpp](string_problems/find_difference.cpp)| 
 
 ### Common Data Structure and logic problems
 | Problem | Solution |
@@ -154,12 +170,14 @@ Include contains single header implementation of data structures and some algori
 | Implement pow(x,y) using divide and conquer approach. Try implementing it in O(logn)| [pow.cpp](math_problems/pow.cpp)|
 | Calculate factorial of large number, say 100 (it will have 158 digits) |[factorial_of_large_num.cpp](math_problems/factorial_of_large_num.cpp)|
 | Generate all possible words from a number entered on a traditional mobile keypad | [phone_digits.cpp](math_problems/phone_digits.cpp)|
-
+| Given a string representation of a number, remove n characters from the string such that number representation is lowest possible.| [lowest_possible_number.cpp](math_problems/lowest_possible_number.cpp)|
+| Detect if a number is a happy number. A number is happy number if sequence of operations where number is replaced by sum of square of its digits leads eventually to 1. A number is not a happy number if we are in an infinite loop when above operations are performed.| [happy_number.cpp](math_problems/happy_number.cpp)|
 ### Stack Problems
 | Problem | Solution |
 | :------------ | :----------: |
 |  We have series of n daily price quotes for a stock. We need to calculate span of stock's price for all n days. Span for ith day is defined as maximum number of consecutive days, for which the price of the stock was less than or equal to ith day. For stock quotes {100, 60, 70, 65, 80, 85} span will be {1, 1, 2, 1, 4, 5}. Span for day 1 is always 1, now for day 2 stock is at 60, and there is no day befor it when stock was less than 60. So span remains 1. For day 3, the stock is priced at 70, so its span is 2, as previous day it was 60, and so on. | [stock_span_problem.cpp](stack_problems/stock_span_problem.cpp) |
 | Given an infix expression, convert it to postfix expression, Example (A+B)\*C --> AB+C\* | [infix_to_postfix.cpp](stack_problems/infix_to_postfix.cpp) |
+| Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.| [valid_parenthesis.cpp](stack_problems/valid_parenthesis.cpp)|
 
 ### Sort and Search Problems
 | Problem | Solution |
@@ -190,13 +208,23 @@ Include contains single header implementation of data structures and some algori
 | calculate the shortest distance from the start position (Node S) to all of the other nodes in the graph using Dijkstra algorithm. | [dijkstra-shortest-reach.cpp](graph_problems/dijkstra-shortest-reach.cpp)|
 | Calculate total weight of Minimum Spanning Tree of a given graph ( sum of weights of edges which forms MST) using Prim's algorithm | [primsMST.cpp](graph_problems/primsMST.cpp)|
 | Print Minimum Spanning Tree( MST ) of a given graph using Kruskal's algorithm.| [kruskalMST.cpp](graph_problems/kruskalMST.cpp)|
-| Create a program to generate a Huffman encoding for each character as a table.|[huffman_encoding.cpp] (greedy_problems/huffman_encoding.cpp)|
+| Create a program to generate a Huffman encoding for each character as a table.|[huffman_encoding.cpp](greedy_problems/huffman_encoding.cpp)|
+| Search a given word in a 2D board containing letters. The word can be constructed by sequentially traversing adjacent horizontal or vertical cells. In a sequence to form word, letter on same position can not be used more than once. (Check top of file for examples.)|[grid_word_search.cpp](graph_problems/grid_word_search.cpp)|
+| Given a 2D screen, location of the pixel and new value of the color to fill, replace the color of the pixel and all the adjacent(up, below, left, right) same colored pixel with new color. This is same as flood fill (remember the bucket symbol) a region in MS-PAINT.| [flood_fill.cpp](graph_problems/flood_fill.cpp)|
 
 ### Greedy Problems
 | Problem | Solution |
 | :------------ | :----------: |
 | Given two integer arrays, A and B, each containing N integers. You are free to permute the order of the elements in the arrays. Is there an permutation A', B' possible of A and B, such that, A'<sub>i</sub>+B'<sub>i</sub> ≥ K for all i, where A'<sub>i</sub> denotes the i<sup>th</sup> element in the array A' and B'<sub>i</sub> denotes i<sup>th</sup> element in the array B'.| [two_arrays.cpp](greedy_problems/two_arrays.cpp)|
-|John is taking orders. The i<sup>th</sup> order is placed by the i<sup>th</sup> customer at t<sub>i</sub> time and it takes d<sub>i</sub> time to procees. What is the order in which the customers will get their orders? (see more details in solutions's comments)|[orders_order.cpp](greedy_problems/orders_order.cpp)|
+| John is taking orders. The i<sup>th</sup> order is placed by the i<sup>th</sup> customer at t<sub>i</sub> time and it takes d<sub>i</sub> time to procees. What is the order in which the customers will get their orders? (see more details in solutions's comments)|[orders_order.cpp](greedy_problems/orders_order.cpp)|
+
+### Backtracking Problems
+| Problem | Solution |
+| :------------ | :----------: |
+| You are given a digit string (e.g "1234", "567" etc), provide all possible letter combinations we could generate from this digit string, based on the mapping we see on the telphone/mobile dialpad. If you have typed SMS in old style phones, you would know. For e.g. "1" is mapped to "abc", 2 is mapped to "def". You can refer to the <a href="http://techotv.com/wp-content/uploads/2013/03/Lumia-620-dial-pad-screen-1.jpg" target="_blank">image.</a>. <ul><li> Example: "34" will give output: {"dg","dh","di","eg","eh","ei","fg","fh","fi"} </li></ul> Note that order does not matter in result set.|[dialpad_combinations.cpp](backtracking_problems/dialpad_combinations.cpp)|
+| Implement wildcard pattern maching with support for '?' & '*'. <ul><li>'?' Matches any single character.</li></ul><ul><li>'*' Matches any sequence of character.</li></ul>. Checkout examples in file for more details.|[wild_card_matching.cpp](backtracking_problems/wild_card_matching.cpp)|
+| Given a 2D board and list of words from a dictionary, find all the possible words on board fromt the list. (Check example in the solution)| [word_search.cpp](backtracking_problems/word_search.cpp)|
+
 
 
 ### Leet code Problems
@@ -229,5 +257,24 @@ Include contains single header implementation of data structures and some algori
 | The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.| [hamming_distance.cpp](leet_code_problems/hamming_distance.cpp)|
 | Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge them into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of new tree.| [merge_trees.cpp](leet_code_problems/merge_trees.cpp)|
 | Write a function that takes a string as input and reverse only the vowels of a string.|[reverse_vowels.cpp](leet_code_problems/reverse_vowels.cpp)|
-
-
+| Given a string, sort it in decreasing order based on the frequency of characters.For example: <ul><li>Input: cccbbbbaa Output: bbbcccaa</li></ul>| [sortCharByFrequency.cpp](leet_code_problems/sortCharByFrequency.cpp)|
+|Product of Array Except Self. Given an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].| [product_except_self.cpp](leet_code_problems/product_except_self.cpp)|
+|Given a sorted array, remove duplicates in place and return the new length. It doesn't matter what is in array beyond the unique elements size. Expected O(1) space and O(n) time complexity.| [remove_duplicates.cpp](leet_code_problems/remove_duplicates.cpp) |
+| Count the number of islands in a grid. Given a grid representing 1 as land body, and 0 as water body, determine the number of islands (more details in problem comments)|[count_islands.cpp](leet_code_problems/count_islands.cpp)|
+| Find median from a data stream. Design a data structure that supports addNum to add a number to the stream, and findMedian to return the median of the current numbers seen so far. Also, if the count of numbers is even, return average of two middle elements, return median otherwise.|[median_stream.cpp](leet_code_problems/median_stream.cpp)
+| Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results. Note: The input string may contain letters other than the parentheses ( and ) | [remove_invalid_parenthesis.cpp](leet_code_problems/remove_invalid_parenthesis.cpp)|
+| Given an array and a value, remove all instances of that value in-place and return the new length. Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory. The order of elements can be changed. It doesn't matter what you leave beyond the new length.| [remove_element.cpp](leet_code_problems/remove_element.cpp)|
+| Find intersection of two arrays/vectors, Given two vectors find the result of their interaction. The result should only contain unique characters and can be in any order|[intersection_of_array.cpp](leet_code_problems/intersection_of_array.cpp)|
+| Given a pattern and a string str, find if str follows the same pattern. Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str. example:
+pattern = "abba", str = "dog cat cat dog" should return true.
+pattern = "abba", str = "dog cat cat fish" should return false.
+pattern = "aaaa", str = "dog cat cat dog" should return false.
+pattern = "abba", str = "dog dog dog dog" should return false.| [word_pattern.cpp](leet_code_problems/word_pattern.cpp)|
+|You are provided a vector of numbers, where each number represents
+price of a stock on ith day. If you are permitted to only complete 
+one transaction per day (i.e buy one and sell one stock), design
+an algorithm to find the maximum profit.| [best_time_to_buy_sell.cpp](leet_code_problems/best_time_to_buy_sell.cpp)|
+| Given a sentence, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.|
+ Example: 
+ Input:  She loves    chocolate 
+ Output: ehs sevol    etalocohc|[reverse_words.cpp](leet_code_problems/reverse_words.cpp)|
