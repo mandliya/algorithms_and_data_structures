@@ -1,0 +1,57 @@
+#include<bits/stdc++.h>
+using namespace std;
+bool check(int cows,long long positions[],int n,long long distance){
+
+	int count = 1;
+	long long last_position = positions[0];
+
+	for(int i=1;i<n;i++){
+		if(positions[i] - last_position >= distance){
+			last_position = positions[i];
+			count++;
+		}
+
+		if(count == cows){
+			return true;
+		}
+	}
+	return false;
+}
+int main() {
+int t;
+    cin>>t;
+    int n,c;
+    long long m,ans=-1;
+   
+    while(t>0)
+   { t--;
+    cin>>n;
+    cin>>c;
+  long   long arr[n];
+    
+    
+        for(int i =0;i<n;i++)
+    cin>>arr[i];
+    sort(arr,arr+n);
+    
+    
+    long long int l=0,r=arr[n-1]-arr[0];
+    
+    while (l <= r) { 
+         m =l+(( r-l ) / 2); 
+    
+       if(check(c,arr,n,m))
+       {ans=m;
+        l=m+1;
+           
+       }
+    else
+        r=m-1;
+        
+    }
+    cout<<ans<<endl;
+    
+	// Write your code here
+}
+    return 0;
+}

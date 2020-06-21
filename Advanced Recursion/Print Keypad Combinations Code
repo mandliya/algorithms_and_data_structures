@@ -1,0 +1,35 @@
+#include<iostream>
+#include<string>
+#include<bits/stdc++.h>
+using namespace std;
+
+void keypad(int num,string output,string options[]){
+	if(num==0){
+		string str=output;
+    // Reverse str[beign..end] 
+   // reverse(str.begin(), str.end()); 
+  
+    cout << str<<endl; 
+		return ;
+	}
+    
+	int ld= num%10;
+	int newno=num/10;
+
+	string op=options[ld];
+	int k=0;
+	for(int i=0;i<op.length();i++){
+        //output=output+op[i];
+			keypad(newno,op[i]+output,options);
+			
+		
+	}
+	
+}
+void printKeypad(int num){
+   string options[]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    string output="";
+    
+  keypad(num,output,options);
+   
+}

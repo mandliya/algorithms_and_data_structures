@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+using namespace std;
+    int main()
+    {
+        long long n,m,t;
+        cin>>n;
+        long long sum=0,ans=n;
+        long long  st=1,end=n;
+        while(st<=end)
+        {  
+         m=n;
+         sum=0;
+            long long mid=st+(end-st)/2;
+            while(m>0)
+            { 
+                sum=sum+min(m,mid);
+                m=m-min(m,mid);
+                m=m-(m/10);
+                
+            }
+            if(n%2==0)
+                t=n/2;
+            else
+                t=(n/2)+1;
+         if(sum>=t)
+         {
+             ans=mid;
+             end=mid-1;
+         }
+           else
+              st=mid+1;
+            
+        }
+        cout<<ans<<endl;     
+    
+	return 0;
+}

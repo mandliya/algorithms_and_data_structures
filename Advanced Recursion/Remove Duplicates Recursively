@@ -1,0 +1,17 @@
+void removeConsecutiveDuplicates(char *arr) {
+	
+    if(arr[0]=='\0')
+        return;
+    if(arr[0]==arr[1])
+    { int i=1;
+     while(arr[i])
+     {   
+         arr[i]=arr[i+1];
+         i++;
+     }
+        
+    
+    }
+    removeConsecutiveDuplicates(arr+1);
+
+}

@@ -1,0 +1,44 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  long  int n;
+    cin>>n;
+int arr[n];
+    long int s=0;
+    for(int i=0;i<n;i++)
+    {
+        int m;
+        cin>>m;
+        s+=m;
+        arr[i]=s;
+    }
+  long   int q;
+    cin>>q;
+    while(q--)
+    {
+        long long int r;
+        cin>>r;
+        long long int start=0,end=n-1,mid;
+        long  int ans = -1;
+     while(start<=end)
+     {
+         mid=start+(end-start)/2;
+         if(arr[mid]<=r){
+                ans = mid;
+                start=mid+1;
+            }
+            else{
+                end=mid-1;
+            }
+         
+     }
+     if(ans == -1){
+         cout<<0<<" "<<r<<endl;
+     }
+     else
+     cout<<ans+1<<" "<<r-arr[ans]<<endl;
+        
+    }
+	return 0;
+}

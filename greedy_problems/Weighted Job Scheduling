@@ -1,0 +1,60 @@
+#include<bits/stdc++.h>
+using namespace std;
+struct job
+{
+    public:
+    long st,ft,p;
+};
+bool compare(job a,job b)
+{    if(a.ft==b.ft)
+    return a.p>b.p;
+    return a.ft<b.ft;
+}
+int main()
+{
+    //Write your code here
+    long n;
+    cin>>n;
+    job* arr=new job[n];
+    long * pro=new long[n];
+    for(long i=0;i<n;i++)
+    {
+        
+       long s,f,p;
+        cin>>s>>f>>p;
+        arr[i].st=s;
+        arr[i].ft=f;
+        arr[i].p=p;
+    }
+    sort(arr,arr+n,compare);
+    pro[0]=arr[0].p;
+      long mx=pro[0];
+    
+      for(int i=1;i<n;i++)
+    {    long p=0;
+     int start=0;
+     int end=i;
+        while(start<=end)
+        {    int mid=start+(end-start)/2;
+           if(arr[mid].ft<=arr[i].st)
+           {
+               p=(arr[i].p+pro[mid]);
+             start=mid+1;
+           }
+         else{end=mid-1;
+            p=max(p,arr[i].p);}
+            
+            
+        }
+     pro[i]=max(p,pro[i-1]);
+     
+    // cout<<pro[i]<<" ";
+ //    if(mx<pro[i])
+      
+          
+      }
+   mx=pro[n-1];
+      cout<<endl<<mx<<endl;
+    
+    return 0;
+}
