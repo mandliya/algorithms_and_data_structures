@@ -1,0 +1,41 @@
+#include<iostream>
+
+#include <string>
+#include "solution.h"
+using namespace std;
+
+int main(){
+    int num;
+    cin >> num;
+
+    string output[10000];
+    int count = keypad(num, output);
+    for(int i = 0; i < count && i < 10000; i++){
+        cout << output[i] << endl;
+    }
+    return 0;
+}
+
+int keypad(int num,string output[],string options[]){
+	if(num==0){
+		output[0]="";
+		return 1;
+	}
+	int ld= num%10;
+	int newno=num/10;
+	string newoutput[500];
+	int newcount=keypad(newno,newoutput,options);
+	string op=options[ld];
+	int k=0;
+	for(int i=0;i<op.length();i++){
+		for(int j=0;j<newcount;j++){
+			output[k]=newoutput[j]+op[i];
+			k++;
+		}
+	}
+	return k;
+}
+int keypad(int num,string output[]){
+   string options[]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+   return keypad(num,output,options);
+}

@@ -1,0 +1,9 @@
+void replaceCharacter(char arr[], char c1, char c2) {
+   
+    if(arr[0])
+   { if(arr[0]==c1)
+        arr[0]=c2;
+    replaceCharacter(arr+1,c1,c2);}
+    return;
+    
+}

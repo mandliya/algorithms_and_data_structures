@@ -1,0 +1,83 @@
+#include<iostream>
+using namespace std;
+#include "Solution.h"
+
+int main(){
+
+  int n = 9; 
+  int board[9][9];
+  for(int i = 0; i < n ;i++){
+	for(int j = 0; j < n; j++){
+        	cin >> board[i][j];
+        }		
+  }
+  if(sudokuSolver(board)){
+	cout << "true";	
+  }else{
+	cout << "false";	
+  }
+}
+
+
+bool emptylocation(int board[][9],int *i,int *j)
+{
+    for(int k=0;k<9;k++)
+    {
+        for(int l=0;l<9;l++)
+        {
+            if(board[k][l]==0)
+            {
+                *i=k;
+                *j=l;
+                return true;
+            }
+        }
+    }
+    return false;
+}
+bool place(int board[][9],int i,int j,int n)
+{
+  
+    for(int t=0;t<9;t++)
+    {
+        if(board[i][t]==n)
+            return false;
+    }
+    for(int t=0;t<9;t++)
+    {
+        if(board[t][j]==n)
+            return false;
+    }
+    int x=i-(i%3);
+    int y=j-(j%3);
+    for(int s=0;s<3;s++)
+    {
+        for(int t=0;t<3;t++)
+        {
+            if(board[s+x][t+y]==n)
+                return false;
+        }
+    }
+    return true;
+}
+
+bool sudokuSolver(int board[][9]){
+    int row,col;
+if(!emptylocation(board,&row,&col))
+    return true;
+    for(int i=1;i<=9;i++)
+    {
+        if(place(board,row,col,i))
+        {
+            board[row][col]=i;
+            if(sudokuSolver(board))
+            return true;
+             board[row][col]=0;
+            
+        }
+        
+    }
+    return false;
+}
+
+    

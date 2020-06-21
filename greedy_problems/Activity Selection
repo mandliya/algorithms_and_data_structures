@@ -1,0 +1,45 @@
+#include<bits/stdc++.h>
+using namespace std;
+class activity
+{
+    public:
+    long st;
+    long ft;
+};
+bool compare(activity a,activity b)
+{
+    return a.ft<b.ft;
+}
+int main()
+{
+    //Write your code here
+    long n;
+    cin>>n;
+    activity * arr=new activity [n];
+  long s,f;
+    for(long i=0;i<n;i++)
+    {
+        cin>>s>>f;
+        arr[i].st=s;
+        arr[i].ft=f;
+    }
+    sort(arr,arr+n,compare);
+   // for(int i=0;i<n;i++)
+     //   cout<<arr[i].st<<" "<<arr[i].ft<<endl;
+    int sum=1;
+    activity c=arr[0];
+    
+    for(long i=1;i<n;i++)
+    {
+        
+        if(arr[i].st>c.ft)
+        {
+            c=arr[i];
+            sum++;
+        }
+    }
+    cout<<sum<<endl;
+   
+    
+    return 0;
+}

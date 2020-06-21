@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+
+    long   s,d;
+    cin>>s>>d;
+  char* ans=new char[d];
+    cout<<ans;
+   ans[0]='1';
+    for(int i=1;i<d;i++)
+        ans[i]='0';
+    s--;
+    int p=0;
+    int z=d-1;
+    
+    while(s>0)
+    {
+        int t=min(s,long(9));
+        ans[z]=t+48;
+        z--;
+        p++;
+        s-=t;
+    }
+    
+    cout<<ans;
+}

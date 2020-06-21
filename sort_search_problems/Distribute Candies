@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {int n,k;
+     cin>>n;
+      int arr[n],ans=0,s;
+     cin>>k;
+     long long max=0;
+     for(int i=0;i<n;i++)
+         {cin>>arr[i];
+         if(arr[i]>max)
+          max=arr[i];
+         }
+     
+     long long start=0,end=max,mid;
+     while(start<=end)
+     {     s=0;
+       mid=start+(end-start)/2;
+        for(int i=0;i<n;i++)
+            s+=(arr[i]/mid);
+      if(s>=k)
+      {    ans=mid;
+          start=mid+1;
+      }
+      else 
+          end=mid-1;
+            
+         
+     }
+     cout<<ans<<endl;
+     
+        
+    }
+
+	// Write your code here
+}

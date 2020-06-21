@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   long n;
+    cin>>n;
+    long long arr[n];
+    for(long i=0;i<n;i++)
+        cin>>arr[i];
+    for(long i=0;i<n;i++)
+    {long long m=arr[i]-i;
+     if(m<0)
+         m=0;
+        long long t=(m)/(n);
+        if((m)%n!=0)
+            t++;
+     if(t<0)
+         t=0;
+        arr[i]=(t*n)+i;
+       
+     }
+    long long min=arr[0];
+    long int m=0;
+     for(long i=0;i<n;i++)
+    {
+         if(arr[i]<min)
+    {
+        min=arr[i];
+        m=i;
+    }}
+    
+        cout<<m+1;
+	return 0;
+}
