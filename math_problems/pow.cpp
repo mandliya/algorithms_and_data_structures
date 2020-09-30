@@ -3,7 +3,7 @@
  */
 
 #include <iostream>
-
+using namespace std;
 
 double pow( double x, int y )
 {
@@ -25,14 +25,14 @@ double pow( double x, int y )
 
 int main()
 {
-	std::cout << "Program to calculate power y to the base x\n";
+	cout << "Program to calculate power y to the base x\n";
 	double x;
 	int y;
-	std::cout << "Enter base : ";
-	std::cin >> x;
-	std::cout << "Enter power(int + or -) : ";
-	std::cin >> y;
-	std::cout << "Power " << y << " to the base " << x << " is: ";
-	std::cout <<  pow(x, y) << std::endl;
+	cout << "Enter base : ";
+	cin >> x;
+	cout << "Enter power(int + or -) : ";
+	cin >> y;
+       cout << "Power " << y << " to the base " << x << " is: ";
+	cout <<  pow(x, y) << endl;
 	return 0;
 }
