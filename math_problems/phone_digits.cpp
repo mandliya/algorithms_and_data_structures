@@ -22,8 +22,8 @@
 #include <unordered_map>
 #include <sstream>
 #include <vector>
-
-std::unordered_map<char, std::string> table{ { '0', "" },
+using namespace std;
+unordered_map<char, string> table{ { '0', "" },
                                              { '1', "" },
                                              { '2', "abc"},
                                              { '3', "def"},
@@ -35,8 +35,8 @@ std::unordered_map<char, std::string> table{ { '0', "" },
                                              { '9', "wxyz"} };
 
 
-void get_words( std::string input, unsigned int curr_digit,
-                std::string & curr_str, std::vector<std::string> &  output)
+void get_words( string input, unsigned int curr_digit,
+                string & curr_str, vector<string> &  output)
 {
     if ( curr_digit == input.size()) {
         output.push_back(curr_str);
@@ -54,14 +54,14 @@ void get_words( std::string input, unsigned int curr_digit,
 
 int main()
 {
-    std::string input;
-    std::cout << "Enter a number:";
-    std::cin >> input;
-    std::vector<std::string> output;
-    std::string curr_string(input.size(), ' ');
+    string input;
+    cout << "Enter a number:";
+   cin >> input;
+    vector<string> output;
+   string curr_string(input.size(), ' ');
     get_words(input, 0, curr_string, output);
     for ( auto & word : output ) {
-        std::cout << word << std::endl;
+        cout << word << endl;
     } 
     return 0;
 }
