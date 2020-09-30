@@ -1,15 +1,17 @@
 /*
  * Given an array of integers, determine the first non repeating integer in the array.
  */
-
+#include<bits/stdc++.h>
 #include<iostream>
 #include<map>
+using namespace std;
 
+#define ll long long int
 
-int nonRepeating(int *arr, int size){
-	std::map<int, int> m;
-	std::map<int,int>::iterator it;
-	for(int i = 0; i < size; ++i){
+ll nonRepeating(vector<ll> arr, int size){
+	map<ll,ll> m;
+	map<ll,ll>::iterator it;
+	for(ll i = 0; i < size; ++i){
 		it = m.find(arr[i]);
 		if( it != m.end()){
 			m[arr[i]] = ++(it->second);
@@ -19,7 +21,7 @@ int nonRepeating(int *arr, int size){
 		}
 	}
 
-	for(int i = 0; i < size; ++i){
+	for(ll i = 0; i < size; ++i){
 		it = m.find(arr[i]);
 		if( it != m.end()){
 			if(it->second == 1)
@@ -31,16 +33,18 @@ int nonRepeating(int *arr, int size){
 }
 
 int main(){
-	int size;
-	int *arr;
-	std::cout<<"Enter size:";
-	std::cin>>size;
-	arr = new int[size];
-	std::cout<<"Enter contents of array:";
-	for(int i = 0; i < size; ++i){
-		std::cin>>arr[i];
+	ll size;
+	//int *arr;
+
+	cout<<"Enter size of array:";
+	cin>>size;
+	vector<ll> arr(size);
+	//arr = new int[size];
+	cout<<"Enter elements of array:";
+	for(ll i = 0; i < size; ++i)
+    {
+		cin>>arr[i];
 	}
-	std::cout<<"First Non repeating integer in array:"<< nonRepeating(arr,size)<<std::endl;
-	delete[] arr;
+	cout<<"First Non repeating integer in array:"<< nonRepeating(arr,size)<<endl;
 	return 0;
 }
