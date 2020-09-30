@@ -12,10 +12,13 @@
  */
 #include <iostream>
 #include <cstring>
-
+void permute(string);
+using namespace std;
 /*
  * Helper routine to swap pointers
  */
+//now using c++ function, can permutate the string ,easily
+/*
 void swap( char *a, char *b )
 {
     char temp = *a;
@@ -29,6 +32,7 @@ void swap( char *a, char *b )
  * Arg 2: starting index of the string.
  * Arg 3: ending index of the string/
  */
+/*
 void permute(char *str, int l, int r)
 {
     if (l == r) 
@@ -52,3 +56,24 @@ int main()
     return 0;
 }
 
+*/
+void permute(string str)
+{
+    // Sort the string in lexicographically
+    // ascennding order
+    sort(str.begin(), str.end());
+ 
+    // Keep printing next permutation while there
+    // is next permutation
+    do {
+       cout << str << endl;
+    } while (next_permutation(str.begin(), str.end()));
+}
+ 
+// Driver code
+int main()
+{
+    string str = "CBA";
+    permute(str);
+    return 0;
+}
