@@ -58,6 +58,7 @@ int main()
   insert( head, 2 );
   insert( head, 3 );
   insert( head, 4 );
+    insert( head, 5 );
   printList( head );
   std::cout << "Deleting node with data 12 \n";
   deleteNode( head->next );
