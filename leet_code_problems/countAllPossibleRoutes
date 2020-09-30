@@ -1,0 +1,23 @@
+#define ll long long
+#define mod 1000000007
+class Solution {
+public:
+    ll dp[105][205];
+    ll func(int pos, int fuel, vector<int> &v, int end)
+    {
+        int n = (int)v.size();
+        if(dp[pos][fuel] != -1)
+            return dp[pos][fuel];
+        ll ans = (pos==end);
+        for(int i=0;i<n;i++)
+        {
+            if(pos != i && (fuel >= abs(v[pos]-v[i])))
+                ans = (ans + func(i, fuel - abs(v[pos]-v[i]),v,end)) % mod;
+        }
+        return dp[pos][fuel] = ans;
+    }
+    int countRoutes(vector<int>& locations, int start, int finish, int fuel) {
+        memset(dp,-1,sizeof(dp));
+        return func(start,fuel,locations,finish);
+    }
+};
