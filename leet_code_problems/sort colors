@@ -1,0 +1,59 @@
+** using sort stl**:- T.C- O(NLOG N) S.C-O(1)
+
+class Solution {
+public:
+   void sortColors(vector<int>& a) {
+       sort(a.begin(),a.end());
+   }
+};
+
+**using counting sort**:- T.C- O(n) S.C-O(1)
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums ) 
+    {
+        int mid=0,l=0,r=nums.size()-1,e=0 ;
+    for(int i=0;i<=r;i++)
+    {
+	if(nums[i]==0)
+		l++;
+	else if(nums[i]==2)
+		e++;
+	else if(nums[i]==1)
+		mid++;
+    }
+        nums.clear();
+     for(int i=0;i<l;i++)
+    {   
+        nums.push_back(0);
+    }
+         for(int i=0;i<mid;i++)
+    {   
+         nums.push_back(1);
+    }
+         for(int i=0;i<e;i++)
+    {   
+        nums.push_back(2);
+    }
+    }     
+};
+
+**using dutch national flag algo**:- T.C-O(n) s.c-O(1)
+
+class Solution {
+public:
+    void sortColors(vector<int>& nums ) 
+    {
+        int mid=0,l=0,r=nums.size()-1 ;
+        
+       while(mid<=r){
+	if(nums[mid]==0)
+		swap(nums[mid],nums[l]),l++,mid++;
+	else if(nums[mid]==2)
+		swap(nums[r],nums[mid]),r--;
+	else if(nums[mid]==1)
+		mid++;
+}
+    }
+};
