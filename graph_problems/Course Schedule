@@ -1,0 +1,32 @@
+bool canFinish(int n, vector<vector<int>>& A)
+    {   
+        unordered_map<int, vector<int>> m;
+        vector<int> dg(n,0);
+        
+        for(int i=0;i<A.size();i++)
+        {
+            m[A[i][1]].push_back(A[i][0]);
+            dg[A[i][0]]++;
+        }
+        
+        queue<int> q;
+        for(int i=0; i<n; i++)
+            if(dg[i] == 0)
+                q.push(i);
+        
+        while(!q.empty())
+        {
+            int curr = q.front();
+            q.pop();
+            n--;
+            
+            for(int i=0; i<m[curr].size(); i++)
+            {
+                dg[m[curr][i]]--;
+                if(dg[m[curr][i]] == 0)
+                    q.push(m[curr][i]);
+            }
+        }
+        
+        return n == 0;
+    }
