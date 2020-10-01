@@ -7,7 +7,7 @@ struct Node {
   int data;
   Node * next;
   Node( int d ) : data{ d }, next{ nullptr } { }
-};
+}*head=NULL;
 
 void insert( Node * & head, int data )
 {
@@ -32,17 +32,26 @@ void printList( Node * head )
   std::cout << "NULL" << std::endl;
 }
 
-void deleteNode( Node * node )
+void deleteNode( Node * node ) // works in every condition
 {
-  // return if node is null
-  if ( node == nullptr ) {
-    return;
+  Node *p=head;
+  Node *q=NULL;
+  while(p!=node)
+  {
+      q=p;
+      p=p->next;
   }
+  q->next=p->next;
+  p->next=NULL;
+  delete p;
 
-  //this method won't work if we are given last node
-  if ( node->next == nullptr ) {
-    return;
-  }
+
+
+
+
+
+
+}
 
   Node * nextNode = node->next;
   node->data = nextNode->data;
@@ -52,12 +61,13 @@ void deleteNode( Node * node )
 
 int main()
 {
-  Node * head = nullptr;
+
   insert( head, 1 );
   insert( head, 12 );
   insert( head, 2 );
   insert( head, 3 );
   insert( head, 4 );
+    insert( head, 5 );
   printList( head );
   std::cout << "Deleting node with data 12 \n";
   deleteNode( head->next );
