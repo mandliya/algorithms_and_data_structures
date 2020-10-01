@@ -28,7 +28,7 @@
 | Only given a node pointer, delete the node from the linked list. | [deleteNode.cpp](linked_list_problems/deleteNode.cpp)|
 | Delete the entire linkedlist. | [deleteLinkedlist.cpp](linked_list_problems/deleteLinkedlist.cpp)|
 | Print middle node of linkedlist without iterating twice. | [printMiddleNode.cpp](linked_list_problems/printMiddleNode.cpp) | | Detecting and removing a cycle in linkedlist.| [floyedCycleDetection.cpp](linked_list_problems/floyedCycleDetection.cpp)|
-| Determine if a linked list is a pallindrome. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
+| Determine if a linked list is a pallindrome or not. | [listPallindrome.cpp](linked_list_problems/listPallindrome.cpp) |
 | Insert data in a sorted linked list.|[insertInASortedLinkedList.cpp](linked_list_problems/insertInASortedLinkedList.cpp) |
 | Determine the intersection(merging) point of two given linked list.| [findIntersectionPointOfLists.cpp](linked_list_problems/findIntersectionPointOfLists.cpp), [intersection_of_lists.py](linked_list_problems/intersection_of_lists.py)|
 | Clone a linkedlist which has next and an random pointer, Space Complexity - O(1). | [cloneListWithRandomPtr.cpp](linked_list_problems/cloneListWithRandomPtr.cpp), [clone_list_with_random_ptr.py](linked_list_problems/clone_list_with_random_ptr.py)|
@@ -63,12 +63,12 @@ Include contains single header implementation of data structures and some algori
 | Determine if a number is a power of 2. | [power_of_2.cpp](bit_manipulation/power_of_2.cpp) |
 | Add two binary number represented as string. | [addBin.cpp](bit_manipulation/addBin.cpp) |
 | Determine the next power of 2 for a given number. | [next_power_of_2.cpp](bit_manipulation/next_power_of_2.cpp) |
-| Using bit manipulation determine if a number is multiple of 3. | [multiple_of_3.cpp](bit_manipulation/multiple_of_3.cpp) |
+| Using bit manipulation to determine if a number is multiple of 3. | [multiple_of_3.cpp](bit_manipulation/multiple_of_3.cpp) |
 | Determine endianess of the machine, print a number in reverse Endianess. | [reverseEndianness.cpp](bit_manipulation/reverseEndianness.cpp) |
 | Find the parity of given number. | [find_parity.cpp](bit_manipulation/find_parity.cpp) |
 | Implement fast multiplication of a number to 7 using bit manipulation. | [multiply_by_7.cpp](bit_manipulation/multiply_by_7.cpp) |
 | Reverse bits of unsigned integer (two methods - Reversing bit by bit & divide and conquer). | [reverseBitsOfAnInteger.cpp](bit_manipulation/reverseBitsOfAnInteger.cpp) |
-| Small function to determine position of right most set bit in a given integer.| [right_most_set_bit.cpp](bit_manipulation/right_most_set_bit.cpp)| 
+| Small function to determine the position of right most set bit in a given integer.| [right_most_set_bit.cpp](bit_manipulation/right_most_set_bit.cpp)| 
 |Given a vector of numbers, only one number occurs odd number of times, find the number.| [find_odd_one_out.cpp](bit_manipulation/find_odd_one_out.cpp)|
 | Given two integers, determine if their sum would be interger overflow.| [integerOverflow.cpp](bit_manipulation/integerOverflow.cpp)|
 | How many bit flip operation would require to convert number A to B. | [countNumberOfBitFlips.cpp](bit_manipulation/countNumberOfBitFlips.cpp)|
