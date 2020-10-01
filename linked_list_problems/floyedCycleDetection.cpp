@@ -1,4 +1,5 @@
 /**
+ *  Flyod's cycle is an algorithm to detect the loop in a lined list.
  *  Problem : Using Floyd's cycle finding algorithm, detect if a linkedlist
  *  contain cycle, if it does contain cycle, remove the loop
  *  Visit : https://en.wikipedia.org/wiki/Cycle_detection
