@@ -4,7 +4,7 @@ struct Node {
   int data;
   Node * next;
   Node( int d ) : data{ d }, next{ nullptr } { }
-};
+}*head=NULL;
 
 void push( Node * & head, int data ) {
   Node *newNode = new Node(data);
@@ -48,16 +48,18 @@ void reverseRecur( Node * & head ) {
   if ( head == nullptr || ( head != nullptr && head->next == nullptr ) ) {
     return;
   }
-  Node * first = head;
-  Node * rest = head->next;
-  reverseRecur( rest );
-  first->next->next = first;
-  first->next = nullptr;
-  head = rest;
+  else
+  {
+  std :: cout<<head->data;
+  reverseRecur(head->next);
+  }
 }
 
+
+
+
 int main() {
-  Node *head = nullptr;
+
   push( head, 1 );
   push( head, 2 );
   push( head, 3 );
