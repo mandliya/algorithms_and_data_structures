@@ -1,4 +1,4 @@
-/**
+/** this is valid on both increasing or decreasing
  * Find the maximum element in an array which is first increasing and then decreasing.
  * Input: arr[] = {8, 10, 20, 80, 100, 200, 400, 500, 3, 2, 1}
  * Output: 500
