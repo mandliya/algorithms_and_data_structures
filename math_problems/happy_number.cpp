@@ -21,24 +21,24 @@
 
 #include <iostream>
 
-int square_sum(int num)
+int squareSum(int num)
 {
-    int squared_sum = 0;
+    int squaredSum = 0;
     while (num > 0) {
-        squared_sum += (num % 10) * (num % 10);
+        squaredSum += (num % 10) * (num % 10);
         num /= 10;
     }
-    return squared_sum;
+    return squaredSum;
 }
 
-bool is_happy(int num)
+bool isHappy(int num)
 {
     int slow = num;
     int fast = num;
     
     do {
-        slow = square_sum(slow);
-        fast = square_sum(square_sum(fast));
+        slow = squareSum(slow);
+        fast = squareSum(squareSum(fast));
     } while (slow != fast);
     return slow == 1;
 }
@@ -46,13 +46,13 @@ bool is_happy(int num)
 int main()
 {
     int num = 45;
-    if (is_happy(num)) {
+    if (isHappy(num)) {
         std::cout << num << " is a happy number." << std::endl;
     } else {
         std::cout << num << " is not a happy number." << std::endl;
     }
     num = 49;
-    if (is_happy(num)) {
+    if (isHappy(num)) {
         std::cout << num << " is a happy number." << std::endl;
     } else {
         std::cout << num << " is not a happy number." << std::endl;
