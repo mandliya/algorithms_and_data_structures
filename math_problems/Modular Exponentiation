@@ -1,0 +1,36 @@
+
+#include<bit/stdc++.h>
+#define int long long
+using namespace std;
+
+int fastexpo(long long int a,long long  int n,long long int p){
+  
+   int res = 1;
+   
+   while(n > 0){
+    
+    if(n & 1){
+      res = ((res % p) * (a % p)) % p;
+    }
+
+    a = ((a % p) * (a % p)) % p;
+    n = n >> 1;
+   }
+  return res;
+}
+int32_t main() {
+
+  int t;
+  cin>>t;
+  while(t--){
+    long long int a, n, p;
+    cin>>a>>n>>p;
+    while(n > 0){
+      a = fastexpo(a, n, p);
+      n--;
+    }
+
+        cout<<a<<endl;
+  }
+  return 0;
+}
