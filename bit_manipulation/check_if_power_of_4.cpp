@@ -27,7 +27,12 @@
      //note an alternative that avoids the last negation could be 
      //return (n && !(n & (n-1)) && (n & 0x55555555));
  }
-
+/* What if we use log...
+bool isPowerOf4 ( unsigned int n)
+{
+return ceil( log(n)/log(4) ) == floor( log(n)/log(4) ) ? 1:0;
+}
+*/
  int main()
  {  
      unsigned int n;
