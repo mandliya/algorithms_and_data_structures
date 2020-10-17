@@ -18,40 +18,46 @@
  */
 
 
-#include <bubbleSort.h>	//do not assume people will have their path set
-#include <generic.h>
-#include <stdlib.h>
-#include <time.h>
+// C++ program for implementation of Bubble sort 
+#include <bits/stdc++.h> 
+using namespace std; 
 
-int main()
-{
-    const int MAX_ELEMENTS = 10;
-    int arr[MAX_ELEMENTS];
-    double arrD[MAX_ELEMENTS];
-	srand(time(0));
+void swap(int *xp, int *yp) 
+{ 
+	int temp = *xp; 
+	*xp = *yp; 
+	*yp = temp; 
+} 
+
+// A function to implement bubble sort 
+void bubbleSort(int arr[], int n) 
+{ 
+	int i, j; 
+	for (i = 0; i < n-1; i++)	 
 	
-    //Filling up the array with random numbers;
-    for (int i = 0; i < MAX_ELEMENTS; ++i)
-    {   
-        // arr[i] = algo::random_range(1, 100);	//does not generate random number everytime
-        //arrD[i] = algo::random_range(1.0, 99.99);	//does not generate random
-		arr[i] = rand() % 100 + 1;
-		double f = (double)rand() / RAND_MAX;
-		arrD[i] = 1.0 + f * (99.99 - 1.0);
-    }
+	// Last i elements are already in place 
+	for (j = 0; j < n-i-1; j++) 
+		if (arr[j] > arr[j+1]) 
+			swap(&arr[j], &arr[j+1]); 
+} 
 
-    std::cout << "Before Sorting:\n";
-    algo::printList(arr, MAX_ELEMENTS);
-    algo::bubbleSort(arr, 0, MAX_ELEMENTS - 1);
-    std::cout << "After Sorting:\n";
-    algo::printList(arr, MAX_ELEMENTS);
+/* Function to print an array */
+void printArray(int arr[], int size) 
+{ 
+	int i; 
+	for (i = 0; i < size; i++) 
+		cout << arr[i] << " "; 
+	cout << endl; 
+} 
 
-
-    std::cout << "\n\nBefore Sorting:\n";
-    algo::printList(arrD, MAX_ELEMENTS);
-    algo::bubbleSort(arrD, 0, MAX_ELEMENTS - 1);
-    std::cout << "After Sorting:\n";
-    algo::printList(arrD, MAX_ELEMENTS);
-    return 0;
-}
+// Driver code 
+int main() 
+{ 
+	int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
+	int n = sizeof(arr)/sizeof(arr[0]); 
+	bubbleSort(arr, n); 
+	cout<<"Sorted array: \n"; 
+	printArray(arr, n); 
+	return 0; 
+} 
 
