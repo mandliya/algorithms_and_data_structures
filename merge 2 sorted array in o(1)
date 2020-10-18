@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+void merge2SortedArrays(ll arr1[],ll n, ll arr2[], ll m)
+{
+      int i=n-1,j=0;
+	    while(i>=0 && j<m)
+	    {
+	        if(arr1[i]>arr2[j])
+	        {
+	            swap(arr1[i],arr2[j]);
+	        }
+	        i--;j++;
+	    }
+	    sort(arr1,arr1+n);
+	    sort(arr2,arr2+m);
+}
+
+int main()
+{
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+  ll n,m,i,j;
+  cin>>n>>m;
+  ll arr1[n],arr2[m];
+  for(i=0;i<n;i++)cin>>arr1[i];
+  for(i=0;i<m;i++)cin>>arr2[i];
+  
+  merge2SortedArrays(arr1,n,arr2,m);
+  
+  for(i=0;i<n;i++)cout<<arr1[i]<<" ";
+  cout<<endl;
+  for(i=0;i<m;i++)cout<<arr2[i]<<" ";
+  cout<<endl;
+	return 0;
+}
