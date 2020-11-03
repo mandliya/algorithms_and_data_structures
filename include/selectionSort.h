@@ -33,7 +33,7 @@ namespace algo {
             for ( i = start; i <= end - 1; ++i ) {
                 //let us assume element at start index is smallest
                 minIndex = i;
-                for ( j = start + 1; j <= end; ++j ) {
+                for ( j = i + 1; j <= end; ++j ) {
                     if ( list[j]  <  list[minIndex] ) {
                         minIndex = j;
                     }
