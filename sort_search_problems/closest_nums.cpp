@@ -12,6 +12,7 @@ Example:
 #include <vector>
 #include <algorithm>
 #include <climits>
+
 using namespace std;
 
 
@@ -20,23 +21,23 @@ int main() {
     vector<int> vec;
     cin >> N;
     int x;
-    for ( int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i) {
         cin >> x;
         vec.push_back(x);
     }
     sort(vec.begin(), vec.end());
     int mindiff = INT_MAX;
-    for( size_t i = 0; i < vec.size()-1; ++i){
+    for(size_t i = 0; i < vec.size()-1; ++i){
         if (vec[i+1]-vec[i] < mindiff) {
             mindiff = vec[i+1]-vec[i];
         }
     }
-    for( size_t i =0; i < vec.size()-1; ++i ) {
+    for(size_t i = 0; i < vec.size()-1; ++i) {
         if (vec[i+1]-vec[i] == mindiff) {
-            std::cout << vec[i] << " " << vec[i+1] << " ";
+            cout << vec[i] << " " << vec[i+1] << " ";
         }
     }
-    std::cout << std::endl;
+    cout << endl;
     return 0;
 }
 
