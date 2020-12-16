@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	//code
+	int n,a,b;cin>>n;
+	int arr[1000001]={0};
+	for(int i=2;i<1000000;i++){
+	    int k=i;
+	    k+=i;
+	    while(k<=1000000){
+	        arr[k]=1;
+	        k+=i;
+	    }
+	}
+	while(n--){
+	    cin>>a>>b;int k;
+	    if(a>=2){k=a;}
+	    else{k=2;}
+	    for(int i=k;i<=b;i++){
+	        if(arr[i]==0){cout<<i<<" ";}
+	    }
+	    cout<<endl;
+	}
+	return 0;
+}
