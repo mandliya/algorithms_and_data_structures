@@ -1,0 +1,48 @@
+// { Driver Code Starts
+// Initial Template for C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+ // } Driver Code Ends
+
+
+// User function Template for C++
+
+class Solution{
+public:
+    int distance(int n, int a[], char d[]){
+        // code here
+        int x=0,y=0,z=0;
+        for(int i=0;i<n;i++){
+            if(d[i]=='N'){x+=a[i];}
+            else if(d[i]=='S'){x-=a[i];}
+            else if(d[i]=='E'){y-=a[i];}
+            else if(d[i]=='W'){y+=a[i];}
+            z+=a[i];
+        }
+        z += ceil(sqrt(x*x + y*y));
+        return z;
+    }
+};
+
+// { Driver Code Starts.
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        int a[n];
+        char d[n];
+        for(int i = 0;i < n;i++)
+            cin>>a[i];
+        for(int i = 0;i < n;i++)
+            cin>>d[i];
+            
+        Solution ob;
+        cout<<ob.distance(n, a, d)<<"\n";
+    }
+    return 0;
+}  // } Driver Code Ends
