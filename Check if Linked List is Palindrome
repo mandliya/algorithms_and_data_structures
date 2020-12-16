@@ -1,0 +1,15 @@
+bool isPalindrome(Node *head)
+{
+    //Your code here
+    string h="";
+    while(head!=NULL){
+        h+=to_string(head->data);
+        head=head->next;
+    }
+    int i=0,j=h.length()-1;
+    while(i<j){
+        if(h[i]!=h[j]){return 0;}
+        i++;j--;
+    }
+    return 1;
+}
