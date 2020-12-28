@@ -2,49 +2,34 @@
  * Add two binary numbers represented as string.
  *
  */
+
 #include <iostream>
-#include <string>
-#include <sstream>
-#include <algorithm>
 
-std::string addBinary( const std::string & str1, const std::string & str2 )
-{
-    std::string s1 = ( str1.length() > str2.length() ? str1 : str2 );
-    std::string s2 = ( str1.length() > str2.length() ? str2 : str1 );
-    int diff = s1.length() - s2.length();
-    std::stringstream ss;
-    while(diff) {
-        ss << "0";
-        --diff;
-    }
-    s2 = ss.str() + s2;
-    std::cout << s1 << std::endl;
-    std::cout << s2 << std::endl;
-    ss.str(std::string());
-    int i = s1.length() - 1;
-    int carry = 0;
-    while ( i >= 0 ) {
-        int x = ( s1[i] - '0') + ( s2[i] - '0') + carry;
-        if ( x == 2 ) {
-            x = 0;
-            carry = 1;
-        } 
-        else if ( x == 3 ) {
-            x = 1;
-            carry = 1;
-        } else {
-            carry = 0;
-        }
-        ss << x;
-        --i;
-    }
-    if ( carry == 1 )
-        ss << carry;
-
-    std::string result = ss.str();
-    std::reverse(result.begin(), result.end());
-    return result;
-
+std::string addBinary(std::string & string1, std::string & string2){
+	int temp1=0, temp2=0;
+	int i=0;
+	std::string temp_string;
+    
+	for(i; i<string1.size(); ++i){
+		temp1 |= ((string1[i] - '0') << (string1.size() - i - 1));
+	}
+	for(i=0; i<string2.size(); ++i){
+		temp2 |= ((string2[i] - '0') << (string2.size() - i - 1));
+	}
+	temp1 += temp2;
+	int count = string1.size();
+	for(i=0; i<count+1; ++i){
+		if(temp1 & (1<<count-i) && temp1 < (1<<count-i)){
+			break;
+		}
+		else if(temp1 & (1<<count-i)){
+			temp_string.append("1");	
+		}
+		else{
+			temp_string.append("0");
+		}
+	} 
+	return temp_string;
 }
 
 int main()
