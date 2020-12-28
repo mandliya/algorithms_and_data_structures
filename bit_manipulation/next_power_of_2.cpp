@@ -4,17 +4,10 @@
 #include <iostream>
 
 int next_power_of_2( int num ) {
-  //already a power of 2
-  if (num && !(num & (num-1))) {
-    return num;
+  if(num & (1<<0)){
+  	return num+1;
   }
-  //count till msb set bit
-  int count = 0;
-  while ( num != 0 ) {
-    num >>= 1;
-    count++;
-  }
-  return (1 << count);
+  	return num;
 }
 
 int main()
