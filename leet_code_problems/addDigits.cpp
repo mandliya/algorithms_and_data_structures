@@ -30,6 +30,17 @@ int sumDigits( int num ) {
 	}
 	return num % 9;
 }
+/*
+You can find the sum of digits by using digital root method.
+
+int sumDigits(int num)
+{
+	if(num<10)
+		return num;
+	return (num%9==0 ? 0 : num%9);
+}
+
+*/
 
 int main() {
 	int n;
