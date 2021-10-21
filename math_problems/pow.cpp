@@ -22,7 +22,7 @@ double pow( double x, int y )
 		}
 	}
 }
-
+/*main method*/
 int main()
 {
 	std::cout << "Program to calculate power y to the base x\n";
