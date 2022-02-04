@@ -13,7 +13,7 @@
    int low  = 0;
    int firstOccurrance = -1;
    while ( low <= high ) {
-     int mid = (high + low) / 2;
+     int mid = low + (high - low)/2; //avoiding overflow 
      if ( key < vec[mid] ) {
        high = mid - 1;
      } else if ( key > vec[mid]) {
