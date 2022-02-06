@@ -14,7 +14,7 @@
 void spiral_print_matrix( int ** matrix, int m, int n)
 {
   int a = 0, b = n-1, c = m-1, d = 0;
-  while( a < c && d < b) {
+  while( a <= c && d <= b) {
     for(int i = d; i <= b; ++i ) {
       std::cout << matrix[a][i] << " ";
     }
