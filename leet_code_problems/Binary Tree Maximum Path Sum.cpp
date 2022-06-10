@@ -1,5 +1,5 @@
 /*
- * https://leetcode.com/problems/diameter-of-binary-tree/
+ * https://leetcode.com/problems/binary-tree-maximum-path-sum/
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -13,28 +13,27 @@
 class Solution
 {
 public:
-    int findDiameter(TreeNode *root, int &diameter)
+    int getMaxSum(TreeNode *root, int &maxSum)
     {
         if (root == NULL)
         {
             return 0;
         }
 
-        int lh = findDiameter(root->left, diameter);
-        int rh = findDiameter(root->right, diameter);
+        int left = max(0, getMaxSum(root->left, maxSum));
+        int right = max(0, getMaxSum(root->right, maxSum));
 
-        diameter = max(diameter, lh + rh);
+        maxSum = max(maxSum, left + right + root->val);
 
-        return 1 + max(lh, rh);
+        return root->val + max(left, right);
     }
 
-    int diameterOfBinaryTree(TreeNode *root)
+    int maxPathSum(TreeNode *root)
     {
+        int maxSum = INT_MIN;
 
-        int diameter = 0;
+        getMaxSum(root, maxSum);
 
-        findDiameter(root, diameter);
-
-        return diameter;
+        return maxSum;
     }
 };

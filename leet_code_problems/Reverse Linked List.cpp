@@ -1,6 +1,7 @@
-/*
+/* https://leetcode.com/problems/reverse-linked-list/
 
- * https://leetcode.com/problems/reverse-linked-list/
+// Iterative Approach
+/**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -9,45 +10,52 @@
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
- *
  */
-
-// Iterative Approach
 class Solution
 {
 public:
     ListNode *reverseList(ListNode *head)
     {
-        ListNode *currHead = head;
-        ListNode *prev = NULL;
 
-        while (currHead != NULL)
+        ListNode *dummy = NULL;
+
+        while (head != NULL)
         {
-            ListNode *n = currHead->next;
-            currHead->next = prev;
-            prev = currHead;
-            currHead = n;
+            ListNode *n = head->next;
+            head->next = dummy;
+            dummy = head;
+            head = n;
         }
 
-        return prev;
+        return dummy;
     }
 };
 
 // Recursive Approach
-
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution
 {
 public:
     ListNode *reverseList(ListNode *head)
     {
 
-        if (!head or !head->next)
+        if (head == NULL or head->next == NULL)
         {
             return head;
         }
 
         ListNode *newHead = reverseList(head->next);
-        head->next->next = head;
+        ListNode *headNext = head->next;
+        headNext->next = head;
         head->next = NULL;
         return newHead;
     }

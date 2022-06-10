@@ -1,7 +1,5 @@
-// https : // leetcode.com/problems/linked-list-cycle/
-
 /*
- * Hashing
+ * https://leetcode.com/problems/linked-list-cycle-ii/
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -12,24 +10,23 @@
 class Solution
 {
 public:
-    bool hasCycle(ListNode *head)
+    ListNode *detectCycle(ListNode *head)
     {
 
-        unordered_map<ListNode *, int> m;
-        ListNode *tmp = head;
+        unordered_map<ListNode *, bool> m;
 
-        while (tmp != NULL)
+        while (head != NULL)
         {
-            m[tmp]++;
-            tmp = tmp->next;
-
-            if (m.find(tmp) != m.end())
+            if (m[head])
             {
-                return true;
+                return head;
             }
+
+            m[head] = true;
+            head = head->next;
         }
 
-        return false;
+        return NULL;
     }
 };
 
@@ -45,16 +42,17 @@ public:
 class Solution
 {
 public:
-    bool hasCycle(ListNode *head)
+    ListNode *detectCycle(ListNode *head)
     {
 
         if (head == NULL or head->next == NULL)
         {
-            return false;
+            return NULL;
         }
 
         ListNode *slow = head;
         ListNode *fast = head;
+        ListNode *dummy = head;
 
         while (fast->next != NULL and fast->next->next != NULL)
         {
@@ -63,10 +61,16 @@ public:
 
             if (slow == fast)
             {
-                return true;
+                while (dummy != slow)
+                {
+                    slow = slow->next;
+                    dummy = dummy->next;
+                }
+
+                return dummy;
             }
         }
 
-        return false;
+        return NULL;
     }
 };

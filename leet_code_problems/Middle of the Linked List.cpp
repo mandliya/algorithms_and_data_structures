@@ -18,15 +18,18 @@ public:
 
         ListNode *slow = head;
         ListNode *fast = head->next;
-        while (fast != NULL && fast->next != NULL)
+
+        while (fast != NULL and fast->next != NULL)
         {
-            fast = fast->next->next;
             slow = slow->next;
+            fast = fast->next->next;
         }
-        if (fast != NULL)
+
+        if (fast == NULL)
         {
-            return slow->next;
+            return slow;
         }
-        return slow;
+
+        return slow->next;
     }
 };

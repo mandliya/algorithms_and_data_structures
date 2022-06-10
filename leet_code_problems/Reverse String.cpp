@@ -6,11 +6,11 @@ public:
     void reverseString(vector<char> &s)
     {
 
-        for (int i = 0; i < s.size() / 2; i++)
+        int n = s.size();
+
+        for (int i = 0; i < n / 2; i++)
         {
-            char ch = s[i];
-            s[i] = s[s.size() - i - 1];
-            s[s.size() - i - 1] = ch;
+            swap(s[i], s[n - 1 - i]);
         }
     }
 };

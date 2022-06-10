@@ -1,4 +1,4 @@
-// https: // leetcode.com/problems/balanced-binary-tree/
+// https : // leetcode.com/problems/trim-a-binary-search-tree/
 
 /**
  * Definition for a binary tree node.
@@ -11,41 +11,31 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
 class Solution
 {
 public:
-    int height(TreeNode *root)
+    TreeNode *trimBST(TreeNode *root, int low, int high)
     {
+
         if (root == NULL)
         {
-            return 0;
+            return NULL;
         }
 
-        int lh = height(root->left);
-
-        if (lh == -1)
+        if (root->val >= low and root->val <= high)
         {
-            return -1;
+            root->left = trimBST(root->left, low, high);
+            root->right = trimBST(root->right, low, high);
         }
-
-        int rh = height(root->right);
-
-        if (rh == -1)
+        else if (root->val < low)
         {
-            return -1;
+            root = trimBST(root->right, low, high);
         }
-
-        if (abs(lh - rh) > 1)
+        else
         {
-            return -1;
+            root = trimBST(root->left, low, high);
         }
 
-        return 1 + max(lh, rh);
-    }
-
-    bool isBalanced(TreeNode *root)
-    {
-        return height(root) != -1;
+        return root;
     }
 };

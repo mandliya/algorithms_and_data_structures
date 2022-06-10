@@ -1,5 +1,6 @@
-/*
- * https://leetcode.com/problems/same-tree/
+// https : // leetcode.com/problems/convert-bst-to-greater-tree/
+
+/**
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -13,14 +14,25 @@
 class Solution
 {
 public:
-    bool isSameTree(TreeNode *p, TreeNode *q)
+    void solve(TreeNode *root, int &sum)
     {
-
-        if (p == NULL or q == NULL)
+        if (root == NULL)
         {
-            return p == q;
+            return;
         }
 
-        return p->val == q->val and isSameTree(p->left, q->left) and isSameTree(p->right, q->right);
+        solve(root->right, sum);
+        sum += root->val;
+        root->val = sum;
+        solve(root->left, sum);
+    }
+
+    TreeNode *convertBST(TreeNode *root)
+    {
+
+        int sum = 0;
+        solve(root, sum);
+
+        return root;
     }
 };
