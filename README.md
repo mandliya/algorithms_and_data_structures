@@ -14,6 +14,55 @@
 
 </center>
 
+**Problem Types:
+- Backtracking (C++)
+    2 Problems (Help ADD more!)
+- Bit Manipulation (C++)
+    18 problems
+- Common Data Structure and Logic (C++)
+    10 Problems
+- Cracking the Coding Interview (C++, Python)
+    19 problems
+- Dynamic Programming (C++, Python)
+    6 Problems (Help ADD more!)
+- Graph (C++)
+    8 Problems (Help ADD more!)
+- Greedy (C++)
+    2 Problems (Help ADD more!)
+- Leet Code (C++)
+    40 Problems
+- LinkedList (C++, Python)
+    16 Problems
+- Math (C++)
+    7 Problems (Help ADD more!)
+- Sort and Search (C++)
+    16 Problems
+- String (C++)
+    6 Problems (Help ADD more!)
+- Stack (C++)
+    3 Problems (Help ADD more!)
+- Tree (C++, Python)
+    22 Problems
+- Queue (C++)
+    1 Problem (Help ADD more!)
+
+** Included Data Structures:
+- Graph
+- List
+- Linux Kernel Double LinkedList
+- Stack
+- String
+- Queue
+
+** Included Algorithms:
+- Binary Search Tree
+- Bubble Sort
+- Heap Sort
+- Macros and Algorithms
+- Merge Sort
+- Selection Sort
+- Quick Sort
+
 **Note: Some of the code here is old and was written when I was learning C++. It might be possible that code is not safe or making wrong assumptions. Please use with caution. Pull requests are always welcome.**
 
 ### LinkedList Problems
